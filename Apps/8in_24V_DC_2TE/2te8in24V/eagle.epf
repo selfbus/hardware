@@ -1,0 +1,20 @@
+[Eagle]
+Version="05 04 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Programme/EAGLE-5.0.0/lbr/supply1.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="487 8 996 581"
+State=2
+Number=0
+
+[Desktop]
+Screen="1024 768"
+Window="Win_1"
