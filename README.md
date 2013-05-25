@@ -1,5 +1,7 @@
 This repository contains released Selfbus hardware
 
+The top level directories contain:
+
 <ul>
 <li> Apps - applications/devices that require a controller board
 <li> Controller - controller boards
