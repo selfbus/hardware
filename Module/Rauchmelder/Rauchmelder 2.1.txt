@@ -1,0 +1,58 @@
+Partlist
+
+Exported from Rauchmelder 2.1.brd at 19.05.13 15:29
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package      Library                 Position (mm)         Orientation
+
+89LPC922 89LPC922       DIL20@1      micro-philips           (11.4298 37.9413)     R90
+C1       100n           C025-024X044 rcl                     (18.5162 55.1701)     R180
+C2       100n           C025-024X044 rcl                     (2.7551 35.205)       R0
+C3       100µ           E2,5-6       rcl                     (3.0162 19.2091)      R90
+C4       10n            C025-024X044 rcl                     (13.2901 55.1761)     R0
+C5       100µ           E3,5-8       rcl                     (26.0354 27.6223)     R90
+C6       470p           C025-024X044 rcl                     (14.3667 13.5732)     R0
+C7       10n            C1206        rcl                     (20.2262 33.0613)     MR180
+C8       100n           C025-024X044 rcl                     (19.6851 29.21)       R180
+C9       100µ           E2,5-6       rcl                     (35.1631 25.9556)     R270
+C11      10n            C025-024X044 rcl                     (23.6231 50.7125)     R0
+D1       BAT46          DO34-7       diode                   (1.9049 28.099)       R90
+D2       BAT46          DO34-7       diode                   (33.2156 36.4607)     R270
+D3       4148           DO35-S       kubi                    (30.0831 35.5603)     R90
+D4       1N4148         DO35-10      diode                   (14.1603 7.9216)      R180
+D5       SMAJ40         SMBJ         diode                   (35.7681 8.1)         R90
+D7       7V5            ZDIO-2.5     diode                   (26.3764 32.9489)     R180
+D8       1N4148         DO35-S       kubi                    (27.9398 10.6362)     R180
+D9       ZD12V          DO34Z7       diode                   (35.4012 34.3694)     R90
+IC1      MC34063AP      DIL08        mc34063                 (11.112 20.2197)      R0
+JP1                     2X07         pinhead                 (28.27 53.85)         SR135
+JP3                     1X06         pinhead                 (3.2448 45.0851)      R90
+L1       220µ           0207/12      rcl                     (10.1361 10.9951)     R180
+L2       150mH          BS11         inductor-neosid         (32.1886 17.5059)     R90
+LED1                    LED3MM       led                     (9.2236 3.4926)       R90
+Q1       BC557          TO92         transistor-pnp          (19.0498 47.7838)     R0
+Q2                      ASF          crystal                 (19.72 36.3931)       MR0
+Q3       BC640          SOT54D       transistor-small-signal (25.0824 44.053)      R0
+R1       3R3            0207/7       rcl                     (7.302 13.8109)       R0
+R2       3k6            0207/7       rcl                     (2.3813 5.3974)       R270
+R3       10k            0207/7       rcl                     (9.3968 58.4025)      R270
+R4       2k2            0207/2V      rcl                     (24.6129 36.5383)     R270
+R5       10k            0207/7       rcl                     (15.6187 59.3281)     R180
+R6       100k           0207/2V      rcl                     (19.0498 44.6089)     R0
+R7       47k            0207/7       rcl                     (5.2057 59.5107)      R90
+R8       5R6            0207/2V      rcl                     (25.0082 40.6956)     R180
+R9       100k           0207/7       rcl                     (29.455 42.9169)      R270
+R10      2k2            0207/7       rcl                     (5.08 5.3978)         R90
+R11      1k             0207/2V      rcl                     (27.4761 36.3687)     R270
+R12      5k6            0207/7       rcl                     (15.98 52.58)         R0
+R13      1k             0207/7       rcl                     (35.488 16.52)        R270
+R14      82k            0207/7       rcl                     (2.2563 59.52)        R270
+R15      5k6            0207/2V      rcl                     (19.6851 25.3206)     R180
+R16      100k           0207/7       rcl                     (31.2738 28.337)      R270
+R18      1k             0207/2V      rcl                     (25.2411 48.1014)     R180
+S1                      B3F-10XX     switch-omron            (16.7849 3.4926)      R180
+T1       BC547          TO92         transistor-neu-to92     (20.71 41)            R90
+X1                      AK500/2      con-ptr500              (28.1593 4.2882)      R180

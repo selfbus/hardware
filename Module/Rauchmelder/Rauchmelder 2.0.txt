@@ -1,0 +1,61 @@
+Partlist
+
+Exported from Rauchmelder 2.0.sch at 19.05.13 21:21
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device          Package      Library                 Sheet
+
+89LPC922 89LPC922       89LPC922        DIL20        micro-philips           1
+C1       100n           C-EU025-024X044 C025-024X044 rcl                     1
+C2       100n           C-EU025-024X044 C025-024X044 rcl                     1
+C3       100µ           CPOL-EUE2.5-6   E2,5-6       rcl                     1
+C4       10n            C-EU025-024X044 C025-024X044 rcl                     1
+C5       100µ           CPOL-EUE3.5-8   E3,5-8       rcl                     1
+C6       470p           C-EU025-024X044 C025-024X044 rcl                     1
+C7       10n            C-EUC1206       C1206        rcl                     1
+C8       100n           C-EU025-024X044 C025-024X044 rcl                     1
+C9       100n           C-EU025-024X044 C025-024X044 rcl                     1
+C10      100n           C-EU025-024X044 C025-024X044 rcl                     1
+C11      10n            C-EU025-024X044 C025-024X044 rcl                     1
+D1       BAT46          BAT81           DO34-7       diode                   1
+D2       BAT46          BAT81           DO34-7       diode                   1
+D3       1N4148         DO35-STEHEND    DO35-S       kubi                    1
+D4       1N4148         1N4148          DO35-10      diode                   1
+D5       SMAJ40AC       SUPPRESSOR-SMBJ SMBJ         diode                   1
+D7       7V5            BZX85ZDIOV      ZDIO-2.5     diode                   1
+D8       1N4148         DO35-STEHEND    DO35-S       kubi                    1
+IC1      MC34063AP      MC34063AP       DIL08        mc34063                 1
+IC2      78L12          78LXX           78LXX        v-reg                   1
+JP1                     PINHD-2X7       2X07         pinhead                 1
+JP2      -_-            PINHD-1X1       1X01         pinhead                 1
+JP3                     PINHD-1X6       1X06         pinhead                 1
+JP4      12V            PINHD-1X1       1X01         pinhead                 1
+L1       220µ           L-EU0207/12     0207/12      rcl                     1
+L2       150mH          BS11            BS11         inductor-neosid         1
+LED1                    LED3MM          LED3MM       led                     1
+Q1       BC557          BC557           TO92         transistor-pnp          1
+Q2                      ASFL            ASF          crystal                 1
+Q3       BC640          BC640           SOT54D       transistor-small-signal 1
+R1       3R3            R-EU_0207/7     0207/7       rcl                     1
+R2       3k6            R-EU_0207/7     0207/7       rcl                     1
+R3       10k            R-EU_0207/7     0207/7       rcl                     1
+R4       2k2            R-EU_0207/2V    0207/2V      rcl                     1
+R5       10k            R-EU_0207/7     0207/7       rcl                     1
+R6       100k           R-EU_0207/2V    0207/2V      rcl                     1
+R7       47k            R-EU_0207/7     0207/7       rcl                     1
+R8       5R6            R-EU_0207/7     0207/7       rcl                     1
+R9       100k           R-EU_0207/7     0207/7       rcl                     1
+R10      2k2            R-EU_0207/7     0207/7       rcl                     1
+R11      1k             R-EU_0207/2V    0207/2V      rcl                     1
+R12      5k6            R-EU_0207/7     0207/7       rcl                     1
+R13      1k             R-EU_0207/7     0207/7       rcl                     1
+R14      82k            R-EU_0207/7     0207/7       rcl                     1
+R15      5k6            R-EU_0207/2V    0207/2V      rcl                     1
+R17      100            R-EU_0207/7     0207/7       rcl                     1
+R18      1k             R-EU_0207/2V    0207/2V      rcl                     1
+S1                      10-XX           B3F-10XX     switch-omron            1
+T1       BC547          BC547           TO92         transistor-neu-to92     1
+X1                      AK500/2         AK500/2      con-ptr500              1
