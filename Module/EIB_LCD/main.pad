@@ -1,0 +1,135 @@
+Release 8.1i - Fit P.49d
+Copyright(c) 1995-2003 Xilinx Inc. All rights reserved
+
+12-11-2013 10:31PM
+
+NOTE: This file is designed to be imported into a spreadsheet program
+such as Microsoft Excel for viewing, printing and sorting. The pipe '|'
+character is used as the data field separator.
+This file is also designed to support parsing.
+
+Input file:  main.ngd
+output file: main.pad
+Part type:   xc9572xl
+Speed grade: -10
+Package:     tq100
+
+Copyright (c) 2011-2013 Arno Stock <arno.stock@yahoo.de>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 2 as
+published by the Free Software Foundation.
+
+Pinout by Pin Number:
+
+-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Pin Number|Signal Name|Pin Usage|Pin Name|Direction|IO Standard|IO Bank Number|{blank}|Slew Rate|Termination|{blank}|Voltage|Constraint|
+P1|AvrAD<1>|I/O|I/O|BIDIR|||||||||
+P2|TIE||.||||||||||
+P3|AvrAD<3>|I/O|I/O/GTS1|BIDIR|||||||||
+P4|AvrAD<4>|I/O|I/O/GTS2|BIDIR|||||||||
+P5|VCC||VCCINT||||||||||
+P6|AvrAD<5>|I/O|I/O|BIDIR|||||||||
+P7|TIE||.||||||||||
+P8|AvrAD<6>|I/O|I/O|BIDIR|||||||||
+P9|AvrAD<7>|I/O|I/O|BIDIR|||||||||
+P10|RA<15>|O|I/O|OUTPUT|||||||||
+P11|RA<17>|O|I/O|OUTPUT|||||||||
+P12|RWE|O|I/O|OUTPUT|||||||||
+P13|RA<13>|O|I/O|OUTPUT|||||||||
+P14|RA<18>|O|I/O|OUTPUT|||||||||
+P15|RA<16>|O|I/O|OUTPUT|||||||||
+P16|RA<14>|O|I/O|OUTPUT|||||||||
+P17|ROE|O|I/O|OUTPUT|||||||||
+P18|RCE|O|I/O|OUTPUT|||||||||
+P19|TIE||.||||||||||
+P20|FA<15>|O|I/O|OUTPUT|||||||||
+P21|GND||GND||||||||||
+P22|AvrALE|GCK|I/O/GCK1||||||||||
+P23|AvrRD|GCK/I|I/O/GCK2||||||||||
+P24|TIE||.||||||||||
+P25|AvrA<15>|I|I/O|INPUT|||||||||
+P26|VCC||VCCIO||||||||||
+P27|AvrWR|GCK/I|I/O/GCK3||||||||||
+P28|AvrA<14>|I|I/O|INPUT|||||||||
+P29|AvrA<13>|I|I/O|INPUT|||||||||
+P30|AvrA<12>|I|I/O|INPUT|||||||||
+P31|GND||GND||||||||||
+P32|AvrA<11>|I|I/O|INPUT|||||||||
+P33|AvrA<10>|I|I/O|INPUT|||||||||
+P34|TIE||.||||||||||
+P35|AvrA<9>|I|I/O|INPUT|||||||||
+P36|AvrA<8>|I|I/O|INPUT|||||||||
+P37|FA<19>|O|I/O|OUTPUT|||||||||
+P38|VCC||VCCIO||||||||||
+P39|FA<20>|O|I/O|OUTPUT|||||||||
+P40|FWE|O|I/O|OUTPUT|||||||||
+P41|FA<21>|O|I/O|OUTPUT|||||||||
+P42|FA<18>|O|I/O|OUTPUT|||||||||
+P43|TIE||.||||||||||
+P44|GND||GND||||||||||
+P45|TDI||TDI||||||||||
+P46|TIE||.||||||||||
+P47|TMS||TMS||||||||||
+P48|TCK||TCK||||||||||
+P49|FA<17>|O|I/O|OUTPUT|||||||||
+P50|A<7>|O|I/O|OUTPUT|||||||||
+P51|VCC||VCCIO||||||||||
+P52|A<6>|O|I/O|OUTPUT|||||||||
+P53|A<5>|O|I/O|OUTPUT|||||||||
+P54|A<4>|O|I/O|OUTPUT|||||||||
+P55|A<3>|O|I/O|OUTPUT|||||||||
+P56|A<2>|O|I/O|OUTPUT|||||||||
+P57|VCC||VCCINT||||||||||
+P58|A<1>|O|I/O|OUTPUT|||||||||
+P59|A<0>|O|I/O|OUTPUT|||||||||
+P60|FCE|O|I/O|OUTPUT|||||||||
+P61|FOE|O|I/O|OUTPUT|||||||||
+P62|GND||GND||||||||||
+P63|D<8>|I/O|I/O|BIDIR|||||||||
+P64|D<9>|I/O|I/O|BIDIR|||||||||
+P65|AvrAD<2>|I/O|I/O|BIDIR|||||||||
+P66|D<14>|I/O|I/O|BIDIR|||||||||
+P67|FA<16>|O|I/O|OUTPUT|||||||||
+P68|TRS|O|I/O|OUTPUT|||||||||
+P69|GND||GND||||||||||
+P70|TWR|O|I/O|OUTPUT|||||||||
+P71|TRD|O|I/O|OUTPUT|||||||||
+P72|D<11>|I/O|I/O|BIDIR|||||||||
+P73|TIE||.||||||||||
+P74|TCS|O|I/O|OUTPUT|||||||||
+P75|GND||GND||||||||||
+P76|D<13>|I/O|I/O|BIDIR|||||||||
+P77|D<15>|I/O|I/O|BIDIR|||||||||
+P78|D<12>|I/O|I/O|BIDIR|||||||||
+P79|D<10>|I/O|I/O|BIDIR|||||||||
+P80|TIE||.||||||||||
+P81|TIE||I/O||||||||||
+P82|TIE||I/O||||||||||
+P83|TDO||TDO||||||||||
+P84|GND||GND||||||||||
+P85|TIE||I/O||||||||||
+P86|TIE||I/O||||||||||
+P87|TIE||I/O||||||||||
+P88|VCC||VCCIO||||||||||
+P89|TIE||I/O||||||||||
+P90|TIE||I/O||||||||||
+P91|TIE||I/O||||||||||
+P92|TIE||I/O||||||||||
+P93|TIE||I/O||||||||||
+P94|TIE||I/O||||||||||
+P95|TIE||I/O||||||||||
+P96|TIE||I/O||||||||||
+P97|TIE||I/O||||||||||
+P98|VCC||VCCINT||||||||||
+P99|AvrAD<0>|I/O|I/O/GSR|BIDIR|||||||||
+P100|GND||GND||||||||||
+
+To preserve the pinout above for future design iterations in
+Project Navigator simply execute the (Lock Pins) process
+located under the (Implement Design) process in a toolbox named
+(Optional Implementation Tools) or invoke PIN2UCF from the
+command line. The location constraints will be written into your
+specified UCF file
+
+
