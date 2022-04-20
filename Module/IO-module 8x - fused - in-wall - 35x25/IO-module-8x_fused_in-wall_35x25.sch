@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12202,6 +12202,67 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 </deviceset>
 </devicesets>
 </library>
+<library name="jst">
+<packages>
+<package name="B4B-ZR">
+<description>&lt;b&gt;ZH CONNECTOR&lt;/b&gt;  Top entry type, 1.5 mm, 4 pin 1 row&lt;p&gt;
+Source: http://www.jst.com .. eZH.pdf</description>
+<wire x1="0" y1="0.07" x2="7.5" y2="0.07" width="0.127" layer="21"/>
+<wire x1="7.5" y1="0.07" x2="7.5" y2="-3.43" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-3.43" x2="0" y2="-3.43" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.43" x2="0" y2="0.07" width="0.127" layer="21"/>
+<text x="-0.75" y="0.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.75" y="-5.365" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="4" x="1.5" y="-1.3" drill="0.7"/>
+<pad name="3" x="3" y="-1.3" drill="0.7"/>
+<pad name="2" x="4.5" y="-1.3" drill="0.7"/>
+<pad name="1" x="6" y="-1.3" drill="0.7"/>
+</package>
+</packages>
+<symbols>
+<symbol name="B4B-ZR">
+<pin name="1" x="-7.62" y="2.54" visible="pin" length="middle"/>
+<pin name="2" x="-7.62" y="0" visible="pin" length="middle"/>
+<pin name="3" x="-7.62" y="-2.54" visible="pin" length="middle"/>
+<pin name="4" x="-7.62" y="-5.08" visible="pin" length="middle"/>
+<text x="-2.54" y="5.842" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-9.398" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<circle x="-2.54" y="2.54" radius="0.915809375" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.915809375" width="0.254" layer="94"/>
+<circle x="-2.54" y="-2.54" radius="0.915809375" width="0.254" layer="94"/>
+<circle x="-2.54" y="-5.08" radius="0.915809375" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B4B-ZR" prefix="CON">
+<description>&lt;b&gt;JST-ZH Connector&lt;/b&gt;&lt;br&gt;
+4 pol, 1.5mm pitch&lt;br&gt;
+Package: &lt;b&gt;B4B-ZR&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://www.jst-mfg.com/product/pdf/eng/eZH.pdf&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B4B-ZR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B4B-ZR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12353,24 +12414,6 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="REICHELT" value="SMD-0805 10,0K"/>
-</part>
-<part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0R">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="REICHELT" value="SMD-0805 10,0K"/>
-</part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP3" library="pinhead_dmx" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µ">
@@ -12440,6 +12483,9 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <attribute name="REICHELT" value="SMD-0805 3,30K"/>
 </part>
 <part name="P+8" library="supply1" deviceset="+3V3" device=""/>
+<part name="JP1" library="jst" deviceset="B4B-ZR" device=""/>
+<part name="GND3" library="supply1" deviceset="GND" device=""/>
+<part name="P+3" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12558,36 +12604,36 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <attribute name="NAME" x="480.06" y="53.975" size="1.778" layer="95" ratio="10"/>
 <attribute name="VALUE" x="474.98" y="55.88" size="1.778" layer="96" ratio="10"/>
 </instance>
-<instance part="X3" gate="-1" x="5.08" y="91.44" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.54" y="92.202" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-0.762" y="87.757" size="1.778" layer="96"/>
+<instance part="X3" gate="-1" x="27.94" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.56" y="92.202" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="6.858" y="87.757" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="-2" x="5.08" y="93.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.54" y="94.742" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-2" x="27.94" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.56" y="94.742" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-3" x="5.08" y="96.52" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.54" y="97.282" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-3" x="27.94" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.56" y="97.282" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-4" x="5.08" y="99.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.54" y="99.822" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-4" x="27.94" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.56" y="99.822" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-5" x="5.08" y="101.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.54" y="102.362" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-5" x="27.94" y="101.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.56" y="102.362" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-6" x="5.08" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.54" y="104.902" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-6" x="27.94" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.56" y="104.902" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-7" x="5.08" y="106.68" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.54" y="107.442" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-7" x="27.94" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.56" y="107.442" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-8" x="5.08" y="109.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.54" y="109.982" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-8" x="27.94" y="109.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.56" y="109.982" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-9" x="5.08" y="111.76" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.54" y="112.522" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-9" x="27.94" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.56" y="112.522" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-10" x="5.08" y="114.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.54" y="115.062" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-10" x="27.94" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.56" y="115.062" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="TVS7" gate="G$1" x="78.74" y="30.48" smashed="yes">
 <attribute name="NAME" x="71.12" y="38.735" size="1.778" layer="95" ratio="10"/>
@@ -12769,16 +12815,6 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <attribute name="NAME" x="458.2414" y="82.55" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="463.042" y="82.55" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R26" gate="G$1" x="228.6" y="91.44" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="228.6" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="227.1014" y="87.63" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="231.902" y="87.63" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R27" gate="G$1" x="238.76" y="91.44" smashed="yes" rot="R270">
-<attribute name="REICHELT" x="238.76" y="91.44" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="NAME" x="240.2586" y="95.25" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="235.458" y="95.25" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="GND1" gate="1" x="477.52" y="144.78" smashed="yes">
 <attribute name="VALUE" x="474.98" y="142.24" size="1.778" layer="96"/>
 </instance>
@@ -12827,9 +12863,9 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <attribute name="NAME" x="481.33" y="155.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="481.33" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="JP4" gate="G$1" x="508" y="167.64" smashed="yes">
-<attribute name="NAME" x="501.65" y="175.895" size="1.778" layer="95"/>
-<attribute name="VALUE" x="501.65" y="160.02" size="1.778" layer="96"/>
+<instance part="JP4" gate="G$1" x="508" y="170.18" smashed="yes">
+<attribute name="NAME" x="501.65" y="178.435" size="1.778" layer="95"/>
+<attribute name="VALUE" x="501.65" y="162.56" size="1.778" layer="96"/>
 </instance>
 <instance part="LED3" gate="G$1" x="434.34" y="162.56" smashed="yes" rot="R90">
 <attribute name="REICHELT" x="434.34" y="162.56" size="1.778" layer="96" rot="R90" display="off"/>
@@ -12884,6 +12920,16 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 </instance>
 <instance part="P+8" gate="G$1" x="477.52" y="160.02" smashed="yes">
 <attribute name="VALUE" x="474.98" y="154.94" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP1" gate="G$1" x="365.76" y="-27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="374.015" y="-21.59" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="358.14" y="-21.59" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND3" gate="1" x="375.92" y="-15.24" smashed="yes" rot="R180">
+<attribute name="VALUE" x="378.46" y="-12.7" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+3" gate="G$1" x="368.3" y="-15.24" smashed="yes">
+<attribute name="VALUE" x="369.062" y="-14.224" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -13011,11 +13057,6 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <pinref part="D38" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<wire x1="0" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
-<label x="12.7" y="93.98" size="1.778" layer="95"/>
-<pinref part="X3" gate="-2" pin="S"/>
-</segment>
-<segment>
 <pinref part="TVS3" gate="G$1" pin="GND"/>
 <wire x1="497.84" y1="66.04" x2="510.54" y2="66.04" width="0.1524" layer="91"/>
 <label x="508" y="66.04" size="1.778" layer="95" rot="R180"/>
@@ -13047,6 +13088,17 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <wire x1="477.52" y1="5.08" x2="474.98" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="474.98" y1="5.08" x2="474.98" y2="2.54" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="22.86" y1="91.44" x2="12.7" y2="91.44" width="0.1524" layer="91"/>
+<label x="7.62" y="91.44" size="1.778" layer="95"/>
+<pinref part="X3" gate="-1" pin="S"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="368.3" y1="-20.32" x2="375.92" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="-20.32" x2="375.92" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="EIB_OUT" class="0">
 <segment>
@@ -13072,11 +13124,13 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <pinref part="IC1" gate="G$1" pin="RESET/PIO0_0"/>
 </segment>
 <segment>
-<pinref part="TVS3" gate="G$1" pin="IO3"/>
-<wire x1="454.66" y1="71.12" x2="469.9" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="469.9" y1="81.28" x2="469.9" y2="71.12" width="0.1524" layer="91"/>
-<junction x="469.9" y="71.12"/>
+<wire x1="469.9" y1="81.28" x2="469.9" y2="78.74" width="0.1524" layer="91"/>
+<label x="472.44" y="78.74" size="1.778" layer="95"/>
+<wire x1="469.9" y1="78.74" x2="464.82" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="464.82" y1="78.74" x2="464.82" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="TVS3" gate="G$1" pin="IO4"/>
+<wire x1="464.82" y1="60.96" x2="469.9" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BUS_V" class="0">
@@ -13288,8 +13342,9 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="71.12" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="99.06" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="96.52" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="OE"/>
+<wire x1="218.44" y1="86.36" x2="228.6" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="86.36" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
@@ -13301,11 +13356,6 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <pinref part="P+15" gate="G$1" pin="+3V3"/>
 <wire x1="147.32" y1="96.52" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
 <junction x="147.32" y="93.98"/>
-</segment>
-<segment>
-<wire x1="0" y1="91.44" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
-<label x="12.7" y="91.44" size="1.778" layer="95"/>
-<pinref part="X3" gate="-1" pin="S"/>
 </segment>
 <segment>
 <pinref part="D40" gate="G$1" pin="CC"/>
@@ -13359,6 +13409,16 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <wire x1="477.52" y1="27.94" x2="510.54" y2="27.94" width="0.1524" layer="91"/>
 <junction x="510.54" y="27.94"/>
 </segment>
+<segment>
+<wire x1="22.86" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
+<label x="7.62" y="93.98" size="1.778" layer="95"/>
+<pinref part="X3" gate="-2" pin="S"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="P+3" gate="G$1" pin="+3V3"/>
+<wire x1="365.76" y1="-20.32" x2="368.3" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$41" class="0">
 <segment>
@@ -13387,6 +13447,9 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <wire x1="358.14" y1="12.7" x2="358.14" y2="0" width="0.1524" layer="91"/>
 <junction x="358.14" y="12.7"/>
 <label x="355.6" y="2.54" size="1.778" layer="95" rot="R270"/>
+<pinref part="JP1" gate="G$1" pin="4"/>
+<wire x1="358.14" y1="0" x2="363.22" y2="0" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="0" x2="360.68" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -13403,6 +13466,9 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <wire x1="373.38" y1="7.62" x2="373.38" y2="0" width="0.1524" layer="91"/>
 <junction x="373.38" y="7.62"/>
 <label x="370.84" y="2.54" size="1.778" layer="95" rot="R270"/>
+<wire x1="373.38" y1="0" x2="365.76" y2="0" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
+<wire x1="365.76" y1="0" x2="363.22" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XTALIN" class="0">
@@ -13469,8 +13535,8 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 </net>
 <net name="IN1" class="0">
 <segment>
-<wire x1="0" y1="96.52" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
-<label x="12.7" y="96.52" size="1.778" layer="95"/>
+<wire x1="22.86" y1="96.52" x2="12.7" y2="96.52" width="0.1524" layer="91"/>
+<label x="7.62" y="96.52" size="1.778" layer="95"/>
 <pinref part="X3" gate="-3" pin="S"/>
 </segment>
 <segment>
@@ -13481,8 +13547,8 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 </net>
 <net name="IN2" class="0">
 <segment>
-<wire x1="0" y1="99.06" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
-<label x="12.7" y="99.06" size="1.778" layer="95"/>
+<wire x1="22.86" y1="99.06" x2="12.7" y2="99.06" width="0.1524" layer="91"/>
+<label x="7.62" y="99.06" size="1.778" layer="95"/>
 <pinref part="X3" gate="-4" pin="S"/>
 </segment>
 <segment>
@@ -13493,8 +13559,8 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 </net>
 <net name="IN3" class="0">
 <segment>
-<wire x1="0" y1="101.6" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
-<label x="12.7" y="101.6" size="1.778" layer="95"/>
+<wire x1="22.86" y1="101.6" x2="12.7" y2="101.6" width="0.1524" layer="91"/>
+<label x="7.62" y="101.6" size="1.778" layer="95"/>
 <pinref part="X3" gate="-5" pin="S"/>
 </segment>
 <segment>
@@ -13505,8 +13571,8 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 </net>
 <net name="IN4" class="0">
 <segment>
-<wire x1="0" y1="104.14" x2="22.86" y2="104.14" width="0.1524" layer="91"/>
-<label x="12.7" y="104.14" size="1.778" layer="95"/>
+<wire x1="22.86" y1="104.14" x2="12.7" y2="104.14" width="0.1524" layer="91"/>
+<label x="7.62" y="104.14" size="1.778" layer="95"/>
 <pinref part="X3" gate="-6" pin="S"/>
 </segment>
 <segment>
@@ -13517,8 +13583,8 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 </net>
 <net name="IN5" class="0">
 <segment>
-<wire x1="22.86" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
-<label x="12.7" y="106.68" size="1.778" layer="95"/>
+<wire x1="12.7" y1="106.68" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
+<label x="7.62" y="106.68" size="1.778" layer="95"/>
 <pinref part="X3" gate="-7" pin="S"/>
 </segment>
 <segment>
@@ -13529,8 +13595,8 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 </net>
 <net name="IN6" class="0">
 <segment>
-<wire x1="22.86" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
-<label x="12.7" y="109.22" size="1.778" layer="95"/>
+<wire x1="12.7" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
+<label x="7.62" y="109.22" size="1.778" layer="95"/>
 <pinref part="X3" gate="-8" pin="S"/>
 </segment>
 <segment>
@@ -13541,8 +13607,8 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 </net>
 <net name="IN7" class="0">
 <segment>
-<wire x1="22.86" y1="111.76" x2="0" y2="111.76" width="0.1524" layer="91"/>
-<label x="12.7" y="111.76" size="1.778" layer="95"/>
+<wire x1="12.7" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
+<label x="7.62" y="111.76" size="1.778" layer="95"/>
 <pinref part="X3" gate="-9" pin="S"/>
 </segment>
 <segment>
@@ -13553,8 +13619,8 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 </net>
 <net name="IN8" class="0">
 <segment>
-<wire x1="22.86" y1="114.3" x2="0" y2="114.3" width="0.1524" layer="91"/>
-<label x="12.7" y="114.3" size="1.778" layer="95"/>
+<wire x1="12.7" y1="114.3" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
+<label x="7.62" y="114.3" size="1.778" layer="95"/>
 <pinref part="X3" gate="-10" pin="S"/>
 </segment>
 <segment>
@@ -13658,11 +13724,12 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
-<pinref part="TVS3" gate="G$1" pin="IO4"/>
-<wire x1="454.66" y1="60.96" x2="459.74" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="459.74" y1="60.96" x2="469.9" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="459.74" y1="81.28" x2="459.74" y2="60.96" width="0.1524" layer="91"/>
-<junction x="459.74" y="60.96"/>
+<wire x1="459.74" y1="81.28" x2="459.74" y2="71.12" width="0.1524" layer="91"/>
+<label x="447.04" y="76.2" size="1.778" layer="95"/>
+<pinref part="TVS3" gate="G$1" pin="IO3"/>
+<wire x1="459.74" y1="71.12" x2="459.74" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="459.74" y1="71.12" x2="469.9" y2="71.12" width="0.1524" layer="91"/>
+<junction x="459.74" y="71.12"/>
 </segment>
 </net>
 <net name="SWD_SWDIO" class="0">
@@ -13729,23 +13796,7 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 <wire x1="88.9" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="Q2" gate="G$1" pin="OE"/>
-<wire x1="218.44" y1="86.36" x2="228.6" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="86.36" x2="238.76" y2="86.36" width="0.1524" layer="91"/>
-<junction x="228.6" y="86.36"/>
-<pinref part="R27" gate="G$1" pin="2"/>
-<label x="241.3" y="86.36" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="XTAL_EN" class="0">
-<segment>
-<pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="96.52" x2="238.76" y2="104.14" width="0.1524" layer="91"/>
-<label x="238.76" y="104.14" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PIO2_6/CT32B0_MAT1"/>
 <wire x1="365.76" y1="134.62" x2="375.92" y2="134.62" width="0.1524" layer="91"/>
