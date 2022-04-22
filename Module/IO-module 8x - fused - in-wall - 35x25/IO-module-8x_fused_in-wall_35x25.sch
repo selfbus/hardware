@@ -13207,10 +13207,10 @@ Würth 6200xxxxx22 series
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D31" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="DIODE"/>
+<part name="D31" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="DDZ9684"/>
 <part name="D32" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="DIODE"/>
 <part name="D33" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="DIODE"/>
-<part name="D34" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="DIODE"/>
+<part name="D34" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="PDZ3.3BGWJ"/>
 <part name="TVS8" library="usblc6" deviceset="USBLC6-4" device="SC6" package3d_urn="urn:adsk.eagle:package:25303836/1"/>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="F21" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
@@ -13519,7 +13519,7 @@ Würth 6200xxxxx22 series
 </instance>
 <instance part="D34" gate="G$1" x="167.64" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="166.243" y="36.322" size="1.778" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="171.323" y="31.75" size="1.778" layer="96" rot="R90" align="center"/>
+<attribute name="VALUE" x="173.863" y="34.29" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
 <instance part="TVS8" gate="G$1" x="73.66" y="134.62" smashed="yes">
 <attribute name="NAME" x="66.04" y="142.875" size="1.778" layer="95" ratio="10"/>
