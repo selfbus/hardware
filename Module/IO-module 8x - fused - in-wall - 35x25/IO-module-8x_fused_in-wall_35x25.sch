@@ -13317,14 +13317,14 @@ Würth 6200xxxxx22 series
 <part name="JP1" library="con-JST PH" deviceset="B4B-PH" device="-K-S"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+3V3" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
 </parts>
 <sheets>
 <sheet>
@@ -13771,36 +13771,36 @@ Würth 6200xxxxx22 series
 <attribute name="VALUE" x="303.022" y="21.336" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="G$1" x="210.82" y="50.8" smashed="yes">
-<attribute name="NAME" x="207.01" y="52.2986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="47.498" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="52.2986" size="1.778" layer="91"/>
+<attribute name="VALUE" x="207.01" y="47.498" size="1.778" layer="91"/>
 </instance>
 <instance part="R4" gate="G$1" x="210.82" y="43.18" smashed="yes">
-<attribute name="NAME" x="207.01" y="44.6786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="39.878" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="44.6786" size="1.778" layer="91"/>
+<attribute name="VALUE" x="207.01" y="39.878" size="1.778" layer="91"/>
 </instance>
 <instance part="R5" gate="G$1" x="210.82" y="35.56" smashed="yes">
-<attribute name="NAME" x="207.01" y="37.0586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="32.258" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="37.0586" size="1.778" layer="91"/>
+<attribute name="VALUE" x="207.01" y="32.258" size="1.778" layer="91"/>
 </instance>
 <instance part="R6" gate="G$1" x="210.82" y="58.42" smashed="yes">
-<attribute name="NAME" x="207.01" y="59.9186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="55.118" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="59.9186" size="1.778" layer="91"/>
+<attribute name="VALUE" x="207.01" y="55.118" size="1.778" layer="91"/>
 </instance>
 <instance part="R3" gate="G$1" x="210.82" y="154.94" smashed="yes">
-<attribute name="NAME" x="207.01" y="156.4386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="151.638" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="156.4386" size="1.778" layer="91"/>
+<attribute name="VALUE" x="207.01" y="151.638" size="1.778" layer="91"/>
 </instance>
 <instance part="R7" gate="G$1" x="210.82" y="147.32" smashed="yes">
-<attribute name="NAME" x="207.01" y="148.8186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="144.018" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="148.8186" size="1.778" layer="91"/>
+<attribute name="VALUE" x="207.01" y="144.018" size="1.778" layer="91"/>
 </instance>
 <instance part="R8" gate="G$1" x="210.82" y="139.7" smashed="yes">
-<attribute name="NAME" x="207.01" y="141.1986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="136.398" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="141.1986" size="1.778" layer="91"/>
+<attribute name="VALUE" x="207.01" y="136.398" size="1.778" layer="91"/>
 </instance>
 <instance part="R9" gate="G$1" x="210.82" y="162.56" smashed="yes">
-<attribute name="NAME" x="207.01" y="164.0586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="159.258" size="1.778" layer="96"/>
+<attribute name="NAME" x="207.01" y="164.0586" size="1.778" layer="91"/>
+<attribute name="VALUE" x="207.01" y="159.258" size="1.778" layer="91"/>
 </instance>
 </instances>
 <busses>
@@ -14040,7 +14040,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="50.8" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
-<label x="218.44" y="50.8" size="1.778" layer="95"/>
+<label x="218.44" y="50.8" size="1.778" layer="91"/>
 </segment>
 </net>
 <net name="MOSI0" class="0">
@@ -14114,7 +14114,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
-<label x="218.44" y="58.42" size="1.778" layer="95"/>
+<label x="218.44" y="58.42" size="1.778" layer="91"/>
 </segment>
 </net>
 <net name="PROG" class="0">
@@ -14354,7 +14354,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="43.18" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
-<label x="218.44" y="43.18" size="1.778" layer="95"/>
+<label x="218.44" y="43.18" size="1.778" layer="91"/>
 </segment>
 </net>
 <net name="IO8" class="0">
@@ -14366,7 +14366,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="35.56" x2="223.52" y2="35.56" width="0.1524" layer="91"/>
-<label x="218.44" y="35.56" size="1.778" layer="95"/>
+<label x="218.44" y="35.56" size="1.778" layer="91"/>
 </segment>
 </net>
 <net name="MISO1" class="0">
@@ -14481,7 +14481,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
-<label x="218.44" y="139.7" size="1.778" layer="95"/>
+<label x="218.44" y="139.7" size="1.778" layer="91"/>
 </segment>
 </net>
 <net name="IO3" class="0">
@@ -14493,7 +14493,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="147.32" x2="223.52" y2="147.32" width="0.1524" layer="91"/>
-<label x="218.44" y="147.32" size="1.778" layer="95"/>
+<label x="218.44" y="147.32" size="1.778" layer="91"/>
 </segment>
 </net>
 <net name="IO2" class="0">
@@ -14505,7 +14505,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="154.94" x2="223.52" y2="154.94" width="0.1524" layer="91"/>
-<label x="218.44" y="154.94" size="1.778" layer="95"/>
+<label x="218.44" y="154.94" size="1.778" layer="91"/>
 </segment>
 </net>
 <net name="IO1" class="0">
@@ -14517,7 +14517,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="162.56" x2="223.52" y2="162.56" width="0.1524" layer="91"/>
-<label x="218.44" y="162.56" size="1.778" layer="95"/>
+<label x="218.44" y="162.56" size="1.778" layer="91"/>
 </segment>
 </net>
 <net name="ISP_EN" class="0">
@@ -14792,7 +14792,7 @@ Würth 6200xxxxx22 series
 <junction x="73.66" y="139.7"/>
 </segment>
 </net>
-<net name="IO5B" class="0">
+<net name="IO5R" class="0">
 <segment>
 <wire x1="142.24" y1="58.42" x2="142.24" y2="30.48" width="0.1524" layer="91"/>
 <junction x="142.24" y="58.42"/>
@@ -14807,7 +14807,7 @@ Würth 6200xxxxx22 series
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="IO6B" class="0">
+<net name="IO6R" class="0">
 <segment>
 <pinref part="D41" gate="G$1" pin="A2"/>
 <wire x1="154.94" y1="73.66" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
@@ -14822,7 +14822,7 @@ Würth 6200xxxxx22 series
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="IO7B" class="0">
+<net name="IO7R" class="0">
 <segment>
 <label x="193.04" y="43.434" size="1.778" layer="95"/>
 <pinref part="R42" gate="G$1" pin="2"/>
@@ -14837,7 +14837,7 @@ Würth 6200xxxxx22 series
 <wire x1="205.74" y1="43.18" x2="182.88" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IO8B" class="0">
+<net name="IO8R" class="0">
 <segment>
 <label x="193.04" y="35.814" size="1.778" layer="95"/>
 <wire x1="137.16" y1="35.56" x2="167.64" y2="35.56" width="0.1524" layer="91"/>
@@ -14852,7 +14852,7 @@ Würth 6200xxxxx22 series
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="IO1B" class="0">
+<net name="IO1R" class="0">
 <segment>
 <wire x1="165.1" y1="162.56" x2="165.1" y2="132.08" width="0.1524" layer="91"/>
 <junction x="165.1" y="162.56"/>
@@ -14869,7 +14869,7 @@ Würth 6200xxxxx22 series
 <pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="IO2B" class="0">
+<net name="IO2R" class="0">
 <segment>
 <wire x1="180.34" y1="154.94" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
 <junction x="180.34" y="154.94"/>
@@ -14885,7 +14885,7 @@ Würth 6200xxxxx22 series
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="IO3B" class="0">
+<net name="IO3R" class="0">
 <segment>
 <wire x1="137.16" y1="147.32" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
 <junction x="137.16" y="147.32"/>
@@ -14900,7 +14900,7 @@ Würth 6200xxxxx22 series
 <pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="IO4B" class="0">
+<net name="IO4R" class="0">
 <segment>
 <wire x1="152.4" y1="139.7" x2="152.4" y2="132.08" width="0.1524" layer="91"/>
 <junction x="152.4" y="139.7"/>
