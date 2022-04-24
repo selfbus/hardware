@@ -10282,6 +10282,21 @@ Source: Fairchild .. BAT54.pdf</description>
 <rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
 <rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
 </package>
+<package name="1X01" urn="urn:adsk.eagle:footprint:22382/1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 <package name="1X02" urn="urn:adsk.eagle:footprint:22309/1" locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
@@ -10340,6 +10355,12 @@ Source: Fairchild .. BAT54.pdf</description>
 <packageinstance name="1X03/90"/>
 </packageinstances>
 </package3d>
+<package3d name="1X01" urn="urn:adsk.eagle:package:22485/2" type="model">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X01"/>
+</packageinstances>
+</package3d>
 <package3d name="1X02" urn="urn:adsk.eagle:package:22435/2" type="model">
 <description>PIN HEADER</description>
 <packageinstances>
@@ -10364,6 +10385,15 @@ Source: Fairchild .. BAT54.pdf</description>
 <pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+<symbol name="PINHD1">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 <symbol name="PINHD2">
 <wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
@@ -10410,6 +10440,27 @@ Source: Fairchild .. BAT54.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="17" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD-1X1" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22485/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="64" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -13183,7 +13234,7 @@ Würth 6200xxxxx22 series
 <attribute name="REICHELT" value="SMD-0805 1,00K"/>
 </part>
 <part name="P+4" library="supply1" deviceset="+3V3" device=""/>
-<part name="JP8" library="pinhead_dmx" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="JP8" library="pinhead_dmx" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1" value="red">
 <attribute name="REICHELT" value="SMD-LED 0805 RT"/>
 </part>
@@ -13325,6 +13376,9 @@ Würth 6200xxxxx22 series
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
+<part name="JP5" library="pinhead_dmx" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="P+9" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13408,7 +13462,7 @@ Würth 6200xxxxx22 series
 <instance part="P+4" gate="G$1" x="474.98" y="198.12" smashed="yes">
 <attribute name="VALUE" x="472.44" y="193.04" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP8" gate="A" x="513.08" y="185.42" smashed="yes">
+<instance part="JP8" gate="G$1" x="513.08" y="185.42" smashed="yes">
 <attribute name="NAME" x="506.73" y="188.595" size="1.778" layer="95"/>
 <attribute name="VALUE" x="506.73" y="180.34" size="1.778" layer="96"/>
 </instance>
@@ -13436,8 +13490,8 @@ Würth 6200xxxxx22 series
 <attribute name="NAME" x="272.796" y="88.519" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="272.796" y="93.599" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND12" gate="1" x="508" y="175.26" smashed="yes">
-<attribute name="VALUE" x="505.46" y="172.72" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="508" y="177.8" smashed="yes">
+<attribute name="VALUE" x="505.46" y="175.26" size="1.778" layer="96"/>
 </instance>
 <instance part="TVS3" gate="G$1" x="525.78" y="88.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="520.7" y="76.835" size="1.778" layer="95" ratio="10"/>
@@ -13746,8 +13800,8 @@ Würth 6200xxxxx22 series
 <attribute name="NAME" x="412.75" y="33.02" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="412.75" y="30.48" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="P+7" gate="G$1" x="444.5" y="71.12" smashed="yes">
-<attribute name="VALUE" x="441.96" y="66.04" size="1.778" layer="96" rot="R90"/>
+<instance part="P+7" gate="G$1" x="444.5" y="68.58" smashed="yes">
+<attribute name="VALUE" x="441.96" y="63.5" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND2" gate="1" x="408.94" y="35.56" smashed="yes">
 <attribute name="VALUE" x="406.4" y="33.02" size="1.778" layer="96"/>
@@ -13801,6 +13855,16 @@ Würth 6200xxxxx22 series
 <instance part="R9" gate="G$1" x="210.82" y="162.56" smashed="yes">
 <attribute name="NAME" x="207.01" y="164.0586" size="1.778" layer="91"/>
 <attribute name="VALUE" x="207.01" y="159.258" size="1.778" layer="91"/>
+</instance>
+<instance part="JP5" gate="G$1" x="513.08" y="165.1" smashed="yes">
+<attribute name="NAME" x="506.73" y="168.275" size="1.778" layer="95"/>
+<attribute name="VALUE" x="506.73" y="160.02" size="1.778" layer="96"/>
+</instance>
+<instance part="GND4" gate="1" x="508" y="157.48" smashed="yes">
+<attribute name="VALUE" x="505.46" y="154.94" size="1.778" layer="96"/>
+</instance>
+<instance part="P+9" gate="G$1" x="393.7" y="48.26" smashed="yes">
+<attribute name="VALUE" x="391.16" y="43.18" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -13857,14 +13921,10 @@ Würth 6200xxxxx22 series
 <junction x="436.88" y="101.6"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="A" pin="2"/>
+<pinref part="JP8" gate="G$1" pin="2"/>
 <wire x1="510.54" y1="185.42" x2="508" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="508" y1="185.42" x2="508" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="JP8" gate="A" pin="3"/>
-<wire x1="508" y1="182.88" x2="510.54" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="508" y1="182.88" x2="508" y2="177.8" width="0.1524" layer="91"/>
-<junction x="508" y="182.88"/>
+<wire x1="508" y1="185.42" x2="508" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND47" gate="1" pin="GND"/>
@@ -13970,6 +14030,12 @@ Würth 6200xxxxx22 series
 <wire x1="304.8" y1="15.24" x2="304.8" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="510.54" y1="165.1" x2="508" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="508" y1="165.1" x2="508" y2="160.02" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="EIB_OUT" class="0">
 <segment>
@@ -14043,18 +14109,6 @@ Würth 6200xxxxx22 series
 <label x="218.44" y="50.8" size="1.778" layer="91"/>
 </segment>
 </net>
-<net name="MOSI0" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PIO0_9/MOSI0/CT16B0_MAT1"/>
-<wire x1="307.34" y1="149.86" x2="317.5" y2="149.86" width="0.1524" layer="91"/>
-<label x="307.34" y="149.86" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="SI/SDA"/>
-<wire x1="441.96" y1="40.64" x2="447.04" y2="40.64" width="0.1524" layer="91"/>
-<label x="447.04" y="40.64" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SWDIO" class="0">
 <segment>
 <wire x1="307.34" y1="129.54" x2="317.5" y2="129.54" width="0.1524" layer="91"/>
@@ -14067,18 +14121,6 @@ Würth 6200xxxxx22 series
 <pinref part="TVS3" gate="G$1" pin="IO2"/>
 <wire x1="551.18" y1="93.98" x2="538.48" y2="93.98" width="0.1524" layer="91"/>
 <junction x="551.18" y="93.98"/>
-</segment>
-</net>
-<net name="MISO0" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PIO0_8/MISO0/CT16B0_MAT0"/>
-<wire x1="307.34" y1="152.4" x2="317.5" y2="152.4" width="0.1524" layer="91"/>
-<label x="307.34" y="152.4" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="SO"/>
-<label x="398.78" y="45.72" size="1.778" layer="95"/>
-<wire x1="411.48" y1="45.72" x2="398.78" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ISP_TXD" class="0">
@@ -14125,7 +14167,7 @@ Würth 6200xxxxx22 series
 <wire x1="502.92" y1="187.96" x2="502.92" y2="198.12" width="0.1524" layer="91"/>
 <label x="502.92" y="198.12" size="1.778" layer="95"/>
 <junction x="502.92" y="187.96"/>
-<pinref part="JP8" gate="A" pin="1"/>
+<pinref part="JP8" gate="G$1" pin="1"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="497.84" y1="165.1" x2="497.84" y2="177.8" width="0.1524" layer="91"/>
 <junction x="497.84" y="187.96"/>
@@ -14261,10 +14303,14 @@ Würth 6200xxxxx22 series
 <wire x1="441.96" y1="48.26" x2="444.5" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="444.5" y1="48.26" x2="444.5" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="444.5" y1="63.5" x2="444.5" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="444.5" y1="63.5" x2="444.5" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="60.96" x2="411.48" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="63.5" x2="444.5" y2="63.5" width="0.1524" layer="91"/>
 <junction x="444.5" y="63.5"/>
+<pinref part="IC2" gate="G$1" pin="NC_2"/>
+<wire x1="441.96" y1="45.72" x2="444.5" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="444.5" y1="45.72" x2="444.5" y2="48.26" width="0.1524" layer="91"/>
+<junction x="444.5" y="48.26"/>
 </segment>
 <segment>
 <wire x1="38.1" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
@@ -14275,6 +14321,12 @@ Würth 6200xxxxx22 series
 <pinref part="P+3" gate="G$1" pin="+3V3"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="302.26" y1="17.78" x2="302.26" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="NC_1"/>
+<wire x1="411.48" y1="43.18" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="P+9" gate="G$1" pin="+3V3"/>
+<wire x1="393.7" y1="45.72" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -14374,6 +14426,11 @@ Würth 6200xxxxx22 series
 <pinref part="IC1" gate="G$1" pin="PIO2_2/DCD/MISO1"/>
 <wire x1="406.4" y1="167.64" x2="416.56" y2="167.64" width="0.1524" layer="91"/>
 <label x="416.56" y="167.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="SO"/>
+<label x="398.78" y="45.72" size="1.778" layer="95"/>
+<wire x1="411.48" y1="45.72" x2="398.78" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IN1" class="0">
@@ -14719,21 +14776,6 @@ Würth 6200xxxxx22 series
 <label x="447.04" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SSEL0" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="CS"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="411.48" y1="48.26" x2="411.48" y2="50.8" width="0.1524" layer="91"/>
-<junction x="411.48" y="48.26"/>
-<wire x1="411.48" y1="48.26" x2="398.78" y2="48.26" width="0.1524" layer="91"/>
-<label x="398.78" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="PIO0_2/SSEL0/CT16B0_CAP0"/>
-<wire x1="317.5" y1="167.64" x2="307.34" y2="167.64" width="0.1524" layer="91"/>
-<label x="307.34" y="167.64" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="TVS7" gate="G$1" pin="IO1"/>
@@ -14923,6 +14965,33 @@ Würth 6200xxxxx22 series
 <pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 </net>
+<net name="MOSI1" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PIO2_3/RI/MOSI1"/>
+<wire x1="406.4" y1="165.1" x2="416.56" y2="165.1" width="0.1524" layer="91"/>
+<label x="416.56" y="165.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="SI/SDA"/>
+<wire x1="441.96" y1="40.64" x2="447.04" y2="40.64" width="0.1524" layer="91"/>
+<label x="447.04" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SSEL1" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PIO2_4/CT16B1_MAT1/SSEL1"/>
+<wire x1="406.4" y1="162.56" x2="416.56" y2="162.56" width="0.1524" layer="91"/>
+<label x="416.56" y="162.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="CS"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="411.48" y1="48.26" x2="411.48" y2="50.8" width="0.1524" layer="91"/>
+<junction x="411.48" y="48.26"/>
+<wire x1="411.48" y1="48.26" x2="398.78" y2="48.26" width="0.1524" layer="91"/>
+<label x="398.78" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -14954,11 +15023,6 @@ Since Version 8.4, EAGLE supports properties for SPICE simulation.
 Probes in schematics and SPICE mapping objects found in parts and library devices
 will not be understood with this version. Update EAGLE to the latest version
 for full support of SPICE simulation. 
-</note>
-<note version="9.0" severity="warning">
-Since Version 9.0, EAGLE supports the align property for labels. 
-Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
-for full support of labels. 
 </note>
 </compatibility>
 </eagle>
