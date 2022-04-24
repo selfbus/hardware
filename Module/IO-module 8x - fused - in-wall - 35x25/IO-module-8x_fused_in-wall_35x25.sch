@@ -14077,8 +14077,8 @@ Würth 6200xxxxx22 series
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="SO"/>
-<wire x1="411.48" y1="45.72" x2="406.4" y2="45.72" width="0.1524" layer="91"/>
-<label x="396.24" y="45.72" size="1.778" layer="95"/>
+<label x="398.78" y="45.72" size="1.778" layer="95"/>
+<wire x1="411.48" y1="45.72" x2="398.78" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ISP_TXD" class="0">
@@ -14719,11 +14719,19 @@ Würth 6200xxxxx22 series
 <label x="447.04" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="SSEL0" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="CS"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="411.48" y1="48.26" x2="411.48" y2="50.8" width="0.1524" layer="91"/>
+<junction x="411.48" y="48.26"/>
+<wire x1="411.48" y1="48.26" x2="398.78" y2="48.26" width="0.1524" layer="91"/>
+<label x="398.78" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PIO0_2/SSEL0/CT16B0_CAP0"/>
+<wire x1="317.5" y1="167.64" x2="307.34" y2="167.64" width="0.1524" layer="91"/>
+<label x="307.34" y="167.64" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -14946,6 +14954,11 @@ Since Version 8.4, EAGLE supports properties for SPICE simulation.
 Probes in schematics and SPICE mapping objects found in parts and library devices
 will not be understood with this version. Update EAGLE to the latest version
 for full support of SPICE simulation. 
+</note>
+<note version="9.0" severity="warning">
+Since Version 9.0, EAGLE supports the align property for labels. 
+Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
+for full support of labels. 
 </note>
 </compatibility>
 </eagle>
