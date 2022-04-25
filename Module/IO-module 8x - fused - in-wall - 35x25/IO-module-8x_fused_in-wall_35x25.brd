@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="GND" color="1" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,12 +28,12 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -957,6 +957,55 @@ Würth 6200xxxxx22 series
 </package>
 </packages>
 </library>
+<library name="testpad" urn="urn:adsk.eagle:library:385">
+<description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
+Cream on SMD OFF.&lt;br&gt;
+new: Attribute TP_SIGNAL_NAME&lt;br&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="TP11SQ" urn="urn:adsk.eagle:footprint:27919/1" library_version="3">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="1.1" dy="1.1" layer="1" cream="no"/>
+<text x="-0.5499" y="0.5999" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.508" y="-0.635" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
+<package name="TP12SQ" urn="urn:adsk.eagle:footprint:27920/1" library_version="3">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="1.1998" dy="1.1998" layer="1" cream="no"/>
+<text x="-0.5999" y="0.65" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.508" y="-0.635" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
+<package name="TP12R" urn="urn:adsk.eagle:footprint:27921/1" library_version="3">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="1.2" dy="1.2" layer="1" roundness="100" cream="no"/>
+<text x="-0.5999" y="0.65" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.508" y="-0.635" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="TP11SQ" urn="urn:adsk.eagle:package:27965/1" type="box" library_version="3">
+<description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP11SQ"/>
+</packageinstances>
+</package3d>
+<package3d name="TP12SQ" urn="urn:adsk.eagle:package:27964/1" type="box" library_version="3">
+<description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP12SQ"/>
+</packageinstances>
+</package3d>
+<package3d name="TP12R" urn="urn:adsk.eagle:package:27963/1" type="box" library_version="3">
+<description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP12R"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1674,9 +1723,9 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <attribute name="SPICEPREFIX" value="R" x="26.15" y="15.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="27.465" y="14.76" size="0.4" layer="27"/>
 </element>
-<element name="JP1" library="con-JST PH" package="B4B-PH-K-S" value="B4B-PH-K-S" x="26" y="23.75" smashed="yes" rot="MR0">
-<attribute name="NAME" x="26.95" y="20.92" size="0.4" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="27.7" y="21.985" size="0.4" layer="28" rot="MR0" display="off"/>
+<element name="JP1" library="con-JST PH" package="B4B-PH-K-S" value="B4B-PH-K-S" x="24.75" y="23.75" smashed="yes" rot="MR0">
+<attribute name="NAME" x="25.7" y="20.92" size="0.4" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="26.45" y="21.985" size="0.4" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R" x="17.45" y="5.1" smashed="yes">
 <attribute name="NAME" x="17.515" y="6.42" size="0.4" layer="25"/>
@@ -1730,6 +1779,24 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <attribute name="NAME" x="2.2838" y="4.1288" size="0.4" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="64" x="1.25" y="5.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-1.29" y="2.325" size="1.27" layer="27"/>
+</element>
+<element name="TXD" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP12SQ" package3d_urn="urn:adsk.eagle:package:27964/1" value="TPTP12SQ" x="30.8" y="23.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="31.3" y="22.55" size="0.4" layer="26" rot="MR0"/>
+<attribute name="POPULARITY" value="0" x="30.8" y="23.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="30.8" y="23.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="31.308" y="23.065" size="0.4" layer="28" rot="MR0"/>
+</element>
+<element name="RXD" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP12R" package3d_urn="urn:adsk.eagle:package:27963/1" value="TPTP12R" x="32.475" y="23.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="33.0749" y="22.55" size="0.4" layer="26" rot="MR0"/>
+<attribute name="POPULARITY" value="1" x="32.475" y="23.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="32.475" y="23.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="33.364" y="22.684" size="0.4" layer="28" rot="MR0"/>
+</element>
+<element name="GND" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP11SQ" package3d_urn="urn:adsk.eagle:package:27965/1" value="TPTP11SQ" x="34.1" y="23.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="34.7499" y="22.5499" size="0.4" layer="26" rot="MR0"/>
+<attribute name="POPULARITY" value="0" x="34.1" y="23.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="34.1" y="23.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="34.608" y="23.065" size="0.4" layer="28" rot="MR0"/>
 </element>
 </elements>
 <signals>
@@ -1897,6 +1964,9 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <via x="30.3" y="13.3" extent="1-16" drill="0.25"/>
 <via x="7.15" y="0.95" extent="1-16" drill="0.25"/>
 <via x="8.5" y="4.35" extent="1-16" drill="0.25"/>
+<contactref element="GND" pad="TP"/>
+<wire x1="34.1" y1="23.7" x2="34.1" y2="22.15" width="0.2" layer="16"/>
+<via x="34.1" y="22.15" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="EIB_OUT">
 <contactref element="JP3" pad="1"/>
@@ -2204,11 +2274,10 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <wire x1="25.35" y1="17.55" x2="24.35" y2="17.55" width="0.254" layer="1"/>
 <wire x1="24.35" y1="17.55" x2="23.4833125" y2="16.6833125" width="0.254" layer="1"/>
 <contactref element="JP1" pad="4"/>
-<wire x1="27.562178125" y1="22.3001" x2="25.9" y2="22.3001" width="0.254" layer="1"/>
-<wire x1="25.9" y1="22.3001" x2="25.65" y2="22.0501" width="0.254" layer="1"/>
+<wire x1="26.2501" y1="22.2501" x2="25.85" y2="22.2501" width="0.254" layer="1"/>
+<wire x1="25.85" y1="22.2501" x2="25.65" y2="22.0501" width="0.254" layer="1"/>
 <wire x1="25.65" y1="22.0501" x2="25.65" y2="21.8001" width="0.254" layer="1"/>
-<wire x1="29" y1="23.75" x2="27.5770375" y2="22.3270375" width="0.254" layer="1"/>
-<wire x1="27.5770375" y1="22.3270375" x2="27.562178125" y2="22.3001" width="0.254" layer="1"/>
+<wire x1="27.75" y1="23.75" x2="26.2501" y2="22.2501" width="0.254" layer="1"/>
 </signal>
 <signal name="SDA">
 <contactref element="IC1" pad="16"/>
@@ -2230,11 +2299,9 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <wire x1="23.75" y1="21.8001" x2="22.3947375" y2="21.8001" width="0.254" layer="1"/>
 <wire x1="21.3674" y1="21.1174" x2="20.7456" y2="20.4956" width="0.254" layer="1"/>
 <contactref element="JP1" pad="3"/>
-<wire x1="23.75" y1="21.8001" x2="23.75" y2="22.3501" width="0.254" layer="1"/>
-<wire x1="24.1499" y1="22.75" x2="23.75" y2="22.3501" width="0.254" layer="1"/>
-<wire x1="27" y1="23.75" x2="27" y2="23.7475" width="0.254" layer="1"/>
-<wire x1="27" y1="23.7475" x2="26.0025" y2="22.75" width="0.254" layer="1"/>
-<wire x1="26.0025" y1="22.75" x2="24.1499" y2="22.75" width="0.254" layer="1"/>
+<wire x1="23.75" y1="21.8001" x2="23.75" y2="22.2001" width="0.254" layer="1"/>
+<wire x1="25.75" y1="23.75" x2="25.2999" y2="23.75" width="0.254" layer="1"/>
+<wire x1="25.2999" y1="23.75" x2="23.75" y2="22.2001" width="0.254" layer="1"/>
 </signal>
 <signal name="XTALIN">
 <contactref element="IC1" pad="6"/>
@@ -2253,15 +2320,15 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <signal name="IO7">
 <contactref element="IC1" pad="34"/>
 <wire x1="16.05" y1="21.35" x2="16.55" y2="21.85" width="0.254" layer="1"/>
-<wire x1="20.4" y1="21.9424" x2="20.3076" y2="21.85" width="0.254" layer="1"/>
-<wire x1="20.3076" y1="21.85" x2="16.55" y2="21.85" width="0.254" layer="1"/>
-<via x="20.4" y="21.9424" extent="1-16" drill="0.35"/>
+<wire x1="20.6" y1="21.6424" x2="20.3924" y2="21.85" width="0.254" layer="1"/>
+<wire x1="20.3924" y1="21.85" x2="16.55" y2="21.85" width="0.254" layer="1"/>
+<via x="20.6" y="21.6424" extent="1-16" drill="0.35"/>
 <wire x1="27.3354" y1="22.19573125" x2="27.3354" y2="21.1344" width="0.254" layer="16"/>
 <wire x1="27.331" y1="21.13" x2="27.3354" y2="21.1344" width="0.254" layer="16"/>
 <wire x1="27.3354" y1="22.19573125" x2="27.27173125" y2="22.2594" width="0.254" layer="16"/>
-<wire x1="21.52326875" y1="21.9424" x2="20.4" y2="21.9424" width="0.254" layer="16"/>
-<wire x1="27.27173125" y1="22.2594" x2="21.84026875" y2="22.2594" width="0.254" layer="16"/>
-<wire x1="21.84026875" y1="22.2594" x2="21.52326875" y2="21.9424" width="0.254" layer="16"/>
+<wire x1="21.72326875" y1="21.6424" x2="20.6" y2="21.6424" width="0.254" layer="16"/>
+<wire x1="27.27173125" y1="22.2594" x2="22.34026875" y2="22.2594" width="0.254" layer="16"/>
+<wire x1="22.34026875" y1="22.2594" x2="21.72326875" y2="21.6424" width="0.254" layer="16"/>
 <contactref element="R4" pad="2"/>
 <wire x1="17.05" y1="15.2" x2="17.05" y2="15.2776125" width="0.254" layer="1"/>
 <wire x1="17.05" y1="15.2776125" x2="16.05" y2="16.2776125" width="0.254" layer="1"/>
@@ -2269,17 +2336,15 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 </signal>
 <signal name="IO8">
 <contactref element="IC1" pad="35"/>
-<via x="21.3" y="22.65" extent="1-16" drill="0.35"/>
+<via x="20.05" y="22.7" extent="1-16" drill="0.35"/>
 <wire x1="27.8354" y1="22.44573125" x2="27.8354" y2="21.1344" width="0.254" layer="16"/>
 <wire x1="27.831" y1="21.13" x2="27.8354" y2="21.1344" width="0.254" layer="16"/>
-<wire x1="21.3" y1="22.65" x2="21.35" y2="22.7" width="0.254" layer="16"/>
-<wire x1="27.58113125" y1="22.7" x2="21.35" y2="22.7" width="0.254" layer="16"/>
+<wire x1="27.58113125" y1="22.7" x2="20.05" y2="22.7" width="0.254" layer="16"/>
 <wire x1="27.58113125" y1="22.7" x2="27.8354" y2="22.44573125" width="0.254" layer="16"/>
 <contactref element="R5" pad="2"/>
 <wire x1="12.7125" y1="23.9" x2="12.9572375" y2="23.9" width="0.254" layer="1"/>
 <wire x1="12.9572375" y1="23.9" x2="14.5986375" y2="22.2586" width="0.254" layer="1"/>
-<wire x1="21.3" y1="22.65" x2="20" y2="22.65" width="0.254" layer="1"/>
-<wire x1="20" y1="22.65" x2="19.6086" y2="22.2586" width="0.254" layer="1"/>
+<wire x1="20.05" y1="22.7" x2="19.6086" y2="22.2586" width="0.254" layer="1"/>
 <wire x1="19.6086" y1="22.2586" x2="14.5986375" y2="22.2586" width="0.254" layer="1"/>
 </signal>
 <signal name="MISO1">
@@ -2864,6 +2929,19 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <wire x1="23.67" y1="17.08" x2="21.281" y2="17.08" width="0.254" layer="16"/>
 <wire x1="25.2" y1="15.3" x2="25.2" y2="15.55" width="0.254" layer="1"/>
 <wire x1="25.2" y1="15.55" x2="24.25" y2="16.5" width="0.254" layer="1"/>
+</signal>
+<signal name="DBG_TXD">
+<contactref element="IC1" pad="36"/>
+<contactref element="TXD" pad="TP"/>
+<wire x1="28.331" y1="21.13" x2="28.331" y2="22.381" width="0.2" layer="16"/>
+<wire x1="29.65" y1="23.7" x2="30.8" y2="23.7" width="0.2" layer="16"/>
+<wire x1="28.331" y1="22.381" x2="29.65" y2="23.7" width="0.2" layer="16"/>
+</signal>
+<signal name="DBG_RXD">
+<contactref element="IC1" pad="37"/>
+<contactref element="RXD" pad="TP"/>
+<wire x1="29.881" y1="19.58" x2="29.881" y2="21.106" width="0.2" layer="16"/>
+<wire x1="32.475" y1="23.7" x2="29.881" y2="21.106" width="0.2" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
