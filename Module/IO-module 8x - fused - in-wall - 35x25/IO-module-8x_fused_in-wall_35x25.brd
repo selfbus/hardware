@@ -158,9 +158,7 @@
 <hole x="9.5" y="2" drill="2.1"/>
 <hole x="33" y="20.5" drill="2.1"/>
 <circle x="6.55" y="2.95" radius="0.7" width="0.127" layer="52"/>
-<text x="6.9" y="2.4" size="1.4224" layer="52" ratio="6" rot="MR0">-</text>
 <circle x="6.55" y="2.95" radius="0.7" width="0.127" layer="51"/>
-<text x="6.9" y="2.4" size="1.4224" layer="51" ratio="6" rot="MR0">-</text>
 <text x="22.5" y="2.55" size="0.4" layer="52" ratio="6" rot="MR40">GND</text>
 <text x="17.4" y="2.55" size="0.4" layer="52" ratio="6" rot="MR40">EIB IN </text>
 <text x="19.95" y="2.55" size="0.4" layer="52" ratio="6" rot="MR40">+3V3</text>
@@ -171,17 +169,15 @@
 <text x="20.2" y="2.4" size="0.4" layer="51" ratio="6" rot="R40">+3V3</text>
 <text x="15.05" y="2.35" size="0.4" layer="51" ratio="6" rot="R40">BUS-V</text>
 <text x="12.55" y="2.4" size="0.4" layer="51" ratio="6" rot="R40">EIB OUT</text>
-<text x="22.65" y="22.8" size="0.4" layer="51" ratio="6" rot="R320">GND</text>
-<text x="24.75" y="22.85" size="0.4" layer="51" ratio="6" rot="R320">+3V3</text>
-<text x="26.75" y="22.75" size="0.4" layer="51" ratio="6" rot="R320">SDA</text>
-<text x="28.7" y="22.7" size="0.4" layer="51" ratio="6" rot="R320">SCL</text>
+<text x="21.95" y="23.3" size="0.4" layer="51" ratio="6" rot="R320">GND</text>
+<text x="23" y="23.35" size="0.4" layer="51" ratio="6" rot="R320">+3V3</text>
+<text x="24.4" y="23.25" size="0.4" layer="51" ratio="6" rot="R320">SDA</text>
+<text x="25.75" y="23.2" size="0.4" layer="51" ratio="6" rot="R320">SCL</text>
 <circle x="32.8" y="5.5" radius="0.15" width="0.3048" layer="52"/>
-<circle x="0.9" y="2.95" radius="0.7" width="0.127" layer="52"/>
-<text x="1.5" y="2.25" size="1.4224" layer="52" ratio="6" rot="MR0">+</text>
+<circle x="1.1" y="2.95" radius="0.7" width="0.127" layer="52"/>
 <circle x="5.05" y="1.1" radius="0.15" width="0.3048" layer="52"/>
 <circle x="5.05" y="1.1" radius="0.15" width="0.3048" layer="52"/>
-<circle x="0.9" y="2.95" radius="0.7" width="0.127" layer="51"/>
-<text x="1.5" y="2.25" size="1.4224" layer="51" ratio="6" rot="MR0">+</text>
+<circle x="1.1" y="2.95" radius="0.7" width="0.127" layer="51"/>
 <circle x="5.05" y="1.1" radius="0.15" width="0.3048" layer="51"/>
 <circle x="19.4" y="13.2" radius="0.15" width="0.3048" layer="51"/>
 <circle x="30.55" y="11.75" radius="0.15" width="0.3048" layer="52"/>
@@ -193,6 +189,19 @@
 <circle x="9.5" y="2" radius="2" width="0.1016" layer="51"/>
 <circle x="9.5" y="2" radius="2" width="0.1016" layer="52"/>
 <circle x="9.5" y="2" radius="1.5" width="0.1016" layer="52"/>
+<wire x1="1.1" y1="3.35" x2="1.1" y2="2.55" width="0.1524" layer="51"/>
+<wire x1="0.7" y1="2.95" x2="1.5" y2="2.95" width="0.1524" layer="51"/>
+<wire x1="6.15" y1="2.95" x2="6.95" y2="2.95" width="0.1524" layer="51"/>
+<wire x1="1.1" y1="3.35" x2="1.1" y2="2.55" width="0.1524" layer="52"/>
+<wire x1="0.7" y1="2.95" x2="1.5" y2="2.95" width="0.1524" layer="52"/>
+<wire x1="6.15" y1="2.95" x2="6.95" y2="2.95" width="0.1524" layer="52"/>
+<text x="2.9" y="11.4" size="0.8128" layer="52" rot="R90"></text>
+<text x="19.75" y="4.5" size="0.6096" layer="52" rot="MR90">IO module 8x fused    in-wall 35x25 v1.0.0</text>
+<text x="18.75" y="14.55" size="0.6096" layer="52" rot="MR90">(beta)</text>
+<text x="19.2" y="8.85" size="0.6096" layer="52" rot="MR0">26.04.2022</text>
+<text x="2.9" y="10.05" size="0.8128" layer="51" rot="R90">www.selfbus.org</text>
+<text x="2.25" y="11.2" size="0.8128" layer="52" rot="MR90">www.selfbus.org</text>
+<text x="30.35" y="16.4" size="0.8128" layer="51" rot="R90">www.selfbus.org</text>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -1915,10 +1924,10 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <vertex x="23.15" y="10.75"/>
 <vertex x="26.5" y="10.75"/>
 </polygon>
-<wire x1="12.85" y1="3.4" x2="12.85" y2="3.6296" width="0.3048" layer="1"/>
-<wire x1="12.85" y1="3.6296" x2="11.3196" y2="5.16" width="0.3048" layer="1"/>
+<wire x1="12.35" y1="3.6" x2="12.35" y2="4.1296" width="0.3048" layer="1"/>
+<wire x1="12.35" y1="4.1296" x2="11.3196" y2="5.16" width="0.3048" layer="1"/>
 <wire x1="10.7696" y1="5.16" x2="11.3196" y2="5.16" width="0.3048" layer="1"/>
-<via x="12.85" y="3.4" extent="1-16" drill="0.35"/>
+<via x="12.35" y="3.6" extent="1-16" drill="0.35"/>
 <wire x1="9.1" y1="22.4" x2="8.9" y2="22.4" width="0.3048" layer="16"/>
 <wire x1="8.9" y1="22.4" x2="7.85" y2="21.35" width="0.3048" layer="16"/>
 <via x="9.1" y="22.4" extent="1-16" drill="0.3"/>
@@ -2285,10 +2294,9 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <wire x1="25.35" y1="17.55" x2="23.85" y2="17.55" width="0.254" layer="1"/>
 <wire x1="23.85" y1="17.55" x2="23.4833125" y2="17.1833125" width="0.254" layer="1"/>
 <contactref element="JP1" pad="4"/>
-<wire x1="26.2501" y1="22.2501" x2="25.85" y2="22.2501" width="0.254" layer="1"/>
-<wire x1="25.85" y1="22.2501" x2="25.65" y2="22.0501" width="0.254" layer="1"/>
-<wire x1="25.65" y1="22.0501" x2="25.65" y2="21.8001" width="0.254" layer="1"/>
-<wire x1="27.75" y1="23.75" x2="26.2501" y2="22.2501" width="0.254" layer="1"/>
+<wire x1="27.75" y1="23.75" x2="27.4499" y2="23.75" width="0.254" layer="1"/>
+<wire x1="27.4499" y1="23.75" x2="25.65" y2="21.9501" width="0.254" layer="1"/>
+<wire x1="25.65" y1="21.9501" x2="25.65" y2="21.8001" width="0.254" layer="1"/>
 </signal>
 <signal name="SDA">
 <contactref element="IC1" pad="16"/>
@@ -2310,9 +2318,9 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <wire x1="23.75" y1="21.8001" x2="22.3947375" y2="21.8001" width="0.254" layer="1"/>
 <wire x1="21.3674" y1="21.1174" x2="20.7456" y2="20.4956" width="0.254" layer="1"/>
 <contactref element="JP1" pad="3"/>
-<wire x1="23.75" y1="21.8001" x2="23.75" y2="22.2001" width="0.254" layer="1"/>
-<wire x1="25.75" y1="23.75" x2="25.2999" y2="23.75" width="0.254" layer="1"/>
-<wire x1="25.2999" y1="23.75" x2="23.75" y2="22.2001" width="0.254" layer="1"/>
+<wire x1="23.75" y1="21.8001" x2="23.75" y2="22.3001" width="0.254" layer="1"/>
+<wire x1="25.75" y1="23.75" x2="25.1999" y2="23.75" width="0.254" layer="1"/>
+<wire x1="25.1999" y1="23.75" x2="23.75" y2="22.3001" width="0.254" layer="1"/>
 </signal>
 <signal name="XTALIN">
 <contactref element="IC1" pad="6"/>

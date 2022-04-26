@@ -14902,14 +14902,14 @@ Würth 6200xxxxx22 series
 <instance part="P+8" gate="G$1" x="556.26" y="139.7" smashed="yes">
 <attribute name="VALUE" x="553.72" y="134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP1" gate="G$1" x="299.72" y="10.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="290.83" y="6.985" size="1.778" layer="95" rot="R180"/>
+<instance part="JP1" gate="G$1" x="299.72" y="7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="290.83" y="4.445" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="GND3" gate="1" x="304.8" y="2.54" smashed="yes">
 <attribute name="VALUE" x="302.26" y="0" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="G$1" x="302.26" y="20.32" smashed="yes">
-<attribute name="VALUE" x="303.022" y="21.336" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="G$1" x="302.26" y="17.78" smashed="yes">
+<attribute name="VALUE" x="303.022" y="18.796" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="G$1" x="210.82" y="50.8" smashed="yes">
 <attribute name="NAME" x="207.01" y="52.2986" size="1.778" layer="91"/>
@@ -15142,7 +15142,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="304.8" y1="5.08" x2="304.8" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="5.08" x2="304.8" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PRGBTN" gate="G$1" pin="1"/>
@@ -15471,7 +15471,7 @@ Würth 6200xxxxx22 series
 <label x="289.56" y="38.1" size="1.778" layer="95" rot="R270"/>
 <wire x1="292.1" y1="35.56" x2="297.18" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="4"/>
-<wire x1="297.18" y1="35.56" x2="297.18" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="35.56" x2="297.18" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -15490,7 +15490,7 @@ Würth 6200xxxxx22 series
 <label x="304.8" y="38.1" size="1.778" layer="95" rot="R270"/>
 <wire x1="307.34" y1="35.56" x2="299.72" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="299.72" y1="35.56" x2="299.72" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="35.56" x2="299.72" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XTALIN" class="0">
