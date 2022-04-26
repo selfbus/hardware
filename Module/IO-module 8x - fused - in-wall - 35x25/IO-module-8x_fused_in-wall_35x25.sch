@@ -12974,177 +12974,6 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 </deviceset>
 </devicesets>
 </library>
-<library name="con-JST PH">
-<description>
-&lt;b&gt;JST Connectors&lt;/b&gt; - PH Series, 2.00mm pitch disconnectable crimp style connectors&lt;p&gt;
-
-&lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;
-USE AT YOUR OWN RISK!&lt;p&gt;
-
-&lt;author&gt;Author: kylie &lt;/author&gt;, 02/2017&lt;p&gt;
-
-&lt;a href="http://www.jst-mfg.com/product/detail_e.php?series=199"&gt;
-&lt;img src="http://www.jst-mfg.com/product/images/pict/ph.jpg"  &gt;&lt;/a&gt;&lt;p&gt;
-&lt;a href="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"&gt; Data sheet (PDF)&lt;/a&gt;&lt;p&gt;
-&lt;p&gt; similar to:&lt;p&gt;
-&lt;a href="https://www.hirose.com/product/en/products/DF3/"&gt; HIROSE DF3 series&lt;/a&gt;&lt;p&gt;
-Würth 6200xxxxx22 series
-&lt;a href="http://katalog.we-online.de/en/em/WTB_2_00_MALE_VERTICAL_SHROUDED_HEADER_6200XX11622?sid=331765e5c"&gt; vertical through-hole&lt;/a&gt;,  
-&lt;a href="http://katalog.we-online.de/en/em/WTB_2_00_MALE_HORIZONTAL_SHROUDED_HEADER_6200XX11722?sid=331765e5c"&gt; horizontal through-hole&lt;/a&gt;,
-&lt;a href="http://katalog.we-online.de/en/em/WTB_2_00_FEMALE_TERMINAL_HOUSING_6200XX113322?sid=331765e5cc"&gt; female terminal housing&lt;/a&gt;</description>
-<packages>
-<package name="B4B-PH-K-S">
-<description>
-
-&lt;b&gt;JST PH series header&lt;/b&gt; 2.00mm pitch disconnectable crimp style connectors, through-hole vertical (top entry type), 4 pins&lt;p&gt;
-
-</description>
-<pad name="1" x="3" y="0" drill="0.7" diameter="1.3" shape="square"/>
-<pad name="2" x="1" y="0" drill="0.7" diameter="1.3" shape="octagon"/>
-<pad name="3" x="-1" y="0" drill="0.7" diameter="1.3" shape="octagon"/>
-<pad name="4" x="-3" y="0" drill="0.7" diameter="1.3" shape="octagon"/>
-<text x="5.54" y="0" size="1.016" layer="25" rot="R270" align="bottom-center">&gt;NAME</text>
-<text x="3" y="1.27" size="1.016" layer="27" align="bottom-right">&gt;VALUE</text>
-<wire x1="-4.95" y1="2.8" x2="4.95" y2="2.8" width="0.1524" layer="21"/>
-<wire x1="4.95" y1="2.8" x2="4.95" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="4.95" y1="-1.7" x2="-4.95" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="-4.95" y1="-1.7" x2="-4.95" y2="2.8" width="0.1524" layer="21"/>
-<wire x1="-4.95" y1="2.8" x2="4.95" y2="2.8" width="0.1524" layer="51"/>
-<wire x1="4.95" y1="2.8" x2="4.95" y2="-1.7" width="0.1524" layer="51"/>
-<wire x1="4.95" y1="-1.7" x2="1.8" y2="-1.7" width="0.1524" layer="51"/>
-<wire x1="1.8" y1="-1.7" x2="-1.8" y2="-1.7" width="0.1524" layer="51"/>
-<wire x1="-1.8" y1="-1.7" x2="-4.95" y2="-1.7" width="0.1524" layer="51"/>
-<wire x1="-4.95" y1="-1.7" x2="-4.95" y2="2.8" width="0.1524" layer="51"/>
-<wire x1="-4.3" y1="2.4" x2="4.3" y2="2.4" width="0.1524" layer="51"/>
-<wire x1="-4.3" y1="2.4" x2="-4.3" y2="-1.1" width="0.1524" layer="51"/>
-<wire x1="-4.3" y1="-1.1" x2="-1.8" y2="-1.1" width="0.1524" layer="51"/>
-<wire x1="1.8" y1="-1.1" x2="4.3" y2="-1.1" width="0.1524" layer="51"/>
-<wire x1="4.3" y1="2.4" x2="4.3" y2="-1.1" width="0.1524" layer="51"/>
-<wire x1="1.8" y1="-1.1" x2="1.8" y2="-1.7" width="0.1524" layer="51"/>
-<wire x1="-1.8" y1="-1.1" x2="-1.8" y2="-1.7" width="0.1524" layer="51"/>
-<rectangle x1="2.75" y1="-0.25" x2="3.25" y2="0.25" layer="51"/>
-<rectangle x1="0.75" y1="-0.25" x2="1.25" y2="0.25" layer="51"/>
-<rectangle x1="-1.25" y1="-0.25" x2="-0.75" y2="0.25" layer="51"/>
-<rectangle x1="-3.25" y1="-0.25" x2="-2.75" y2="0.25" layer="51"/>
-<polygon width="0.1524" layer="51">
-<vertex x="3" y="-1.65"/>
-<vertex x="2.7" y="-1.15"/>
-<vertex x="3.3" y="-1.15"/>
-</polygon>
-</package>
-<package name="B4B-PH-SM4-TB">
-<description>
-
-&lt;b&gt;JST PH series header&lt;/b&gt; 2.00mm pitch disconnectable crimp style connectors, SMT vertical (top entry type), 4 pins&lt;p&gt;
-
-</description>
-<smd name="1" x="3" y="0" dx="1" dy="5.5" layer="1"/>
-<smd name="2" x="1" y="0" dx="1" dy="5.5" layer="1"/>
-<smd name="3" x="-1" y="0" dx="1" dy="5.5" layer="1"/>
-<smd name="4" x="-3" y="0" dx="1" dy="5.5" layer="1"/>
-<smd name="M1" x="5.4" y="-2.25" dx="1.6" dy="3" layer="1"/>
-<smd name="M2" x="-5.4" y="-2.25" dx="1.6" dy="3" layer="1"/>
-<text x="6.81" y="-2.54" size="1.016" layer="25" rot="R270" align="bottom-center">&gt;NAME</text>
-<text x="3" y="-1.905" size="1.016" layer="27" align="bottom-right">&gt;VALUE</text>
-<wire x1="-5.975" y1="0.25" x2="-3.75" y2="0.25" width="0.1524" layer="21"/>
-<wire x1="3.75" y1="0.25" x2="5.975" y2="0.25" width="0.1524" layer="21"/>
-<wire x1="5.975" y1="0.25" x2="5.975" y2="-0.5" width="0.1524" layer="21"/>
-<wire x1="5.975" y1="-4" x2="5.975" y2="-4.75" width="0.1524" layer="21"/>
-<wire x1="5.975" y1="-4.75" x2="-5.975" y2="-4.75" width="0.1524" layer="21"/>
-<wire x1="-5.975" y1="-4.75" x2="-5.975" y2="-4" width="0.1524" layer="21"/>
-<wire x1="-5.975" y1="-0.5" x2="-5.975" y2="0.25" width="0.1524" layer="21"/>
-<wire x1="-5.975" y1="0.25" x2="5.975" y2="0.25" width="0.1524" layer="51"/>
-<wire x1="5.975" y1="0.25" x2="5.975" y2="-4.75" width="0.1524" layer="51"/>
-<wire x1="5.975" y1="-4.75" x2="1.8" y2="-4.75" width="0.1524" layer="51"/>
-<wire x1="1.8" y1="-4.75" x2="-1.8" y2="-4.75" width="0.1524" layer="51"/>
-<wire x1="-1.8" y1="-4.75" x2="-5.975" y2="-4.75" width="0.1524" layer="51"/>
-<wire x1="-5.975" y1="-4.75" x2="-5.975" y2="0.25" width="0.1524" layer="51"/>
-<wire x1="-4.3" y1="-0.45" x2="4.3" y2="-0.45" width="0.1524" layer="51"/>
-<wire x1="-4.3" y1="-0.45" x2="-4.3" y2="-3.95" width="0.1524" layer="51"/>
-<wire x1="-4.3" y1="-3.95" x2="-1.8" y2="-3.95" width="0.1524" layer="51"/>
-<wire x1="1.8" y1="-3.95" x2="4.3" y2="-3.95" width="0.1524" layer="51"/>
-<wire x1="4.3" y1="-0.45" x2="4.3" y2="-3.95" width="0.1524" layer="51"/>
-<wire x1="1.8" y1="-3.95" x2="1.8" y2="-4.75" width="0.1524" layer="51"/>
-<wire x1="-1.8" y1="-3.95" x2="-1.8" y2="-4.75" width="0.1524" layer="51"/>
-<rectangle x1="2.75" y1="-3.1" x2="3.25" y2="-2.6" layer="51"/>
-<rectangle x1="2.75" y1="0.25" x2="3.25" y2="2.25" layer="51"/>
-<rectangle x1="0.75" y1="-3.1" x2="1.25" y2="-2.6" layer="51"/>
-<rectangle x1="0.75" y1="0.25" x2="1.25" y2="2.25" layer="51"/>
-<rectangle x1="-1.25" y1="-3.1" x2="-0.75" y2="-2.6" layer="51"/>
-<rectangle x1="-1.25" y1="0.25" x2="-0.75" y2="2.25" layer="51"/>
-<rectangle x1="-3.25" y1="-3.1" x2="-2.75" y2="-2.6" layer="51"/>
-<rectangle x1="-3.25" y1="0.25" x2="-2.75" y2="2.25" layer="51"/>
-<polygon width="0.1524" layer="51">
-<vertex x="3" y="-4.5"/>
-<vertex x="2.7" y="-4"/>
-<vertex x="3.3" y="-4"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="M_1R04">
-<wire x1="3.81" y1="-7.62" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-7.62" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<text x="-1.27" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="B4B-PH" prefix="X">
-<description>
-&lt;b&gt;JST PH series header&lt;/b&gt; 2.00mm pitch disconnectable crimp style connectors, vertical (side entry type), 4 pins&lt;p&gt;
-</description>
-<gates>
-<gate name="G$1" symbol="M_1R04" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-K-S" package="B4B-PH-K-S">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-KL" package="B4B-PH-K-S">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SM4-TB" package="B4B-PH-SM4-TB">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="testpad" urn="urn:adsk.eagle:library:385">
 <description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
 Cream on SMD OFF.&lt;br&gt;
@@ -14219,6 +14048,177 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="con-JST PH">
+<description>
+&lt;b&gt;JST Connectors&lt;/b&gt; - PH Series, 2.00mm pitch disconnectable crimp style connectors&lt;p&gt;
+
+&lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;
+USE AT YOUR OWN RISK!&lt;p&gt;
+
+&lt;author&gt;Author: kylie &lt;/author&gt;, 02/2017&lt;p&gt;
+
+&lt;a href="http://www.jst-mfg.com/product/detail_e.php?series=199"&gt;
+&lt;img src="http://www.jst-mfg.com/product/images/pict/ph.jpg"  &gt;&lt;/a&gt;&lt;p&gt;
+&lt;a href="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"&gt; Data sheet (PDF)&lt;/a&gt;&lt;p&gt;
+&lt;p&gt; similar to:&lt;p&gt;
+&lt;a href="https://www.hirose.com/product/en/products/DF3/"&gt; HIROSE DF3 series&lt;/a&gt;&lt;p&gt;
+Würth 6200xxxxx22 series
+&lt;a href="http://katalog.we-online.de/en/em/WTB_2_00_MALE_VERTICAL_SHROUDED_HEADER_6200XX11622?sid=331765e5c"&gt; vertical through-hole&lt;/a&gt;,  
+&lt;a href="http://katalog.we-online.de/en/em/WTB_2_00_MALE_HORIZONTAL_SHROUDED_HEADER_6200XX11722?sid=331765e5c"&gt; horizontal through-hole&lt;/a&gt;,
+&lt;a href="http://katalog.we-online.de/en/em/WTB_2_00_FEMALE_TERMINAL_HOUSING_6200XX113322?sid=331765e5cc"&gt; female terminal housing&lt;/a&gt;</description>
+<packages>
+<package name="B4B-PH-K-S">
+<description>
+
+&lt;b&gt;JST PH series header&lt;/b&gt; 2.00mm pitch disconnectable crimp style connectors, through-hole vertical (top entry type), 4 pins&lt;p&gt;
+
+</description>
+<pad name="1" x="3" y="0" drill="0.7" diameter="1.3" shape="square"/>
+<pad name="2" x="1" y="0" drill="0.7" diameter="1.3" shape="octagon"/>
+<pad name="3" x="-1" y="0" drill="0.7" diameter="1.3" shape="octagon"/>
+<pad name="4" x="-3" y="0" drill="0.7" diameter="1.3" shape="octagon"/>
+<text x="5.54" y="0" size="1.016" layer="25" rot="R270" align="bottom-center">&gt;NAME</text>
+<text x="3" y="1.27" size="1.016" layer="27" align="bottom-right">&gt;VALUE</text>
+<wire x1="-4.95" y1="2.8" x2="4.95" y2="2.8" width="0.1524" layer="21"/>
+<wire x1="4.95" y1="2.8" x2="4.95" y2="-1.7" width="0.1524" layer="21"/>
+<wire x1="4.95" y1="-1.7" x2="-4.95" y2="-1.7" width="0.1524" layer="21"/>
+<wire x1="-4.95" y1="-1.7" x2="-4.95" y2="2.8" width="0.1524" layer="21"/>
+<wire x1="-4.95" y1="2.8" x2="4.95" y2="2.8" width="0.1524" layer="51"/>
+<wire x1="4.95" y1="2.8" x2="4.95" y2="-1.7" width="0.1524" layer="51"/>
+<wire x1="4.95" y1="-1.7" x2="1.8" y2="-1.7" width="0.1524" layer="51"/>
+<wire x1="1.8" y1="-1.7" x2="-1.8" y2="-1.7" width="0.1524" layer="51"/>
+<wire x1="-1.8" y1="-1.7" x2="-4.95" y2="-1.7" width="0.1524" layer="51"/>
+<wire x1="-4.95" y1="-1.7" x2="-4.95" y2="2.8" width="0.1524" layer="51"/>
+<wire x1="-4.3" y1="2.4" x2="4.3" y2="2.4" width="0.1524" layer="51"/>
+<wire x1="-4.3" y1="2.4" x2="-4.3" y2="-1.1" width="0.1524" layer="51"/>
+<wire x1="-4.3" y1="-1.1" x2="-1.8" y2="-1.1" width="0.1524" layer="51"/>
+<wire x1="1.8" y1="-1.1" x2="4.3" y2="-1.1" width="0.1524" layer="51"/>
+<wire x1="4.3" y1="2.4" x2="4.3" y2="-1.1" width="0.1524" layer="51"/>
+<wire x1="1.8" y1="-1.1" x2="1.8" y2="-1.7" width="0.1524" layer="51"/>
+<wire x1="-1.8" y1="-1.1" x2="-1.8" y2="-1.7" width="0.1524" layer="51"/>
+<rectangle x1="2.75" y1="-0.25" x2="3.25" y2="0.25" layer="51"/>
+<rectangle x1="0.75" y1="-0.25" x2="1.25" y2="0.25" layer="51"/>
+<rectangle x1="-1.25" y1="-0.25" x2="-0.75" y2="0.25" layer="51"/>
+<rectangle x1="-3.25" y1="-0.25" x2="-2.75" y2="0.25" layer="51"/>
+<polygon width="0.1524" layer="51">
+<vertex x="3" y="-1.65"/>
+<vertex x="2.7" y="-1.15"/>
+<vertex x="3.3" y="-1.15"/>
+</polygon>
+</package>
+<package name="B4B-PH-SM4-TB">
+<description>
+
+&lt;b&gt;JST PH series header&lt;/b&gt; 2.00mm pitch disconnectable crimp style connectors, SMT vertical (top entry type), 4 pins&lt;p&gt;
+
+</description>
+<smd name="1" x="3" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="2" x="1" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="3" x="-1" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="4" x="-3" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="M1" x="5.4" y="-2.25" dx="1.6" dy="3" layer="1"/>
+<smd name="M2" x="-5.4" y="-2.25" dx="1.6" dy="3" layer="1"/>
+<text x="6.81" y="-2.54" size="1.016" layer="25" rot="R270" align="bottom-center">&gt;NAME</text>
+<text x="3" y="-1.905" size="1.016" layer="27" align="bottom-right">&gt;VALUE</text>
+<wire x1="-5.975" y1="0.25" x2="-3.75" y2="0.25" width="0.1524" layer="21"/>
+<wire x1="3.75" y1="0.25" x2="5.975" y2="0.25" width="0.1524" layer="21"/>
+<wire x1="5.975" y1="0.25" x2="5.975" y2="-0.5" width="0.1524" layer="21"/>
+<wire x1="5.975" y1="-4" x2="5.975" y2="-4.75" width="0.1524" layer="21"/>
+<wire x1="5.975" y1="-4.75" x2="-5.975" y2="-4.75" width="0.1524" layer="21"/>
+<wire x1="-5.975" y1="-4.75" x2="-5.975" y2="-4" width="0.1524" layer="21"/>
+<wire x1="-5.975" y1="-0.5" x2="-5.975" y2="0.25" width="0.1524" layer="21"/>
+<wire x1="-5.975" y1="0.25" x2="5.975" y2="0.25" width="0.1524" layer="51"/>
+<wire x1="5.975" y1="0.25" x2="5.975" y2="-4.75" width="0.1524" layer="51"/>
+<wire x1="5.975" y1="-4.75" x2="1.8" y2="-4.75" width="0.1524" layer="51"/>
+<wire x1="1.8" y1="-4.75" x2="-1.8" y2="-4.75" width="0.1524" layer="51"/>
+<wire x1="-1.8" y1="-4.75" x2="-5.975" y2="-4.75" width="0.1524" layer="51"/>
+<wire x1="-5.975" y1="-4.75" x2="-5.975" y2="0.25" width="0.1524" layer="51"/>
+<wire x1="-4.3" y1="-0.45" x2="4.3" y2="-0.45" width="0.1524" layer="51"/>
+<wire x1="-4.3" y1="-0.45" x2="-4.3" y2="-3.95" width="0.1524" layer="51"/>
+<wire x1="-4.3" y1="-3.95" x2="-1.8" y2="-3.95" width="0.1524" layer="51"/>
+<wire x1="1.8" y1="-3.95" x2="4.3" y2="-3.95" width="0.1524" layer="51"/>
+<wire x1="4.3" y1="-0.45" x2="4.3" y2="-3.95" width="0.1524" layer="51"/>
+<wire x1="1.8" y1="-3.95" x2="1.8" y2="-4.75" width="0.1524" layer="51"/>
+<wire x1="-1.8" y1="-3.95" x2="-1.8" y2="-4.75" width="0.1524" layer="51"/>
+<rectangle x1="2.75" y1="-3.1" x2="3.25" y2="-2.6" layer="51"/>
+<rectangle x1="2.75" y1="0.25" x2="3.25" y2="2.25" layer="51"/>
+<rectangle x1="0.75" y1="-3.1" x2="1.25" y2="-2.6" layer="51"/>
+<rectangle x1="0.75" y1="0.25" x2="1.25" y2="2.25" layer="51"/>
+<rectangle x1="-1.25" y1="-3.1" x2="-0.75" y2="-2.6" layer="51"/>
+<rectangle x1="-1.25" y1="0.25" x2="-0.75" y2="2.25" layer="51"/>
+<rectangle x1="-3.25" y1="-3.1" x2="-2.75" y2="-2.6" layer="51"/>
+<rectangle x1="-3.25" y1="0.25" x2="-2.75" y2="2.25" layer="51"/>
+<polygon width="0.1524" layer="51">
+<vertex x="3" y="-4.5"/>
+<vertex x="2.7" y="-4"/>
+<vertex x="3.3" y="-4"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="M_1R04">
+<wire x1="3.81" y1="-7.62" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<text x="-1.27" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B4B-PH" prefix="X">
+<description>
+&lt;b&gt;JST PH series header&lt;/b&gt; 2.00mm pitch disconnectable crimp style connectors, vertical (side entry type), 4 pins&lt;p&gt;
+</description>
+<gates>
+<gate name="G$1" symbol="M_1R04" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-K-S" package="B4B-PH-K-S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-KL" package="B4B-PH-K-S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SM4-TB" package="B4B-PH-SM4-TB">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14439,7 +14439,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="REICHELT" value="SMD-0805 3,30K"/>
 </part>
 <part name="P+8" library="supply1" deviceset="+3V3" device=""/>
-<part name="JP1" library="con-JST PH" deviceset="B4B-PH" device="-K-S"/>
+<part name="JP1" library="con-JST PH" deviceset="B4B-PH" device="-K-S" value="B4B-PH-K-S"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+3V3" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
@@ -14452,13 +14452,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
 <part name="PRGBTN" library="pinhead_dmx" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="P+9" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+12" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="TXD" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP12SQ" package3d_urn="urn:adsk.eagle:package:27964/1" value="TPTP12SQ"/>
 <part name="RXD" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP12R" package3d_urn="urn:adsk.eagle:package:27963/1" value="TPTP12R"/>
 <part name="GND" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP11SQ" package3d_urn="urn:adsk.eagle:package:27965/1" value="TPTP11SQ"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="REICHELT" value="X7R-G0805 100N"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -14894,9 +14902,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="P+8" gate="G$1" x="556.26" y="139.7" smashed="yes">
 <attribute name="VALUE" x="553.72" y="134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP1" gate="G$1" x="299.72" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="290.83" y="4.445" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="290.83" y="7.62" size="1.778" layer="96" rot="R180"/>
+<instance part="JP1" gate="G$1" x="299.72" y="10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="290.83" y="6.985" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="GND3" gate="1" x="304.8" y="2.54" smashed="yes">
 <attribute name="VALUE" x="302.26" y="0" size="1.778" layer="96"/>
@@ -14943,9 +14950,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND4" gate="1" x="523.24" y="124.46" smashed="yes">
 <attribute name="VALUE" x="520.7" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="P+9" gate="G$1" x="393.7" y="48.26" smashed="yes">
-<attribute name="VALUE" x="391.16" y="43.18" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="P+12" gate="G$1" x="485.14" y="55.88" smashed="yes">
 <attribute name="VALUE" x="482.6" y="50.8" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -14966,6 +14970,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </instance>
 <instance part="GND7" gate="1" x="472.44" y="119.38" smashed="yes">
 <attribute name="VALUE" x="469.9" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="398.78" y="40.64" smashed="yes" rot="MR270">
+<attribute name="REICHELT" x="398.78" y="40.64" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="NAME" x="398.399" y="39.116" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="403.479" y="39.116" size="1.778" layer="96" rot="MR270"/>
 </instance>
 </instances>
 <busses>
@@ -15121,6 +15130,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="411.48" y1="40.64" x2="408.94" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="40.64" x2="408.94" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="403.86" y1="40.64" x2="408.94" y2="40.64" width="0.1524" layer="91"/>
+<junction x="408.94" y="40.64"/>
 </segment>
 <segment>
 <wire x1="38.1" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
@@ -15129,8 +15141,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="304.8" y1="15.24" x2="304.8" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="304.8" y1="5.08" x2="304.8" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PRGBTN" gate="G$1" pin="1"/>
@@ -15397,6 +15409,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="358.14" y="53.34"/>
 </segment>
 <segment>
+<wire x1="38.1" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
+<label x="22.86" y="86.36" size="1.778" layer="95"/>
+<pinref part="X3" gate="-2" pin="S"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="G$1" pin="+3V3"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="NC_1"/>
+<wire x1="411.48" y1="43.18" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="396.24" y1="40.64" x2="393.7" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="40.64" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="VCC"/>
 <pinref part="P+7" gate="G$1" pin="+3V3"/>
 <wire x1="441.96" y1="48.26" x2="444.5" y2="48.26" width="0.1524" layer="91"/>
@@ -15410,22 +15436,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="441.96" y1="45.72" x2="444.5" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="444.5" y1="45.72" x2="444.5" y2="48.26" width="0.1524" layer="91"/>
 <junction x="444.5" y="48.26"/>
-</segment>
-<segment>
-<wire x1="38.1" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
-<label x="22.86" y="86.36" size="1.778" layer="95"/>
-<pinref part="X3" gate="-2" pin="S"/>
-</segment>
-<segment>
-<pinref part="P+3" gate="G$1" pin="+3V3"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="302.26" y1="17.78" x2="302.26" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="NC_1"/>
-<wire x1="411.48" y1="43.18" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="P+9" gate="G$1" pin="+3V3"/>
-<wire x1="393.7" y1="45.72" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
+<junction x="411.48" y="63.5"/>
+<wire x1="393.7" y1="63.5" x2="411.48" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="43.18" x2="393.7" y2="63.5" width="0.1524" layer="91"/>
+<junction x="393.7" y="43.18"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -15457,7 +15471,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="289.56" y="38.1" size="1.778" layer="95" rot="R270"/>
 <wire x1="292.1" y1="35.56" x2="297.18" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="4"/>
-<wire x1="297.18" y1="35.56" x2="297.18" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="35.56" x2="297.18" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -15476,7 +15490,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="304.8" y="38.1" size="1.778" layer="95" rot="R270"/>
 <wire x1="307.34" y1="35.56" x2="299.72" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="299.72" y1="35.56" x2="299.72" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="35.56" x2="299.72" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XTALIN" class="0">
