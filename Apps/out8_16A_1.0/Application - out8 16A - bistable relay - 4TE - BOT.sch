@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -14012,7 +14011,7 @@ Grid 5.08 mm&lt;p&gt;
 <text x="-2.54" y="38.1" size="1.778" layer="91">+ EIB</text>
 <text x="-2.54" y="12.7" size="1.778" layer="91">- EIB</text>
 <text x="-5.08" y="25.4" size="1.778" layer="91">SMAJ40CA</text>
-<text x="237.49" y="-17.78" size="2.54" layer="100">1.0</text>
+<text x="237.49" y="-17.78" size="2.54" layer="100">2.0</text>
 <text x="149.86" y="5.08" size="3.81" layer="100">SB-out8 16A Applikation Board</text>
 <text x="149.86" y="0" size="2.54" layer="100">www.selfbus.org</text>
 <text x="185.42" y="-15.24" size="2.54" layer="100">Relais 8 x 230V / 16A </text>
