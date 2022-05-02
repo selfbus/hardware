@@ -559,55 +559,74 @@ DIN A4, landscape with extra doc field</description>
 <text x="-11.684" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-9.525" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="SOP18">
-<wire x1="5.969" y1="2.2733" x2="-4.699" y2="2.2733" width="0.1524" layer="21"/>
-<wire x1="5.969" y1="-3.2258" x2="6.35" y2="-2.8448" width="0.1524" layer="21" curve="90"/>
-<wire x1="-5.08" y1="1.8923" x2="-4.699" y2="2.2733" width="0.1524" layer="21" curve="-90"/>
-<wire x1="5.969" y1="2.2733" x2="6.35" y2="1.8923" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-5.08" y1="-2.8448" x2="-4.699" y2="-3.2258" width="0.1524" layer="21" curve="90"/>
-<wire x1="-4.699" y1="-3.2258" x2="5.969" y2="-3.2258" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="-2.8448" x2="6.35" y2="1.8923" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.8923" x2="-5.08" y2="-2.8448" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-0.762" x2="-5.08" y2="-1.778" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-5.08" y1="-2.8702" x2="6.35" y2="-2.8702" width="0.0508" layer="21"/>
-<smd name="1" x="-4.445" y="-4.3434" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="18" x="-4.445" y="3.3909" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="2" x="-3.175" y="-4.3434" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="3" x="-1.905" y="-4.3434" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="17" x="-3.175" y="3.3909" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="16" x="-1.905" y="3.3909" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="4" x="-0.635" y="-4.3434" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="15" x="-0.635" y="3.3909" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="5" x="0.635" y="-4.3434" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="14" x="0.635" y="3.3909" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="6" x="1.905" y="-4.3434" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="7" x="3.175" y="-4.3434" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="13" x="1.905" y="3.3909" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="12" x="3.175" y="3.3909" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="8" x="4.445" y="-4.3434" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="11" x="4.445" y="3.3909" dx="0.6604" dy="2.032" layer="1"/>
-<text x="-4.064" y="-1.905" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-5.461" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<rectangle x1="-0.889" y1="2.2733" x2="-0.381" y2="3.4163" layer="51"/>
-<rectangle x1="-4.699" y1="-4.3688" x2="-4.191" y2="-3.2258" layer="51"/>
-<rectangle x1="-3.429" y1="-4.3688" x2="-2.921" y2="-3.2258" layer="51"/>
-<rectangle x1="-2.159" y1="-4.3434" x2="-1.651" y2="-3.2004" layer="51"/>
-<rectangle x1="-0.889" y1="-4.3688" x2="-0.381" y2="-3.2258" layer="51"/>
-<rectangle x1="-2.159" y1="2.2733" x2="-1.651" y2="3.4163" layer="51"/>
-<rectangle x1="-3.429" y1="2.2733" x2="-2.921" y2="3.4163" layer="51"/>
-<rectangle x1="-4.699" y1="2.2733" x2="-4.191" y2="3.4163" layer="51"/>
-<rectangle x1="0.381" y1="-4.3688" x2="0.889" y2="-3.2258" layer="51"/>
-<rectangle x1="1.651" y1="-4.3688" x2="2.159" y2="-3.2258" layer="51"/>
-<rectangle x1="2.921" y1="-4.3688" x2="3.429" y2="-3.2258" layer="51"/>
-<rectangle x1="4.191" y1="-4.3688" x2="4.699" y2="-3.2258" layer="51"/>
-<rectangle x1="0.381" y1="2.2733" x2="0.889" y2="3.4163" layer="51"/>
-<rectangle x1="1.651" y1="2.2733" x2="2.159" y2="3.4163" layer="51"/>
-<rectangle x1="2.921" y1="2.2733" x2="3.429" y2="3.4163" layer="51"/>
-<rectangle x1="4.191" y1="2.2733" x2="4.699" y2="3.4163" layer="51"/>
-<rectangle x1="5.461" y1="2.2733" x2="5.969" y2="3.4163" layer="51"/>
-<smd name="9" x="5.715" y="-4.3434" dx="0.6604" dy="2.032" layer="1"/>
-<smd name="10" x="5.715" y="3.3909" dx="0.6604" dy="2.032" layer="1"/>
-<rectangle x1="5.461" y1="-4.3688" x2="5.969" y2="-3.2258" layer="51"/>
+<package name="SO18W">
+<description>&lt;b&gt;Small Outline Package&lt;/b&gt; wide</description>
+<wire x1="5.4864" y1="3.7338" x2="-5.4864" y2="3.7338" width="0.1524" layer="21"/>
+<wire x1="5.4864" y1="-3.7338" x2="5.8674" y2="-3.3528" width="0.1524" layer="21" curve="90"/>
+<wire x1="-5.8674" y1="3.3528" x2="-5.4864" y2="3.7338" width="0.1524" layer="21" curve="-90"/>
+<wire x1="5.4864" y1="3.7338" x2="5.8674" y2="3.3528" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-5.8674" y1="-3.3528" x2="-5.4864" y2="-3.7338" width="0.1524" layer="21" curve="90"/>
+<wire x1="-5.4864" y1="-3.7338" x2="5.4864" y2="-3.7338" width="0.1524" layer="21"/>
+<wire x1="5.8674" y1="-3.3528" x2="5.8674" y2="3.3528" width="0.1524" layer="21"/>
+<wire x1="-5.8674" y1="3.3528" x2="-5.8674" y2="-3.3528" width="0.1524" layer="21"/>
+<wire x1="-5.842" y1="-3.3782" x2="5.842" y2="-3.3782" width="0.0508" layer="21"/>
+<wire x1="-5.8674" y1="1.27" x2="-5.8674" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
+<smd name="1" x="-5.08" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-3.81" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="-2.54" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="-1.27" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="0" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="1.27" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="2.54" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="8" x="3.81" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="11" x="3.81" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="12" x="2.54" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="13" x="1.27" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="14" x="0" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="15" x="-1.27" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="16" x="-2.54" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="17" x="-3.81" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="18" x="-5.08" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="9" x="5.08" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="10" x="5.08" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<text x="-4.191" y="-0.508" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-6.223" y="-3.556" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-5.334" y1="-3.8608" x2="-4.826" y2="-3.7338" layer="21"/>
+<rectangle x1="-5.334" y1="-5.334" x2="-4.826" y2="-3.8608" layer="51"/>
+<rectangle x1="-4.064" y1="-3.8608" x2="-3.556" y2="-3.7338" layer="21"/>
+<rectangle x1="-4.064" y1="-5.334" x2="-3.556" y2="-3.8608" layer="51"/>
+<rectangle x1="-2.794" y1="-3.8608" x2="-2.286" y2="-3.7338" layer="21"/>
+<rectangle x1="-2.794" y1="-5.334" x2="-2.286" y2="-3.8608" layer="51"/>
+<rectangle x1="-1.524" y1="-3.8608" x2="-1.016" y2="-3.7338" layer="21"/>
+<rectangle x1="-1.524" y1="-5.334" x2="-1.016" y2="-3.8608" layer="51"/>
+<rectangle x1="-0.254" y1="-5.334" x2="0.254" y2="-3.8608" layer="51"/>
+<rectangle x1="-0.254" y1="-3.8608" x2="0.254" y2="-3.7338" layer="21"/>
+<rectangle x1="1.016" y1="-3.8608" x2="1.524" y2="-3.7338" layer="21"/>
+<rectangle x1="1.016" y1="-5.334" x2="1.524" y2="-3.8608" layer="51"/>
+<rectangle x1="2.286" y1="-3.8608" x2="2.794" y2="-3.7338" layer="21"/>
+<rectangle x1="2.286" y1="-5.334" x2="2.794" y2="-3.8608" layer="51"/>
+<rectangle x1="3.556" y1="-3.8608" x2="4.064" y2="-3.7338" layer="21"/>
+<rectangle x1="3.556" y1="-5.334" x2="4.064" y2="-3.8608" layer="51"/>
+<rectangle x1="-5.334" y1="3.8608" x2="-4.826" y2="5.334" layer="51"/>
+<rectangle x1="-5.334" y1="3.7338" x2="-4.826" y2="3.8608" layer="21"/>
+<rectangle x1="-4.064" y1="3.7338" x2="-3.556" y2="3.8608" layer="21"/>
+<rectangle x1="-4.064" y1="3.8608" x2="-3.556" y2="5.334" layer="51"/>
+<rectangle x1="-2.794" y1="3.7338" x2="-2.286" y2="3.8608" layer="21"/>
+<rectangle x1="-2.794" y1="3.8608" x2="-2.286" y2="5.334" layer="51"/>
+<rectangle x1="-1.524" y1="3.7338" x2="-1.016" y2="3.8608" layer="21"/>
+<rectangle x1="-1.524" y1="3.8608" x2="-1.016" y2="5.334" layer="51"/>
+<rectangle x1="-0.254" y1="3.7338" x2="0.254" y2="3.8608" layer="21"/>
+<rectangle x1="-0.254" y1="3.8608" x2="0.254" y2="5.334" layer="51"/>
+<rectangle x1="1.016" y1="3.7338" x2="1.524" y2="3.8608" layer="21"/>
+<rectangle x1="1.016" y1="3.8608" x2="1.524" y2="5.334" layer="51"/>
+<rectangle x1="2.286" y1="3.7338" x2="2.794" y2="3.8608" layer="21"/>
+<rectangle x1="2.286" y1="3.8608" x2="2.794" y2="5.334" layer="51"/>
+<rectangle x1="3.556" y1="3.7338" x2="4.064" y2="3.8608" layer="21"/>
+<rectangle x1="3.556" y1="3.8608" x2="4.064" y2="5.334" layer="51"/>
+<rectangle x1="4.826" y1="3.7338" x2="5.334" y2="3.8608" layer="21"/>
+<rectangle x1="4.826" y1="3.8608" x2="5.334" y2="5.334" layer="51"/>
+<rectangle x1="4.826" y1="-3.8608" x2="5.334" y2="-3.7338" layer="21"/>
+<rectangle x1="4.826" y1="-5.334" x2="5.334" y2="-3.8608" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -670,7 +689,7 @@ DIN A4, landscape with extra doc field</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="ADW" package="SOP18">
+<device name="SOP18" package="SO18W">
 <connects>
 <connect gate="G$1" pin="CD+" pad="10"/>
 <connect gate="G$1" pin="GND" pad="9"/>
@@ -13970,9 +13989,9 @@ Grid 5.08 mm&lt;p&gt;
 <part name="D1" library="semicon-smd-ipc" deviceset="D-" device="SMB"/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
-<part name="IC1" library="uln-udn" deviceset="ULN2803A" device="ADW" value="ULN2803"/>
+<part name="IC1" library="uln-udn" deviceset="ULN2803A" device="SOP18" value="ULN2803"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="IC2" library="uln-udn" deviceset="ULN2803A" device="ADW" value="ULN2803"/>
+<part name="IC2" library="uln-udn" deviceset="ULN2803A" device="SOP18" value="ULN2803"/>
 <part name="K2" library="sb-relay" deviceset="HFE20-1-024-1HD" device="504" value="HFE20-1-024-1HD504"/>
 <part name="K1" library="sb-relay" deviceset="HFE20-1-024-1HD" device="504" value="HFE20-1-024-1HD504"/>
 <part name="K4" library="sb-relay" deviceset="HFE20-1-024-1HD" device="504" value="HFE20-1-024-1HD504"/>
@@ -14011,21 +14030,19 @@ Grid 5.08 mm&lt;p&gt;
 <text x="-2.54" y="38.1" size="1.778" layer="91">+ EIB</text>
 <text x="-2.54" y="12.7" size="1.778" layer="91">- EIB</text>
 <text x="-5.08" y="25.4" size="1.778" layer="91">SMAJ40CA</text>
-<text x="237.49" y="-17.78" size="2.54" layer="100">2.0</text>
+<text x="237.49" y="-17.78" size="2.54" layer="100">2.1</text>
 <text x="149.86" y="5.08" size="3.81" layer="100">SB-out8 16A Applikation Board</text>
 <text x="149.86" y="0" size="2.54" layer="100">www.selfbus.org</text>
 <text x="185.42" y="-15.24" size="2.54" layer="100">Relais 8 x 230V / 16A </text>
-<text x="0" y="144.78" size="1.778" layer="94">LPC111x I2C Pins are always Open Drain.
+<text x="2.54" y="144.78" size="1.778" layer="94">LPC111x I2C Pins are always Open Drain.
 Don't omit R2!</text>
-<wire x1="5.08" y1="127" x2="10.16" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="10.16" y1="132.08" x2="10.16" y2="142.24" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="10.16" y1="142.24" x2="-2.54" y2="142.24" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="10.16" y1="142.24" x2="60.96" y2="142.24" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="60.96" y1="142.24" x2="60.96" y2="152.4" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="60.96" y1="152.4" x2="0" y2="152.4" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="0" y1="152.4" x2="-2.54" y2="152.4" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-2.54" y1="152.4" x2="-2.54" y2="144.78" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-2.54" y1="144.78" x2="-2.54" y2="142.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="5.08" y1="127" x2="10.16" y2="129.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="10.16" y1="129.54" x2="10.16" y2="142.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="142.24" x2="63.5" y2="142.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="63.5" y1="142.24" x2="63.5" y2="152.4" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="63.5" y1="152.4" x2="0" y2="152.4" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0" y1="152.4" x2="0" y2="142.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0" y1="142.24" x2="2.54" y2="142.24" width="0.1524" layer="94" style="shortdash"/>
 </plain>
 <instances>
 <instance part="VDD1" gate="G$1" x="25.4" y="43.18" smashed="yes">
