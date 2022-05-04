@@ -14149,7 +14149,6 @@ Grid 5.08 mm&lt;p&gt;
 <part name="SJ1" library="jumper" deviceset="SJ" device=""/>
 <part name="VDD5" library="supply1" deviceset="VDD" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="rcl" deviceset="CPOL-EU" device="E5-13" value="optional RM5,0"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+12V" device="" value="EIB+"/>
 <part name="P+2" library="supply1" deviceset="+12V" device="" value="EIB+"/>
@@ -14161,12 +14160,14 @@ Grid 5.08 mm&lt;p&gt;
 <text x="167.64" y="30.48" size="3.81" layer="100">out8 16A Application Board</text>
 <text x="167.64" y="25.4" size="2.54" layer="100">www.selfbus.org</text>
 <text x="203.2" y="10.16" size="2.54" layer="100">Relais 8 x 230V / 16A </text>
-<text x="165.1" y="43.18" size="2.1844" layer="97">8-fach Binärausgang 230V 16A (ARM) Version Jung 2138.10:
+<text x="165.1" y="40.64" size="2.1844" layer="97">8-fach Binärausgang 230V 16A (ARM) Version Jung 2138.10:
 -R1 bestücken
 -SJ1 nicht brücken
+-für C1 220µF/63V verwenden
+-C2 nicht bestücken
 -24V Relais (HFE20-1/24-XXXD-L2...) verwenden
 
-8-fach Binärausgang 230V 16A (ARM) Version B  ABB SA/S8.16.2.1:
+8-fach Binärausgang 230V 16A (ARM) gepuffert  ABB SA/S8.16.2.1:
 -R1 nicht bestücken
 -SJ1 brücken
 -12V Relais (HFE20-1/12-XXXD-L2) verwenden</text>
@@ -14249,13 +14250,9 @@ Don't omit R2!</text>
 <instance part="SJ1" gate="1" x="93.98" y="152.4"/>
 <instance part="VDD5" gate="G$1" x="38.1" y="86.36"/>
 <instance part="GND6" gate="1" x="38.1" y="68.58"/>
-<instance part="C5" gate="G$1" x="66.04" y="25.4" smashed="yes">
-<attribute name="NAME" x="67.183" y="25.8826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="73.1774" y="16.383" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND7" gate="1" x="76.2" y="154.94"/>
 <instance part="P+1" gate="1" x="22.86" y="172.72" smashed="yes">
-<attribute name="VALUE" x="20.32" y="167.64" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="20.32" y="170.18" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+2" gate="1" x="33.02" y="40.64" smashed="yes">
 <attribute name="VALUE" x="30.48" y="35.56" size="1.778" layer="96" rot="R90"/>
@@ -14312,10 +14309,6 @@ Don't omit R2!</text>
 <pinref part="C2" gate="G$1" pin="-"/>
 <wire x1="40.64" y1="15.24" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="15.24" x2="53.34" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="-"/>
-<wire x1="66.04" y1="20.32" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="15.24" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
-<junction x="53.34" y="15.24"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
@@ -14370,10 +14363,6 @@ Don't omit R2!</text>
 <wire x1="53.34" y1="27.94" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="33.02" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
 <junction x="40.64" y="33.02"/>
-<pinref part="C5" gate="G$1" pin="+"/>
-<wire x1="53.34" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="33.02" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
-<junction x="53.34" y="33.02"/>
 </segment>
 <segment>
 <wire x1="193.04" y1="144.78" x2="175.26" y2="144.78" width="0.1524" layer="91"/>
@@ -14397,8 +14386,7 @@ Don't omit R2!</text>
 <pinref part="K8" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="83.82" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="83.82" x2="63.5" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="K7" gate="G$1" pin="-"/>
 </segment>
 <segment>
