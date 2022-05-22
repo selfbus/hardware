@@ -17340,7 +17340,7 @@ DIN A3, landscape with extra doc field</description>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="red"/>
 <part name="SV2" library="con-harting-ml" deviceset="ML26" device="" value="A"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="SV1" library="pinhead" deviceset="PINHD-2X13" device="SMD"/>
+<part name="SV1" library="pinhead" deviceset="PINHD-2X13" device="SMD" value="B"/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -17406,7 +17406,7 @@ DIN A3, landscape with extra doc field</description>
 <text x="96.52" y="114.3" size="1.778" layer="104">PIO0.8 IO6</text>
 <text x="78.74" y="114.3" size="1.778" layer="104" rot="MR0">PIO0.2 IO5</text>
 <text x="73.66" y="137.16" size="1.778" layer="95" align="top-left">To ARM top controller board</text>
-<text x="271.78" y="119.38" size="1.778" layer="95" align="top-left">To relay base board</text>
+<text x="271.78" y="119.38" size="1.778" layer="95" align="top-left">To relay application board</text>
 <text x="375.412" y="6.096" size="3.81" layer="97">V1.1</text>
 <text x="353.314" y="29.972" size="5.08" layer="97">selfbus.org</text>
 <text x="289.56" y="27.94" size="1.778" layer="97">Addon for:
@@ -17416,9 +17416,13 @@ Application - out8 16A - bistable relay - 4TE - BOT</text>
 <instance part="S1" gate="1" x="210.82" y="25.4" rot="R270"/>
 <instance part="GND12" gate="1" x="215.9" y="20.32"/>
 <instance part="LED1" gate="G$1" x="195.58" y="25.4" rot="R90"/>
-<instance part="SV2" gate="1" x="281.94" y="96.52" rot="R180"/>
+<instance part="SV2" gate="1" x="281.94" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="278.13" y="115.062" size="1.778" layer="95"/>
+</instance>
 <instance part="GND13" gate="1" x="312.42" y="99.06"/>
-<instance part="SV1" gate="A" x="86.36" y="114.3"/>
+<instance part="SV1" gate="A" x="86.36" y="114.3" smashed="yes">
+<attribute name="NAME" x="80.01" y="132.715" size="1.778" layer="95"/>
+</instance>
 <instance part="P+9" gate="VCC" x="60.96" y="134.62"/>
 <instance part="GND11" gate="1" x="73.66" y="99.06"/>
 <instance part="GND1" gate="1" x="101.6" y="119.38"/>
@@ -17488,7 +17492,7 @@ Application - out8 16A - bistable relay - 4TE - BOT</text>
 <instance part="FRAME2" gate="G$2" x="287.02" y="0"/>
 </instances>
 <busses>
-<bus name="B$2">
+<bus name="ON__[1..8],OFF_[1..8]">
 <segment>
 <wire x1="251.46" y1="83.82" x2="251.46" y2="142.24" width="0.762" layer="92"/>
 <wire x1="251.46" y1="142.24" x2="254" y2="144.78" width="0.762" layer="92"/>
@@ -17500,7 +17504,7 @@ Application - out8 16A - bistable relay - 4TE - BOT</text>
 <wire x1="259.08" y1="142.24" x2="256.54" y2="144.78" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="B$1">
+<bus name="/SSEL,ADC_URAIL,KNX_DC,MISO,MOSI,PROG,RELPWM,SCK">
 <segment>
 <wire x1="160.02" y1="45.72" x2="160.02" y2="236.22" width="0.762" layer="92"/>
 <wire x1="160.02" y1="236.22" x2="157.48" y2="238.76" width="0.762" layer="92"/>
@@ -18185,15 +18189,7 @@ Application - out8 16A - bistable relay - 4TE - BOT</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,254,109.22,+3V3,VCC_3V3,,,,"/>
-<approved hash="102,1,91.44,139.7,+3V3,VCC_3V3,,,,"/>
-<approved hash="102,1,106.68,139.7,+3V3,VCC_3V3,,,,"/>
-<approved hash="102,1,226.06,20.32,+3V3,VCC_3V3,,,,"/>
-<approved hash="104,1,50.8,15.24,Q4,VCC,VCC_3V3,,,"/>
-<approved hash="104,1,208.28,63.5,IC1,VDD,VCC_3V3,,,"/>
-<approved hash="104,1,208.28,50.8,IC1,VSS(IO),GND,,,"/>
-<approved hash="104,1,208.28,55.88,IC1,VSS,GND,,,"/>
-<approved hash="104,1,208.28,66.04,IC1,VDD,VCC_3V3,,,"/>
+<approved hash="115,1,194.206,131.976,FRAME2,,,,,"/>
 </errors>
 </schematic>
 </drawing>

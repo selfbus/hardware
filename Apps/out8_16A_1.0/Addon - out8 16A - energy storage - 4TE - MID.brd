@@ -1028,9 +1028,8 @@ Covered vias can be set in Masks (Limit).
 <attribute name="OC_FARNELL" value="unknown" x="55.626" y="24.834" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="55.626" y="24.834" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="SV1" library="pinhead" package="2X13SMD" value="" x="32.512" y="29.152" smashed="yes" rot="R90">
+<element name="SV1" library="pinhead" package="2X13SMD" value="B" x="32.512" y="29.152" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.242" y="10.991" size="1.016" layer="25" ratio="10"/>
-<attribute name="VALUE" x="38.227" y="12.642" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="Q1" library="transistor-pnp" package="SOT223" value="BCP52" x="15.494" y="22.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="14" y="27.45" size="1.016" layer="25"/>
