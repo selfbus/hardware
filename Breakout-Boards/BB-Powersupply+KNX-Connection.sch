@@ -21504,8 +21504,6 @@ nominal inductance, magnetically screened</description>
 <part name="D3" library="microbuilder" deviceset="DIODE" device="SOD-123" value="1N4148">
 <attribute name="REICHELT" value="1N 4148 SMD"/>
 </part>
-<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="VSplit2"/>
-<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="VSplit1"/>
 <part name="U$1" library="Connector_for_Selfbus-Projects" deviceset="WAGO-243-211" device=""/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="24R  1210/0.5W">
 <spice>
@@ -21556,10 +21554,10 @@ nominal inductance, magnetically screened</description>
 <attribute name="NAME" x="118.11" y="263.906" size="1.778" layer="95"/>
 <attribute name="VALUE" x="125.857" y="259.588" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C100" gate="G$1" x="30.48" y="243.84" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="30.48" y="243.84" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="28.956" y="243.459" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="28.956" y="248.539" size="1.778" layer="96" rot="R180"/>
+<instance part="C100" gate="G$1" x="40.64" y="243.84" smashed="yes" rot="R180">
+<attribute name="REICHELT" x="40.64" y="243.84" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="39.116" y="243.459" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="39.116" y="248.539" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C103" gate="G$1" x="134.62" y="248.92" smashed="yes" rot="MR0">
 <attribute name="REICHELT" x="134.62" y="248.92" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -21770,14 +21768,6 @@ nominal inductance, magnetically screened</description>
 <attribute name="NAME" x="40.64" y="178.2826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="40.64" y="175.4886" size="1.778" layer="96"/>
 </instance>
-<instance part="R21" gate="G$1" x="40.64" y="241.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.1386" y="245.11" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="37.338" y="245.11" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="R22" gate="G$1" x="40.64" y="254" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.1386" y="257.81" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="37.338" y="257.81" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="U$1" gate="G$1" x="22.86" y="137.16" smashed="yes" rot="MR0">
 <attribute name="NAME" x="8.636" y="133.477" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="8.89" y="129.54" size="1.778" layer="96" rot="MR180"/>
@@ -21829,12 +21819,8 @@ nominal inductance, magnetically screened</description>
 <wire x1="81.28" y1="236.22" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
 <junction x="83.82" y="236.22"/>
 <junction x="83.82" y="228.6"/>
-<pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="236.22" x2="40.64" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="C100" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="241.3" x2="30.48" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="228.6" x2="30.48" y2="228.6" width="0.1524" layer="91"/>
-<junction x="40.64" y="228.6"/>
+<wire x1="40.64" y1="241.3" x2="40.64" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="D100" gate="1" pin="A"/>
 <wire x1="106.68" y1="241.3" x2="106.68" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="C104" gate="G$1" pin="2"/>
@@ -22141,16 +22127,17 @@ nominal inductance, magnetically screened</description>
 </segment>
 <segment>
 <pinref part="IC100" gate="G$1" pin="IN"/>
-<wire x1="40.64" y1="261.62" x2="71.12" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="259.08" x2="40.64" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="261.62" x2="68.58" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="261.62" x2="71.12" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="261.62" x2="40.64" y2="261.62" width="0.1524" layer="91"/>
 <junction x="40.64" y="261.62"/>
-<wire x1="22.86" y1="261.62" x2="30.48" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="261.62" x2="40.64" y2="261.62" width="0.1524" layer="91"/>
-<junction x="30.48" y="261.62"/>
 <pinref part="C100" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="248.92" x2="30.48" y2="261.62" width="0.1524" layer="91"/>
-<label x="15.24" y="261.62" size="1.778" layer="95"/>
+<wire x1="40.64" y1="248.92" x2="40.64" y2="261.62" width="0.1524" layer="91"/>
+<label x="25.4" y="261.62" size="1.778" layer="95"/>
+<pinref part="IC100" gate="G$1" pin="EN"/>
+<wire x1="71.12" y1="256.54" x2="68.58" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="256.54" x2="68.58" y2="261.62" width="0.1524" layer="91"/>
+<junction x="68.58" y="261.62"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -22202,18 +22189,6 @@ nominal inductance, magnetically screened</description>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="40.64" y1="177.8" x2="53.34" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="IC100" gate="G$1" pin="EN"/>
-<pinref part="R22" gate="G$1" pin="2"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="246.38" x2="40.64" y2="248.92" width="0.1524" layer="91"/>
-<junction x="40.64" y="248.92"/>
-<wire x1="40.64" y1="248.92" x2="48.26" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="248.92" x2="48.26" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="256.54" x2="71.12" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">

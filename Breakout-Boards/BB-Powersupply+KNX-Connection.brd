@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,8 +46,8 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1995,12 +1995,12 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <attribute name="SPICEPREFIX" value="C" x="25.57" y="5.199" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="26.35" y="6.041" size="0.6" layer="27" rot="R180"/>
 </element>
-<element name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k4" x="25.25" y="11.36725" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.42" y="12.56775" size="0.6" layer="25" rot="R270"/>
-<attribute name="POPULARITY" value="86" x="25.25" y="11.36725" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REICHELT" value="SMD 1/4W 2,4K" x="22.71" y="-35.62275" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="25.25" y="11.36725" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="24.51" y="12.41775" size="0.6" layer="27" rot="R270"/>
+<element name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k4" x="23.2" y="11.51725" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.37" y="12.71775" size="0.6" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="86" x="23.2" y="11.51725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="REICHELT" value="SMD 1/4W 2,4K" x="20.66" y="-35.47275" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="23.2" y="11.51725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="22.46" y="12.56775" size="0.6" layer="27" rot="R270"/>
 </element>
 <element name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="680R" x="27.37" y="8.527" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.45" y="9.758" size="0.6" layer="25" rot="R270"/>
@@ -2009,12 +2009,11 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <attribute name="SPICEPREFIX" value="R" x="27.37" y="8.527" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="26.64" y="9.658" size="0.6" layer="27" rot="R270"/>
 </element>
-<element name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="270n" x="27.369" y="12.61725" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.551" y="13.95275" size="0.6" layer="25" rot="R270"/>
-<attribute name="POPULARITY" value="88" x="27.369" y="12.61725" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="REICHELT" value="Y5R-G0603 220N" x="31.179" y="-6.43275" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="27.369" y="12.61725" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="26.741" y="13.95275" size="0.6" layer="27" rot="R270"/>
+<element name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="270n" x="25.269" y="11.51725" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="88" x="25.269" y="11.51725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="REICHELT" value="Y5R-G0603 220N" x="29.079" y="-7.53275" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="25.269" y="11.51725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="24.641" y="12.85275" size="0.6" layer="27" rot="R270"/>
 </element>
 <element name="D100" library="bt_diode" package="SOD123FL" value="MBRS1100" x="19.9887" y="6.51" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.2387" y="5.344" size="0.6" layer="25" rot="R180" align="bottom-center"/>
@@ -2223,18 +2222,6 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <attribute name="REICHELT" value="1N 4148 SMD" x="8.969" y="19.45" size="1.016" layer="27" display="off"/>
 <attribute name="VALUE" x="7.869" y="17.9" size="0.6" layer="27"/>
 </element>
-<element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="VSplit2" x="23.15" y="11.38275" smashed="yes" rot="R90">
-<attribute name="NAME" x="23.32" y="12.93325" size="0.6" layer="25" rot="R270"/>
-<attribute name="POPULARITY" value="86" x="23.15" y="11.38275" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="23.15" y="11.38275" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="22.56" y="12.88325" size="0.6" layer="27" rot="R270"/>
-</element>
-<element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="VSplit1" x="20.06725" y="10.75" smashed="yes">
-<attribute name="NAME" x="21.16775" y="10.53" size="0.6" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="86" x="20.06725" y="10.75" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="20.06725" y="10.75" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="21.11775" y="11.49" size="0.6" layer="27" rot="R180"/>
-</element>
 <element name="U$1" library="Connector_for_Selfbus-Projects" package="WAGO-243-211" value="WAGO-243-211" x="24.9" y="20.55" smashed="yes">
 <attribute name="NAME" x="25.25" y="21.6" size="0.6" layer="25"/>
 <attribute name="VALUE" x="23.4" y="19.162" size="0.6" layer="27"/>
@@ -2282,7 +2269,6 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <contactref element="T1" pad="C"/>
 <contactref element="C6" pad="1"/>
 <contactref element="D1" pad="A"/>
-<contactref element="R21" pad="2"/>
 <polygon width="0.0762" layer="1" rank="3">
 <vertex x="30" y="25"/>
 <vertex x="1.5" y="25"/>
@@ -2387,24 +2373,9 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <contactref element="C101" pad="1"/>
 <contactref element="R102" pad="2"/>
 <contactref element="R101" pad="1"/>
-<polygon width="0.0762" layer="1" thermals="no">
-<vertex x="26.6" y="11.7"/>
-<vertex x="26" y="11.1"/>
-<vertex x="25.95" y="11.05"/>
-<vertex x="24.5" y="11.05"/>
-<vertex x="24.5" y="9.8"/>
-<vertex x="24.5" y="9.65"/>
-<vertex x="25.1" y="9.05"/>
-<vertex x="25.15" y="9"/>
-<vertex x="25.15" y="8.45"/>
-<vertex x="26" y="8.45"/>
-<vertex x="26.4" y="8.85"/>
-<vertex x="26.65" y="8.85"/>
-<vertex x="28.1" y="8.85"/>
-<vertex x="28.1" y="10.1"/>
-<vertex x="28.1" y="12.3"/>
-<vertex x="26.6" y="12.3"/>
-</polygon>
+<wire x1="25.269" y1="10.56725" x2="25.58" y2="8.719" width="0" layer="19" extent="1-1"/>
+<wire x1="27.37" y1="9.477" x2="25.58" y2="8.719" width="0" layer="19" extent="1-1"/>
+<wire x1="23.2" y1="10.56725" x2="25.269" y2="10.56725" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R10" pad="1"/>
@@ -2555,21 +2526,16 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <contactref element="C1" pad="+"/>
 <contactref element="IC100" pad="5"/>
 <contactref element="C100" pad="2"/>
-<contactref element="R22" pad="1"/>
 <contactref element="D6" pad="C"/>
-<wire x1="19.16725" y1="10.8" x2="19.11725" y2="10.75" width="0.6096" layer="1"/>
 <contactref element="L1" pad="1"/>
 <wire x1="5.7" y1="15.35" x2="5.661525" y2="15.44" width="0.6096" layer="1"/>
 <wire x1="5.661525" y1="15.44" x2="3.75" y2="15.44" width="0.6096" layer="1"/>
 <wire x1="3.75" y1="15.44" x2="2.45" y2="14.14" width="0.6096" layer="1"/>
 <contactref element="D4" pad="C"/>
-<wire x1="23.28" y1="7.769" x2="21.67" y2="7.769" width="0.6096" layer="1"/>
-<wire x1="20.859" y1="8.58" x2="21.67" y2="7.769" width="0.6096" layer="1"/>
+<wire x1="23.28" y1="7.769" x2="22.42" y2="7.769" width="0.6096" layer="1"/>
+<wire x1="22.42" y1="7.769" x2="21.609" y2="8.58" width="0.6096" layer="1"/>
+<wire x1="20.859" y1="8.58" x2="21.609" y2="8.58" width="0.6096" layer="1"/>
 <wire x1="5.7" y1="15.35" x2="5.978109375" y2="15.071890625" width="0.6096" layer="1"/>
-<wire x1="13.484" y1="10.939" x2="14.384" y2="10.039" width="0.6096" layer="1"/>
-<wire x1="19.11725" y1="10.75" x2="17.11725" y2="10.75" width="0.6096" layer="1"/>
-<wire x1="17.11725" y1="10.75" x2="16.40625" y2="10.039" width="0.6096" layer="1"/>
-<wire x1="16.40625" y1="10.039" x2="14.384" y2="10.039" width="0.6096" layer="1"/>
 <wire x1="13.034" y1="12.316" x2="13.034" y2="11.389" width="0.6096" layer="1"/>
 <wire x1="10.35" y1="12.2" x2="13.55" y2="12.2" width="0.6096" layer="1"/>
 <wire x1="13.55" y1="12.2" x2="13.55" y2="11.005" width="0.6096" layer="1"/>
@@ -2580,13 +2546,24 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <wire x1="9.3" y1="13.25" x2="10.35" y2="12.2" width="0.6096" layer="1"/>
 <wire x1="13.484" y1="10.939" x2="13.484" y2="11.734" width="0.6096" layer="1"/>
 <wire x1="13.484" y1="11.734" x2="15.8" y2="14.05" width="0.6096" layer="1"/>
-<wire x1="19.11725" y1="10.75" x2="19.11725" y2="10.4964875" width="0.508" layer="1"/>
 <wire x1="13.484" y1="10.939" x2="13.484" y2="11.866" width="0.6096" layer="1"/>
 <wire x1="13.484" y1="11.866" x2="13.034" y2="12.316" width="0.6096" layer="1"/>
-<wire x1="20.0662" y1="9.51938125" x2="20.0662" y2="9.3728" width="0.6096" layer="1"/>
-<wire x1="20.0662" y1="9.3728" x2="20.859" y2="8.58" width="0.6096" layer="1"/>
-<wire x1="19.11725" y1="10.75" x2="19.11725" y2="10.46833125" width="0.6096" layer="1"/>
-<wire x1="19.11725" y1="10.46833125" x2="20.0662" y2="9.51938125" width="0.6096" layer="1"/>
+<contactref element="IC100" pad="4"/>
+<wire x1="23.28" y1="8.719" x2="20.998" y2="8.719" width="0.6096" layer="1"/>
+<wire x1="20.998" y1="8.719" x2="20.859" y2="8.58" width="0.6096" layer="1"/>
+<polygon width="0.0762" layer="1" thermals="no">
+<vertex x="20.8" y="9"/>
+<vertex x="23.7" y="9"/>
+<vertex x="23.7" y="7.5"/>
+<vertex x="22.35" y="7.5"/>
+<vertex x="21.6" y="8.25"/>
+<vertex x="21.3" y="8.25"/>
+<vertex x="20.8" y="8.75"/>
+</polygon>
+<wire x1="13.484" y1="10.939" x2="13.484" y2="10.489" width="0.6096" layer="1"/>
+<wire x1="13.973" y1="10" x2="13.484" y2="10.489" width="0.6096" layer="1"/>
+<wire x1="19.717" y1="10" x2="20.998" y2="8.719" width="0.6096" layer="1"/>
+<wire x1="13.973" y1="10" x2="19.717" y2="10" width="0.6096" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="C101" pad="2"/>
@@ -2598,34 +2575,28 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <contactref element="C6" pad="2"/>
 <contactref element="L100" pad="2"/>
 <contactref element="JP3" pad="1"/>
-<wire x1="26.519" y1="13.56725" x2="27.369" y2="13.56725" width="0.8128" layer="1"/>
-<wire x1="26.519" y1="13.56725" x2="25.269" y2="12.31725" width="0.8128" layer="1"/>
-<wire x1="25.269" y1="12.31725" x2="25.25" y2="12.31725" width="0.8128" layer="1"/>
+<wire x1="23.2" y1="12.46725" x2="25.269" y2="12.46725" width="0.8128" layer="1"/>
 <wire x1="9.85" y1="9.7" x2="9.85" y2="5.23905625" width="1.016" layer="1"/>
-<wire x1="24.17354375" y1="13.64315" x2="22.12645625" y2="13.64315" width="1.016" layer="1"/>
-<wire x1="25.25" y1="12.31725" x2="25.25" y2="12.56669375" width="1.016" layer="1"/>
-<wire x1="25.25" y1="12.56669375" x2="24.17354375" y2="13.64315" width="1.016" layer="1"/>
-<wire x1="22.12645625" y1="13.64315" x2="20.78330625" y2="12.3" width="1.016" layer="1"/>
-<wire x1="20.78330625" y1="12.3" x2="17.3" y2="12.3" width="1.016" layer="1"/>
+<wire x1="23.2" y1="12.46725" x2="18.26725" y2="12.46725" width="1.016" layer="1"/>
 <wire x1="9.85" y1="9.7" x2="10.4344" y2="10.2844" width="1.016" layer="1"/>
-<wire x1="17.3" y1="12.3" x2="16.0344" y2="11.0344" width="1.016" layer="1"/>
+<wire x1="18.26725" y1="12.46725" x2="16.8344" y2="11.0344" width="1.016" layer="1"/>
 <via x="11.35" y="10.25" extent="1-16" drill="0.35"/>
 <wire x1="10.4344" y1="10.2844" x2="11.3156" y2="10.2844" width="1.016" layer="1"/>
 <wire x1="11.3156" y1="10.2844" x2="11.35" y2="10.25" width="1.016" layer="1"/>
 <via x="10.55" y="10.25" extent="1-16" drill="0.35"/>
 <via x="15.3" y="11.05" extent="1-16" drill="0.35"/>
-<wire x1="16.0344" y1="11.0344" x2="15.3156" y2="11.0344" width="1.016" layer="1"/>
+<wire x1="16.8344" y1="11.0344" x2="15.3156" y2="11.0344" width="1.016" layer="1"/>
 <wire x1="15.3156" y1="11.0344" x2="15.3" y2="11.05" width="1.016" layer="1"/>
 <via x="16.1" y="11.05" extent="1-16" drill="0.35"/>
 <wire x1="10.55" y1="10.25" x2="10.6" y2="10.3" width="1.016" layer="16"/>
 <wire x1="13.75" y1="11.05" x2="13" y2="10.3" width="1.016" layer="16"/>
 <wire x1="13.75" y1="11.05" x2="16.1" y2="11.05" width="1.016" layer="16"/>
 <wire x1="13" y1="10.3" x2="10.6" y2="10.3" width="1.016" layer="16"/>
-<wire x1="27.369" y1="13.56725" x2="27.3794" y2="13.57765" width="1.016" layer="1"/>
-<wire x1="28.14254375" y1="13.57765" x2="27.3794" y2="13.57765" width="1.016" layer="1"/>
-<wire x1="28.14254375" y1="13.57765" x2="29.1539" y2="12.56629375" width="1.016" layer="1"/>
+<wire x1="25.269" y1="12.46725" x2="25.2794" y2="12.47765" width="1.016" layer="1"/>
+<wire x1="27.69254375" y1="12.47765" x2="25.2794" y2="12.47765" width="1.016" layer="1"/>
+<wire x1="27.69254375" y1="12.47765" x2="29.1539" y2="11.01629375" width="1.016" layer="1"/>
 <wire x1="29.1539" y1="4.4739" x2="28.7" y2="3.87" width="1.016" layer="1"/>
-<wire x1="29.1539" y1="12.56629375" x2="29.1539" y2="4.4739" width="1.016" layer="1"/>
+<wire x1="29.1539" y1="11.01629375" x2="29.1539" y2="4.4739" width="1.016" layer="1"/>
 <wire x1="28.7" y1="3.87" x2="25.355" y2="0.675" width="0.6096" layer="16"/>
 <wire x1="16.725" y1="9.35" x2="16.725" y2="10.425" width="0.6096" layer="16"/>
 <wire x1="16.725" y1="10.425" x2="16.1" y2="11.05" width="0.6096" layer="16"/>
@@ -2649,24 +2620,6 @@ benutzerdefinierten Entwurfsregeln unter einem neuen Namen.
 <contactref element="L1" pad="2"/>
 <wire x1="7.119" y1="19.45" x2="6.809" y2="19.14" width="0.6096" layer="1"/>
 <wire x1="6.809" y1="19.14" x2="2.45" y2="19.14" width="0.6096" layer="1"/>
-</signal>
-<signal name="N$5">
-<contactref element="IC100" pad="4"/>
-<contactref element="R21" pad="1"/>
-<contactref element="R22" pad="2"/>
-<polygon width="0.0762" layer="1" thermals="no">
-<vertex x="20.25" y="11.5"/>
-<vertex x="21.9" y="11.5"/>
-<vertex x="22.3" y="11.1"/>
-<vertex x="23.9" y="11.1"/>
-<vertex x="23.9" y="9.2"/>
-<vertex x="23.75" y="9.05"/>
-<vertex x="23.75" y="8.45"/>
-<vertex x="22.8" y="8.45"/>
-<vertex x="22.8" y="9"/>
-<vertex x="21.8" y="10"/>
-<vertex x="20.25" y="10"/>
-</polygon>
 </signal>
 <signal name="N$25">
 <contactref element="R4" pad="2"/>
