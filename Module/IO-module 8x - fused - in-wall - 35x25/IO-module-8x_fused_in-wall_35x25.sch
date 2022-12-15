@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14048,171 +14048,264 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="con-JST PH">
-<description>
-&lt;b&gt;JST Connectors&lt;/b&gt; - PH Series, 2.00mm pitch disconnectable crimp style connectors&lt;p&gt;
+<library name="Wurth_Connectors_WR-WTB" urn="urn:adsk.eagle:library:15818693">
+<description>&lt;BR&gt;Wurth Elektronik - Connectors - Wire-to-Board Connectors - WR-WTB &lt;br&gt;&lt;Hr&gt;
 
-&lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;
-USE AT YOUR OWN RISK!&lt;p&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
 
-&lt;author&gt;Author: kylie &lt;/author&gt;, 02/2017&lt;p&gt;
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
 
-&lt;a href="http://www.jst-mfg.com/product/detail_e.php?series=199"&gt;
-&lt;img src="http://www.jst-mfg.com/product/images/pict/ph.jpg"  &gt;&lt;/a&gt;&lt;p&gt;
-&lt;a href="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"&gt; Data sheet (PDF)&lt;/a&gt;&lt;p&gt;
-&lt;p&gt; similar to:&lt;p&gt;
-&lt;a href="https://www.hirose.com/product/en/products/DF3/"&gt; HIROSE DF3 series&lt;/a&gt;&lt;p&gt;
-Würth 6200xxxxx22 series
-&lt;a href="http://katalog.we-online.de/en/em/WTB_2_00_MALE_VERTICAL_SHROUDED_HEADER_6200XX11622?sid=331765e5c"&gt; vertical through-hole&lt;/a&gt;,  
-&lt;a href="http://katalog.we-online.de/en/em/WTB_2_00_MALE_HORIZONTAL_SHROUDED_HEADER_6200XX11722?sid=331765e5c"&gt; horizontal through-hole&lt;/a&gt;,
-&lt;a href="http://katalog.we-online.de/en/em/WTB_2_00_FEMALE_TERMINAL_HOUSING_6200XX113322?sid=331765e5cc"&gt; female terminal housing&lt;/a&gt;</description>
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-07-08&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
 <packages>
-<package name="B4B-PH-K-S">
-<description>
-
-&lt;b&gt;JST PH series header&lt;/b&gt; 2.00mm pitch disconnectable crimp style connectors, through-hole vertical (top entry type), 4 pins&lt;p&gt;
-
-</description>
-<pad name="1" x="3" y="0" drill="0.7" diameter="1.3" shape="square"/>
-<pad name="2" x="1" y="0" drill="0.7" diameter="1.3" shape="octagon"/>
-<pad name="3" x="-1" y="0" drill="0.7" diameter="1.3" shape="octagon"/>
-<pad name="4" x="-3" y="0" drill="0.7" diameter="1.3" shape="octagon"/>
-<text x="5.54" y="0" size="1.016" layer="25" rot="R270" align="bottom-center">&gt;NAME</text>
-<text x="3" y="1.27" size="1.016" layer="27" align="bottom-right">&gt;VALUE</text>
-<wire x1="-4.95" y1="2.8" x2="4.95" y2="2.8" width="0.1524" layer="21"/>
-<wire x1="4.95" y1="2.8" x2="4.95" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="4.95" y1="-1.7" x2="-4.95" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="-4.95" y1="-1.7" x2="-4.95" y2="2.8" width="0.1524" layer="21"/>
-<wire x1="-4.95" y1="2.8" x2="4.95" y2="2.8" width="0.1524" layer="51"/>
-<wire x1="4.95" y1="2.8" x2="4.95" y2="-1.7" width="0.1524" layer="51"/>
-<wire x1="4.95" y1="-1.7" x2="1.8" y2="-1.7" width="0.1524" layer="51"/>
-<wire x1="1.8" y1="-1.7" x2="-1.8" y2="-1.7" width="0.1524" layer="51"/>
-<wire x1="-1.8" y1="-1.7" x2="-4.95" y2="-1.7" width="0.1524" layer="51"/>
-<wire x1="-4.95" y1="-1.7" x2="-4.95" y2="2.8" width="0.1524" layer="51"/>
-<wire x1="-4.3" y1="2.4" x2="4.3" y2="2.4" width="0.1524" layer="51"/>
-<wire x1="-4.3" y1="2.4" x2="-4.3" y2="-1.1" width="0.1524" layer="51"/>
-<wire x1="-4.3" y1="-1.1" x2="-1.8" y2="-1.1" width="0.1524" layer="51"/>
-<wire x1="1.8" y1="-1.1" x2="4.3" y2="-1.1" width="0.1524" layer="51"/>
-<wire x1="4.3" y1="2.4" x2="4.3" y2="-1.1" width="0.1524" layer="51"/>
-<wire x1="1.8" y1="-1.1" x2="1.8" y2="-1.7" width="0.1524" layer="51"/>
-<wire x1="-1.8" y1="-1.1" x2="-1.8" y2="-1.7" width="0.1524" layer="51"/>
-<rectangle x1="2.75" y1="-0.25" x2="3.25" y2="0.25" layer="51"/>
-<rectangle x1="0.75" y1="-0.25" x2="1.25" y2="0.25" layer="51"/>
-<rectangle x1="-1.25" y1="-0.25" x2="-0.75" y2="0.25" layer="51"/>
-<rectangle x1="-3.25" y1="-0.25" x2="-2.75" y2="0.25" layer="51"/>
-<polygon width="0.1524" layer="51">
-<vertex x="3" y="-1.65"/>
-<vertex x="2.7" y="-1.15"/>
-<vertex x="3.3" y="-1.15"/>
+<package name="653005114822" urn="urn:adsk.eagle:footprint:15818944/1" library_version="3">
+<description>WR-WTB 1.25mm Male Vertical Shrouded Header, 5 Pins</description>
+<pad name="1" x="2.5" y="0.4" drill="0.5" diameter="0.8"/>
+<pad name="2" x="1.25" y="0.4" drill="0.5" diameter="0.8"/>
+<pad name="3" x="0" y="0.4" drill="0.5" diameter="0.8"/>
+<pad name="4" x="-1.25" y="0.4" drill="0.5" diameter="0.8"/>
+<pad name="5" x="-2.5" y="0.4" drill="0.5" diameter="0.8"/>
+<wire x1="-4" y1="1.6" x2="4" y2="1.6" width="0.1" layer="51"/>
+<wire x1="4" y1="1.6" x2="4" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="4" y1="-1.2" x2="4" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="4" y1="-1.6" x2="3.05" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="3.05" y1="-1.6" x2="-3.05" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-3.05" y1="-1.6" x2="-4" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-4" y1="-1.6" x2="-4" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-4" y1="-1.2" x2="-4" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-4.1" y1="1.7" x2="4.1" y2="1.7" width="0.2" layer="21"/>
+<wire x1="4.1" y1="1.7" x2="4.1" y2="-1.7" width="0.2" layer="21"/>
+<wire x1="4.1" y1="-1.7" x2="-4.1" y2="-1.7" width="0.2" layer="21"/>
+<wire x1="-4.1" y1="-1.7" x2="-4.1" y2="1.7" width="0.2" layer="21"/>
+<wire x1="-4" y1="-1.2" x2="-3.55" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-3.55" y1="-1.2" x2="-3.4" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="-1.2" x2="-3.05" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-3.05" y1="-1.2" x2="3.05" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="3.05" y1="-1.2" x2="3.4" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="3.4" y1="-1.2" x2="3.55" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="3.55" y1="-1.2" x2="4" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-3.05" y1="-1.2" x2="-3.05" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="3.05" y1="-1.2" x2="3.05" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="1.2" x2="3.4" y2="1.2" width="0.1" layer="51"/>
+<wire x1="3.4" y1="1.2" x2="3.4" y2="0.3" width="0.1" layer="51"/>
+<wire x1="3.4" y1="0.3" x2="3.7" y2="0.3" width="0.1" layer="51"/>
+<wire x1="3.7" y1="0.3" x2="3.7" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-0.3" x2="3.685" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="3.685" y1="-0.3" x2="3.4" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="3.4" y1="-0.3" x2="3.4" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="1.2" x2="-3.4" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="0.3" x2="-3.405" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-3.405" y1="0.3" x2="-3.7" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="0.3" x2="-3.7" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-0.3" x2="-3.4" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="-0.3" x2="-3.4" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-3.55" y1="-1.2" x2="-3.55" y2="-0.45" width="0.1" layer="51"/>
+<wire x1="-3.55" y1="-0.45" x2="-3.85" y2="-0.45" width="0.1" layer="51"/>
+<wire x1="-3.85" y1="-0.45" x2="-3.85" y2="0.45" width="0.1" layer="51"/>
+<wire x1="-3.85" y1="0.45" x2="-3.845" y2="0.45" width="0.1" layer="51"/>
+<wire x1="-3.845" y1="0.45" x2="-3.55" y2="0.45" width="0.1" layer="51"/>
+<wire x1="-3.55" y1="0.45" x2="-3.55" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-3.55" y1="1.35" x2="-3.545" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-3.545" y1="1.35" x2="3.545" y2="1.35" width="0.1" layer="51"/>
+<wire x1="3.545" y1="1.35" x2="3.55" y2="1.35" width="0.1" layer="51"/>
+<wire x1="3.55" y1="1.35" x2="3.55" y2="0.45" width="0.1" layer="51"/>
+<wire x1="3.55" y1="0.45" x2="3.565" y2="0.45" width="0.1" layer="51"/>
+<wire x1="3.565" y1="0.45" x2="3.845" y2="0.45" width="0.1" layer="51"/>
+<wire x1="3.845" y1="0.45" x2="3.85" y2="0.45" width="0.1" layer="51"/>
+<wire x1="3.85" y1="0.45" x2="3.85" y2="-0.45" width="0.1" layer="51"/>
+<wire x1="3.85" y1="-0.45" x2="3.845" y2="-0.45" width="0.1" layer="51"/>
+<wire x1="3.845" y1="-0.45" x2="3.55" y2="-0.45" width="0.1" layer="51"/>
+<wire x1="3.55" y1="-0.45" x2="3.55" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-3.565" y1="0.46" x2="-3.405" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-3.855" y1="-0.45" x2="-3.675" y2="-0.29" width="0.1" layer="51"/>
+<wire x1="-3.685" y1="0.29" x2="-3.845" y2="0.45" width="0.1" layer="51"/>
+<wire x1="-3.385" y1="1.19" x2="-3.545" y2="1.35" width="0.1" layer="51"/>
+<wire x1="-3.545" y1="-0.46" x2="-3.395" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="3.375" y1="1.19" x2="3.545" y2="1.35" width="0.1" layer="51"/>
+<wire x1="3.405" y1="0.31" x2="3.565" y2="0.45" width="0.1" layer="51"/>
+<wire x1="3.695" y1="0.29" x2="3.845" y2="0.45" width="0.1" layer="51"/>
+<wire x1="3.685" y1="-0.3" x2="3.845" y2="-0.45" width="0.1" layer="51"/>
+<wire x1="3.405" y1="-0.31" x2="3.565" y2="-0.46" width="0.1" layer="51"/>
+<text x="4.75" y="0.675" size="0.6096" layer="25">&gt;NAME</text>
+<text x="4.725" y="-0.725" size="0.6096" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.3" y="1.85"/>
+<vertex x="4.3" y="1.85"/>
+<vertex x="4.3" y="-1.85"/>
+<vertex x="-4.3" y="-1.85"/>
 </polygon>
-</package>
-<package name="B4B-PH-SM4-TB">
-<description>
-
-&lt;b&gt;JST PH series header&lt;/b&gt; 2.00mm pitch disconnectable crimp style connectors, SMT vertical (top entry type), 4 pins&lt;p&gt;
-
-</description>
-<smd name="1" x="3" y="0" dx="1" dy="5.5" layer="1"/>
-<smd name="2" x="1" y="0" dx="1" dy="5.5" layer="1"/>
-<smd name="3" x="-1" y="0" dx="1" dy="5.5" layer="1"/>
-<smd name="4" x="-3" y="0" dx="1" dy="5.5" layer="1"/>
-<smd name="M1" x="5.4" y="-2.25" dx="1.6" dy="3" layer="1"/>
-<smd name="M2" x="-5.4" y="-2.25" dx="1.6" dy="3" layer="1"/>
-<text x="6.81" y="-2.54" size="1.016" layer="25" rot="R270" align="bottom-center">&gt;NAME</text>
-<text x="3" y="-1.905" size="1.016" layer="27" align="bottom-right">&gt;VALUE</text>
-<wire x1="-5.975" y1="0.25" x2="-3.75" y2="0.25" width="0.1524" layer="21"/>
-<wire x1="3.75" y1="0.25" x2="5.975" y2="0.25" width="0.1524" layer="21"/>
-<wire x1="5.975" y1="0.25" x2="5.975" y2="-0.5" width="0.1524" layer="21"/>
-<wire x1="5.975" y1="-4" x2="5.975" y2="-4.75" width="0.1524" layer="21"/>
-<wire x1="5.975" y1="-4.75" x2="-5.975" y2="-4.75" width="0.1524" layer="21"/>
-<wire x1="-5.975" y1="-4.75" x2="-5.975" y2="-4" width="0.1524" layer="21"/>
-<wire x1="-5.975" y1="-0.5" x2="-5.975" y2="0.25" width="0.1524" layer="21"/>
-<wire x1="-5.975" y1="0.25" x2="5.975" y2="0.25" width="0.1524" layer="51"/>
-<wire x1="5.975" y1="0.25" x2="5.975" y2="-4.75" width="0.1524" layer="51"/>
-<wire x1="5.975" y1="-4.75" x2="1.8" y2="-4.75" width="0.1524" layer="51"/>
-<wire x1="1.8" y1="-4.75" x2="-1.8" y2="-4.75" width="0.1524" layer="51"/>
-<wire x1="-1.8" y1="-4.75" x2="-5.975" y2="-4.75" width="0.1524" layer="51"/>
-<wire x1="-5.975" y1="-4.75" x2="-5.975" y2="0.25" width="0.1524" layer="51"/>
-<wire x1="-4.3" y1="-0.45" x2="4.3" y2="-0.45" width="0.1524" layer="51"/>
-<wire x1="-4.3" y1="-0.45" x2="-4.3" y2="-3.95" width="0.1524" layer="51"/>
-<wire x1="-4.3" y1="-3.95" x2="-1.8" y2="-3.95" width="0.1524" layer="51"/>
-<wire x1="1.8" y1="-3.95" x2="4.3" y2="-3.95" width="0.1524" layer="51"/>
-<wire x1="4.3" y1="-0.45" x2="4.3" y2="-3.95" width="0.1524" layer="51"/>
-<wire x1="1.8" y1="-3.95" x2="1.8" y2="-4.75" width="0.1524" layer="51"/>
-<wire x1="-1.8" y1="-3.95" x2="-1.8" y2="-4.75" width="0.1524" layer="51"/>
-<rectangle x1="2.75" y1="-3.1" x2="3.25" y2="-2.6" layer="51"/>
-<rectangle x1="2.75" y1="0.25" x2="3.25" y2="2.25" layer="51"/>
-<rectangle x1="0.75" y1="-3.1" x2="1.25" y2="-2.6" layer="51"/>
-<rectangle x1="0.75" y1="0.25" x2="1.25" y2="2.25" layer="51"/>
-<rectangle x1="-1.25" y1="-3.1" x2="-0.75" y2="-2.6" layer="51"/>
-<rectangle x1="-1.25" y1="0.25" x2="-0.75" y2="2.25" layer="51"/>
-<rectangle x1="-3.25" y1="-3.1" x2="-2.75" y2="-2.6" layer="51"/>
-<rectangle x1="-3.25" y1="0.25" x2="-2.75" y2="2.25" layer="51"/>
-<polygon width="0.1524" layer="51">
-<vertex x="3" y="-4.5"/>
-<vertex x="2.7" y="-4"/>
-<vertex x="3.3" y="-4"/>
-</polygon>
+<circle x="3.145" y="0.94" radius="0.1" width="0.2" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="653005114822" urn="urn:adsk.eagle:package:15819174/2" type="model" library_version="3">
+<description>WR-WTB 1.25mm Male Vertical Shrouded Header, 5 Pins</description>
+<packageinstances>
+<packageinstance name="653005114822"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="M_1R04">
-<wire x1="3.81" y1="-7.62" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-7.62" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<text x="-1.27" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<symbol name="5MT" urn="urn:adsk.eagle:symbol:15818720/1" library_version="3">
+<description>5Pins Male THT</description>
+<pin name="1" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="7.64" y="-1.655" size="1.016" layer="95">&gt;NAME</text>
+<text x="7.38" y="-3.06" size="1.016" layer="96">&gt;VALUE</text>
+<wire x1="-6.35" y1="-2.54" x2="6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-2.54" x2="6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="6.35" y1="0" x2="-6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="0" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="5.08" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="0" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="-5.08" y="-1.27" radius="0.254" width="0.635" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="B4B-PH" prefix="X">
-<description>
-&lt;b&gt;JST PH series header&lt;/b&gt; 2.00mm pitch disconnectable crimp style connectors, vertical (side entry type), 4 pins&lt;p&gt;
-</description>
+<deviceset name="653005114822" urn="urn:adsk.eagle:component:15819403/3" prefix="J" library_version="3">
+<description>&lt;b&gt;WR-WTB 1.25 mm Male Vertical Shrouded Header&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;b&gt;KIND PROPERTIES:&lt;/b&gt;
+&lt;BR&gt;
+&lt;BR&gt;Pitch:1.25 mm
+&lt;BR&gt;Gender:Male
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;MATERIAL PROPERTIES:&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Insulator Material :PA46
+&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
+&lt;BR&gt;Color:Ivory
+&lt;BR&gt;Contact Material:Copper Alloy
+&lt;BR&gt;Contact Plating:Tin
+&lt;BR&gt;Contact Type:Stamped
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;GENERAL INFORMATION&lt;/B&gt;
+&lt;BR&gt;Operating Temperature:-40 up to +85 °C
+&lt;BR&gt;Compliance: RoHS
+&lt;BR&gt;Working Voltage:125 V (AC)
+&lt;BR&gt;Withstanding Voltage:250 V (AC)
+&lt;BR&gt;Contact Resistance:20 mΩ
+&lt;BR&gt;RISO:100MΩ
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;CERTIFICATION&lt;/B&gt;&lt;BR&gt;
+UL Approval:E323964
+&lt;BR&gt;&lt;B&gt;PACKAGING PROPERTIES&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Packaging:Bag;​ Tube
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://katalog.we-online.com/media/images/v2/o33370v209%20Family_WR-WTB_6530xx114822.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://katalog.we-online.com/media/images/v2/o33370v209%20Family_WR-WTB_6530xx114822.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+Details see: &lt;a href="https://katalog.we-online.com/en/em/WTB_1_25_MALE_VERTICAL_SHROUDED_HEADER_6530XX114822"&gt;https://katalog.we-online.com/en/em/WTB_1_25_MALE_VERTICAL_SHROUDED_HEADER_6530XX114822&lt;/a&gt;&lt;p&gt;
+&lt;BR&gt;
+Updated by Yingchun,Shan 2019-11-08
+&lt;BR&gt;
+2019 (C) Würth Elektronik</description>
 <gates>
-<gate name="G$1" symbol="M_1R04" x="0" y="0"/>
+<gate name="G$1" symbol="5MT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-K-S" package="B4B-PH-K-S">
+<device name="" package="653005114822">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15819174/2"/>
+</package3dinstances>
 <technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-KL" package="B4B-PH-K-S">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SM4-TB" package="B4B-PH-SM4-TB">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/653005114822.pdf"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="1A"/>
+<attribute name="L" value="8mm"/>
+<attribute name="MOUNT" value="THT"/>
+<attribute name="PACKAGING" value="Tube"/>
+<attribute name="PART-NUMBER" value="653005114822"/>
+<attribute name="PCB-CABLE-PANEL" value="PCB"/>
+<attribute name="PINS" value=" 5 "/>
+<attribute name="PITCH" value="1.25mm"/>
+<attribute name="TOL-R" value="max."/>
+<attribute name="TYPE" value="Vertical"/>
+<attribute name="USE-WITH" value="WR-WTB Female Terminal Housing"/>
+<attribute name="VALUE" value="653005114822"/>
+<attribute name="WORKING-VOLTAGE" value="125V(AC)"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -14381,14 +14474,14 @@ Würth 6200xxxxx22 series
 </spice>
 <attribute name="REICHELT" value="X7R-G0805 10N"/>
 </part>
-<part name="FB3" library="microbuilder" deviceset="FERRITE" device="0805"/>
-<part name="FB4" library="microbuilder" deviceset="FERRITE" device="0805"/>
-<part name="FB5" library="microbuilder" deviceset="FERRITE" device="0805"/>
-<part name="FB6" library="microbuilder" deviceset="FERRITE" device="0805"/>
-<part name="FB7" library="microbuilder" deviceset="FERRITE" device="0805"/>
-<part name="FB8" library="microbuilder" deviceset="FERRITE" device="0805"/>
-<part name="FB9" library="microbuilder" deviceset="FERRITE" device="0805"/>
-<part name="FB10" library="microbuilder" deviceset="FERRITE" device="0805"/>
+<part name="FB3" library="microbuilder" deviceset="FERRITE" device="0805" value="1.5kΩ@100MHz"/>
+<part name="FB4" library="microbuilder" deviceset="FERRITE" device="0805" value="1.5kΩ@100MHz"/>
+<part name="FB5" library="microbuilder" deviceset="FERRITE" device="0805" value="1.5kΩ@100MHz"/>
+<part name="FB6" library="microbuilder" deviceset="FERRITE" device="0805" value="1.5kΩ@100MHz"/>
+<part name="FB7" library="microbuilder" deviceset="FERRITE" device="0805" value="1.5kΩ@100MHz"/>
+<part name="FB8" library="microbuilder" deviceset="FERRITE" device="0805" value="1.5kΩ@100MHz"/>
+<part name="FB9" library="microbuilder" deviceset="FERRITE" device="0805" value="1.5kΩ@100MHz"/>
+<part name="FB10" library="microbuilder" deviceset="FERRITE" device="0805" value="1.5kΩ@100MHz"/>
 <part name="JP2" library="pinhead_dmx" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="JP4" library="pinhead_dmx" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="red SMD">
@@ -14439,7 +14532,7 @@ Würth 6200xxxxx22 series
 <attribute name="REICHELT" value="SMD-0805 3,30K"/>
 </part>
 <part name="P+8" library="supply1" deviceset="+3V3" device=""/>
-<part name="JP1" library="con-JST PH" deviceset="B4B-PH" device="-K-S" value="B4B-PH-K-S"/>
+<part name="JP1" library="Wurth_Connectors_WR-WTB" library_urn="urn:adsk.eagle:library:15818693" deviceset="653005114822" device="" package3d_urn="urn:adsk.eagle:package:15819174/2" value="653005114822"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+3V3" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
@@ -14472,6 +14565,7 @@ Würth 6200xxxxx22 series
 <sheet>
 <plain>
 <text x="287.02" y="55.88" size="1.778" layer="91" rot="R180">I2C PullUps</text>
+<text x="568.96" y="144.78" size="1.778" layer="91">Pins for stabilization and heat dissipation</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="363.22" y="139.7" smashed="yes">
@@ -14625,20 +14719,20 @@ Würth 6200xxxxx22 series
 <attribute name="VALUE" x="110.236" y="19.558" size="1.27" layer="96" ratio="12" rot="R270" align="top-left"/>
 </instance>
 <instance part="F17" gate="G$1" x="50.8" y="58.42" smashed="yes" rot="R180">
-<attribute name="VALUE" x="54.61" y="59.69" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="54.61" y="53.34" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="50.8" y="60.706" size="1.778" layer="96"/>
+<attribute name="NAME" x="44.958" y="60.706" size="1.778" layer="95"/>
 </instance>
 <instance part="F18" gate="G$1" x="50.8" y="50.8" smashed="yes" rot="R180">
-<attribute name="VALUE" x="54.61" y="52.07" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="54.61" y="45.72" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="50.8" y="52.832" size="1.778" layer="96"/>
+<attribute name="NAME" x="44.958" y="52.832" size="1.778" layer="95"/>
 </instance>
 <instance part="F19" gate="G$1" x="50.8" y="43.18" smashed="yes" rot="R180">
-<attribute name="VALUE" x="54.61" y="44.45" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="54.61" y="38.1" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="50.8" y="45.466" size="1.778" layer="96"/>
+<attribute name="NAME" x="44.958" y="45.466" size="1.778" layer="95"/>
 </instance>
 <instance part="F20" gate="G$1" x="50.8" y="35.56" smashed="yes" rot="R180">
-<attribute name="VALUE" x="54.61" y="36.83" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="54.61" y="30.48" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="50.8" y="37.846" size="1.778" layer="96"/>
+<attribute name="NAME" x="45.212" y="37.592" size="1.778" layer="95"/>
 </instance>
 <instance part="GND47" gate="1" x="53.34" y="10.16" smashed="yes">
 <attribute name="VALUE" x="50.8" y="7.62" size="1.778" layer="96"/>
@@ -14810,19 +14904,19 @@ Würth 6200xxxxx22 series
 </instance>
 <instance part="FB3" gate="G$1" x="35.56" y="58.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.83" y="56.515" size="1.27" layer="95" rot="R180"/>
-<attribute name="VALUE" x="36.83" y="61.595" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="39.37" y="61.595" size="1.27" layer="95" rot="R180"/>
 </instance>
 <instance part="FB4" gate="G$1" x="35.56" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.83" y="48.895" size="1.27" layer="95" rot="R180"/>
-<attribute name="VALUE" x="36.83" y="53.975" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="39.37" y="53.975" size="1.27" layer="95" rot="R180"/>
 </instance>
 <instance part="FB5" gate="G$1" x="35.56" y="43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.83" y="41.275" size="1.27" layer="95" rot="R180"/>
-<attribute name="VALUE" x="36.83" y="46.355" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="39.37" y="46.355" size="1.27" layer="95" rot="R180"/>
 </instance>
 <instance part="FB6" gate="G$1" x="35.56" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.83" y="33.655" size="1.27" layer="95" rot="R180"/>
-<attribute name="VALUE" x="36.83" y="38.735" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="39.37" y="38.735" size="1.27" layer="95" rot="R180"/>
 </instance>
 <instance part="FB7" gate="G$1" x="35.56" y="139.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.83" y="137.795" size="1.27" layer="95" rot="R180"/>
@@ -14902,8 +14996,8 @@ Würth 6200xxxxx22 series
 <instance part="P+8" gate="G$1" x="556.26" y="139.7" smashed="yes">
 <attribute name="VALUE" x="553.72" y="134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP1" gate="G$1" x="299.72" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="290.83" y="4.445" size="1.778" layer="95" rot="R180"/>
+<instance part="JP1" gate="G$1" x="299.72" y="10.16" smashed="yes">
+<attribute name="NAME" x="296.545" y="19.05" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="GND3" gate="1" x="304.8" y="2.54" smashed="yes">
 <attribute name="VALUE" x="302.26" y="0" size="1.778" layer="96"/>
@@ -14950,8 +15044,8 @@ Würth 6200xxxxx22 series
 <instance part="GND4" gate="1" x="523.24" y="124.46" smashed="yes">
 <attribute name="VALUE" x="520.7" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="P+12" gate="G$1" x="485.14" y="55.88" smashed="yes">
-<attribute name="VALUE" x="482.6" y="50.8" size="1.778" layer="96" rot="R90"/>
+<instance part="P+12" gate="G$1" x="477.52" y="55.88" smashed="yes">
+<attribute name="VALUE" x="474.98" y="50.8" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND5" gate="1" x="609.6" y="38.1" smashed="yes">
 <attribute name="VALUE" x="607.06" y="35.56" size="1.778" layer="96"/>
@@ -15142,7 +15236,6 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="304.8" y1="5.08" x2="304.8" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PRGBTN" gate="G$1" pin="1"/>
@@ -15159,8 +15252,8 @@ Würth 6200xxxxx22 series
 <net name="EIB_OUT" class="0">
 <segment>
 <pinref part="JP3" gate="A" pin="1"/>
-<wire x1="563.88" y1="162.56" x2="551.18" y2="162.56" width="0.1524" layer="91"/>
-<label x="543.56" y="162.56" size="1.778" layer="95"/>
+<wire x1="563.88" y1="162.56" x2="546.1" y2="162.56" width="0.1524" layer="91"/>
+<label x="546.1" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PIO1_9/CT16B1_MAT0/MOSI1"/>
@@ -15181,8 +15274,8 @@ Würth 6200xxxxx22 series
 </segment>
 <segment>
 <pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="500.38" y1="40.64" x2="490.22" y2="40.64" width="0.1524" layer="91"/>
-<label x="490.22" y="40.64" size="1.778" layer="95"/>
+<wire x1="500.38" y1="40.64" x2="492.76" y2="40.64" width="0.1524" layer="91"/>
+<label x="492.76" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BUS_V" class="0">
@@ -15193,8 +15286,8 @@ Würth 6200xxxxx22 series
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="2"/>
-<wire x1="563.88" y1="160.02" x2="551.18" y2="160.02" width="0.1524" layer="91"/>
-<label x="543.56" y="160.02" size="1.778" layer="95"/>
+<wire x1="563.88" y1="160.02" x2="556.26" y2="160.02" width="0.1524" layer="91"/>
+<label x="556.26" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -15205,8 +15298,8 @@ Würth 6200xxxxx22 series
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="591.82" y1="40.64" x2="599.44" y2="40.64" width="0.1524" layer="91"/>
-<label x="594.36" y="40.64" size="1.778" layer="95"/>
+<wire x1="591.82" y1="40.64" x2="596.9" y2="40.64" width="0.1524" layer="91"/>
+<label x="596.9" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IO6" class="0">
@@ -15218,7 +15311,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="50.8" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
-<label x="218.44" y="50.8" size="1.778" layer="91"/>
+<label x="223.52" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -15229,8 +15322,8 @@ Würth 6200xxxxx22 series
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="591.82" y1="50.8" x2="599.44" y2="50.8" width="0.1524" layer="91"/>
-<label x="594.36" y="50.8" size="1.778" layer="95"/>
+<wire x1="591.82" y1="50.8" x2="596.9" y2="50.8" width="0.1524" layer="91"/>
+<label x="596.9" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ISP_TXD" class="0">
@@ -15266,7 +15359,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
-<label x="218.44" y="58.42" size="1.778" layer="91"/>
+<label x="223.52" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PROG" class="0">
@@ -15275,7 +15368,6 @@ Würth 6200xxxxx22 series
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="518.16" y1="154.94" x2="513.08" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="518.16" y1="154.94" x2="518.16" y2="165.1" width="0.1524" layer="91"/>
-<label x="518.16" y="165.1" size="1.778" layer="95"/>
 <junction x="518.16" y="154.94"/>
 <pinref part="JP8" gate="G$1" pin="1"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
@@ -15284,6 +15376,7 @@ Würth 6200xxxxx22 series
 <pinref part="LED3" gate="G$1" pin="C"/>
 <wire x1="513.08" y1="144.78" x2="513.08" y2="154.94" width="0.1524" layer="91"/>
 <junction x="513.08" y="144.78"/>
+<label x="518.16" y="165.1" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PIO2_0/DTR/SSEL1"/>
@@ -15379,9 +15472,9 @@ Würth 6200xxxxx22 series
 </segment>
 <segment>
 <pinref part="TVS3" gate="G$1" pin="VBUS"/>
-<wire x1="523.24" y1="45.72" x2="485.14" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="523.24" y1="45.72" x2="477.52" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="P+12" gate="G$1" pin="+3V3"/>
-<wire x1="485.14" y1="45.72" x2="485.14" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="477.52" y1="45.72" x2="477.52" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
@@ -15416,13 +15509,14 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="P+3" gate="G$1" pin="+3V3"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="302.26" y1="15.24" x2="302.26" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="NC_1"/>
-<wire x1="411.48" y1="43.18" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="43.18" x2="386.08" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="396.24" y1="40.64" x2="393.7" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="40.64" x2="393.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="40.64" x2="386.08" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="40.64" x2="386.08" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="VCC"/>
 <pinref part="P+7" gate="G$1" pin="+3V3"/>
 <wire x1="441.96" y1="48.26" x2="444.5" y2="48.26" width="0.1524" layer="91"/>
@@ -15437,9 +15531,9 @@ Würth 6200xxxxx22 series
 <wire x1="444.5" y1="45.72" x2="444.5" y2="48.26" width="0.1524" layer="91"/>
 <junction x="444.5" y="48.26"/>
 <junction x="411.48" y="63.5"/>
-<wire x1="393.7" y1="63.5" x2="411.48" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="43.18" x2="393.7" y2="63.5" width="0.1524" layer="91"/>
-<junction x="393.7" y="43.18"/>
+<wire x1="386.08" y1="63.5" x2="411.48" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="43.18" x2="386.08" y2="63.5" width="0.1524" layer="91"/>
+<junction x="386.08" y="43.18"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -15471,7 +15565,7 @@ Würth 6200xxxxx22 series
 <label x="289.56" y="38.1" size="1.778" layer="95" rot="R270"/>
 <wire x1="292.1" y1="35.56" x2="297.18" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="4"/>
-<wire x1="297.18" y1="35.56" x2="297.18" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="35.56" x2="297.18" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -15490,7 +15584,7 @@ Würth 6200xxxxx22 series
 <label x="304.8" y="38.1" size="1.778" layer="95" rot="R270"/>
 <wire x1="307.34" y1="35.56" x2="299.72" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="299.72" y1="35.56" x2="299.72" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="35.56" x2="299.72" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XTALIN" class="0">
@@ -15519,7 +15613,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="43.18" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
-<label x="218.44" y="43.18" size="1.778" layer="91"/>
+<label x="223.52" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IO8" class="0">
@@ -15531,7 +15625,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="35.56" x2="223.52" y2="35.56" width="0.1524" layer="91"/>
-<label x="218.44" y="35.56" size="1.778" layer="91"/>
+<label x="223.52" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MISO1" class="0">
@@ -15542,8 +15636,8 @@ Würth 6200xxxxx22 series
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="SO"/>
-<label x="398.78" y="45.72" size="1.778" layer="95"/>
 <wire x1="411.48" y1="45.72" x2="398.78" y2="45.72" width="0.1524" layer="91"/>
+<label x="398.78" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IN1" class="0">
@@ -15555,7 +15649,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="FB10" gate="G$1" pin="P$2"/>
 <wire x1="33.02" y1="162.56" x2="22.86" y2="162.56" width="0.1524" layer="91"/>
-<label x="25.4" y="162.56" size="1.778" layer="95"/>
+<label x="22.86" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IN2" class="0">
@@ -15567,7 +15661,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="FB9" gate="G$1" pin="P$2"/>
 <wire x1="33.02" y1="154.94" x2="22.86" y2="154.94" width="0.1524" layer="91"/>
-<label x="25.4" y="154.94" size="1.778" layer="95"/>
+<label x="22.86" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IN3" class="0">
@@ -15579,7 +15673,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="FB8" gate="G$1" pin="P$2"/>
 <wire x1="33.02" y1="147.32" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
-<label x="25.4" y="147.32" size="1.778" layer="95"/>
+<label x="22.86" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IN4" class="0">
@@ -15591,7 +15685,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="FB7" gate="G$1" pin="P$2"/>
 <wire x1="22.86" y1="139.7" x2="33.02" y2="139.7" width="0.1524" layer="91"/>
-<label x="25.4" y="139.7" size="1.778" layer="95"/>
+<label x="22.86" y="139.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IN5" class="0">
@@ -15603,14 +15697,14 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="FB3" gate="G$1" pin="P$2"/>
 <wire x1="25.4" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
-<label x="27.94" y="58.42" size="1.778" layer="95"/>
+<label x="25.4" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IN6" class="0">
 <segment>
 <pinref part="FB5" gate="G$1" pin="P$2"/>
 <wire x1="25.4" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
-<label x="27.94" y="43.18" size="1.778" layer="95"/>
+<label x="25.4" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
@@ -15622,7 +15716,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="FB4" gate="G$1" pin="P$2"/>
 <wire x1="25.4" y1="50.8" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
-<label x="27.94" y="50.8" size="1.778" layer="95"/>
+<label x="25.4" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
@@ -15639,7 +15733,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="FB6" gate="G$1" pin="P$2"/>
 <wire x1="25.4" y1="35.56" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
-<label x="27.94" y="35.56" size="1.778" layer="95"/>
+<label x="25.4" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IO4" class="0">
@@ -15651,7 +15745,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
-<label x="218.44" y="139.7" size="1.778" layer="91"/>
+<label x="223.52" y="139.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IO3" class="0">
@@ -15663,7 +15757,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="147.32" x2="223.52" y2="147.32" width="0.1524" layer="91"/>
-<label x="218.44" y="147.32" size="1.778" layer="91"/>
+<label x="223.52" y="147.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IO2" class="0">
@@ -15675,7 +15769,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="154.94" x2="223.52" y2="154.94" width="0.1524" layer="91"/>
-<label x="218.44" y="154.94" size="1.778" layer="91"/>
+<label x="223.52" y="154.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IO1" class="0">
@@ -15687,7 +15781,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="162.56" x2="223.52" y2="162.56" width="0.1524" layer="91"/>
-<label x="218.44" y="162.56" size="1.778" layer="91"/>
+<label x="223.52" y="162.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ISP_EN" class="0">
@@ -15703,10 +15797,10 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="502.92" y1="50.8" x2="492.76" y2="50.8" width="0.1524" layer="91"/>
-<label x="490.22" y="50.8" size="1.778" layer="95"/>
+<label x="492.76" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SWD_SWCLK" class="0">
+<net name="SWD_SWDIO" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="TVS3" gate="G$1" pin="IO2"/>
@@ -15720,7 +15814,7 @@ Würth 6200xxxxx22 series
 <junction x="561.34" y="50.8"/>
 </segment>
 </net>
-<net name="SWD_SWDIO" class="0">
+<net name="SWD_SWCLK" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="TVS3" gate="G$1" pin="IO1"/>
@@ -15765,8 +15859,8 @@ Würth 6200xxxxx22 series
 <net name="EIB_IN" class="0">
 <segment>
 <pinref part="JP3" gate="A" pin="3"/>
-<wire x1="563.88" y1="157.48" x2="551.18" y2="157.48" width="0.1524" layer="91"/>
-<label x="543.56" y="157.48" size="1.778" layer="95"/>
+<wire x1="563.88" y1="157.48" x2="546.1" y2="157.48" width="0.1524" layer="91"/>
+<label x="546.1" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PIO1_8/CT16B1_CAP0"/>
@@ -15900,7 +15994,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="IC2" gate="G$1" pin="SCK"/>
 <wire x1="441.96" y1="43.18" x2="447.04" y2="43.18" width="0.1524" layer="91"/>
-<label x="447.04" y="43.18" size="1.778" layer="95"/>
+<label x="447.04" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -16114,7 +16208,7 @@ Würth 6200xxxxx22 series
 <segment>
 <pinref part="IC2" gate="G$1" pin="SI/SDA"/>
 <wire x1="441.96" y1="40.64" x2="447.04" y2="40.64" width="0.1524" layer="91"/>
-<label x="447.04" y="40.64" size="1.778" layer="95"/>
+<label x="447.04" y="40.64" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="SSEL1" class="0">
@@ -16129,7 +16223,7 @@ Würth 6200xxxxx22 series
 <wire x1="411.48" y1="48.26" x2="411.48" y2="50.8" width="0.1524" layer="91"/>
 <junction x="411.48" y="48.26"/>
 <wire x1="411.48" y1="48.26" x2="398.78" y2="48.26" width="0.1524" layer="91"/>
-<label x="398.78" y="48.26" size="1.778" layer="95"/>
+<label x="398.78" y="48.26" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="DBG_TXD" class="0">
