@@ -21215,7 +21215,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 100N"/>
 </part>
 <part name="P+3" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC100" library="Stefan_selfbus" deviceset="BD9G101G" device="BD9G101G-SOT23-6" value="BD9G101"/>
@@ -21235,16 +21234,14 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G1206 4,7/50"/>
 </part>
-<part name="C103" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22µ/25V">
+<part name="C103" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47u 10V">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X5R-G0805 22/6"/>
 </part>
 <part name="C102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="15nF">
 <spice>
@@ -21253,7 +21250,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 15N"/>
 </part>
 <part name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k4">
 <spice>
@@ -21262,7 +21258,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD 1/4W 2,4K"/>
 </part>
 <part name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="680R">
 <spice>
@@ -21271,7 +21266,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 680"/>
 </part>
 <part name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="270n">
 <spice>
@@ -21280,11 +21274,8 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="Y5R-G0603 220N"/>
 </part>
-<part name="D100" library="bt_diode" deviceset="SCHOTTKY-DIODE" device="-MBR130LSFT1" value="MBRS1100">
-<attribute name="REICHELT" value="MBRS 1100 SMD"/>
-</part>
+<part name="D100" library="bt_diode" deviceset="SCHOTTKY-DIODE" device="-MBR130LSFT1" value="MBRS1100"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47k">
 <spice>
 <pinmapping spiceprefix="R">
@@ -21292,7 +21283,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 47,0K"/>
 </part>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="82k">
 <spice>
@@ -21301,7 +21291,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 82,0K"/>
 </part>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
 <spice>
@@ -21310,7 +21299,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 100N"/>
 </part>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10n">
 <spice>
@@ -21319,7 +21307,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 10N"/>
 </part>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="5k6">
 <spice>
@@ -21328,7 +21315,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 5,60K"/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -21340,7 +21326,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 100K"/>
 </part>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SANYO_SMD_C6" package3d_urn="urn:adsk.eagle:package:23465/1" value="100µ/35V">
 <spice>
@@ -21349,7 +21334,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="-" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="VF 100/35 K-D8"/>
 </part>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k2">
 <spice>
@@ -21358,10 +21342,8 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 2,20K"/>
 </part>
 <part name="L1" library="dmx_inductor-neosid" deviceset="BS" device="11" package3d_urn="urn:adsk.eagle:package:14648/1" value="150mH">
-<attribute name="REICHELT" value="L-11P 150M"/>
 <attribute name="SPICEPREFIX" value="L"/>
 </part>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k">
@@ -21371,7 +21353,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 1,00K"/>
 </part>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k">
 <spice>
@@ -21380,11 +21361,8 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 10,0K"/>
 </part>
-<part name="T3" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="BC847" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="BC847">
-<attribute name="REICHELT" value="BC 847C SMD"/>
-</part>
+<part name="T3" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="BC847" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="BC847"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10n">
@@ -21394,7 +21372,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 10N"/>
 </part>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k">
 <spice>
@@ -21403,7 +21380,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 1,00K"/>
 </part>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="5R6">
 <spice>
@@ -21412,7 +21388,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 5,60"/>
 </part>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k">
 <spice>
@@ -21421,7 +21396,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 100K"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k">
@@ -21431,11 +21405,8 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 10,0K"/>
 </part>
-<part name="D6" library="microbuilder" deviceset="DIODE" device="SOD-123" value="7V5">
-<attribute name="REICHELT" value="SMD ZF 7,5"/>
-</part>
+<part name="D6" library="microbuilder" deviceset="DIODE" device="SOD-123" value="7V5"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="43k">
 <spice>
@@ -21444,7 +21415,6 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD 1/4W 91K"/>
 </part>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100p">
 <spice>
@@ -21453,12 +21423,9 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="NPO-G0805 100P"/>
 </part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="D2" library="microbuilder" deviceset="DIODE" device="SOD-123" value="1N4148">
-<attribute name="REICHELT" value="1N 4148 SMD"/>
-</part>
+<part name="D2" library="microbuilder" deviceset="DIODE" device="SOD-123" value="1N4148"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="6,2k">
 <spice>
 <pinmapping spiceprefix="R">
@@ -21466,17 +21433,10 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 10,0K"/>
 </part>
-<part name="D5" library="microbuilder" deviceset="DIODE" device="SOD-123" value="1N4148">
-<attribute name="REICHELT" value="1N 4148 SMD"/>
-</part>
-<part name="T2" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="FZT753SMD" device="" package3d_urn="urn:adsk.eagle:package:29214/2" value="BCP52">
-<attribute name="REICHELT" value="BCP 52-16 SMD"/>
-</part>
-<part name="T1" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BC856*" device="SMD" package3d_urn="urn:adsk.eagle:package:28748/2" technology="B" value="BC856">
-<attribute name="REICHELT" value="BC 856B SMD"/>
-</part>
+<part name="D5" library="microbuilder" deviceset="DIODE" device="SOD-123" value="1N4148"/>
+<part name="T2" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="FZT753SMD" device="" package3d_urn="urn:adsk.eagle:package:29214/2" value="BCP52"/>
+<part name="T1" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BC856*" device="SMD" package3d_urn="urn:adsk.eagle:package:28748/2" technology="B" value="BC856"/>
 <part name="P+7" library="supply1" deviceset="+3V3" device=""/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
 <spice>
@@ -21485,11 +21445,8 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 10N"/>
 </part>
-<part name="D7" library="microbuilder" deviceset="DIODE" device="SOD-123" value="DDZ9685 -option">
-<attribute name="REICHELT" value="SMD ZF 3,6"/>
-</part>
+<part name="D7" library="microbuilder" deviceset="DIODE" device="SOD-123" value="DDZ9685 -option"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
 <spice>
 <pinmapping spiceprefix="C">
@@ -21497,13 +21454,10 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 100N"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="smaj_10" deviceset="SMAJ*CA" device="" technology="40"/>
-<part name="D3" library="microbuilder" deviceset="DIODE" device="SOD-123" value="1N4148">
-<attribute name="REICHELT" value="1N 4148 SMD"/>
-</part>
+<part name="D3" library="microbuilder" deviceset="DIODE" device="SOD-123" value="1N4148"/>
 <part name="U$1" library="Connector_for_Selfbus-Projects" deviceset="WAGO-243-211" device=""/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="24R  1210/0.5W">
 <spice>
@@ -21512,17 +21466,22 @@ nominal inductance, magnetically screened</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 5,60"/>
 </part>
 <part name="JP2" library="pinhead_dmx" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="JP3" library="pinhead_dmx" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="JP1" library="pinhead_dmx" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+3V3" device=""/>
-<part name="D4" library="microbuilder" deviceset="DIODE" device="SOD-123" value="1N4148">
-<attribute name="REICHELT" value="1N 4148 SMD"/>
-</part>
+<part name="D4" library="microbuilder" deviceset="DIODE" device="SOD-123" value="1N4148"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47u 10V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -21537,13 +21496,12 @@ nominal inductance, magnetically screened</description>
 <instance part="GND4" gate="1" x="83.82" y="223.52" smashed="yes">
 <attribute name="VALUE" x="81.28" y="220.98" size="1.778" layer="96"/>
 </instance>
-<instance part="C104" gate="G$1" x="144.78" y="248.92" smashed="yes" rot="MR0">
-<attribute name="REICHELT" x="144.78" y="248.92" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="NAME" x="143.256" y="249.301" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="143.256" y="244.221" size="1.778" layer="96" rot="MR0"/>
+<instance part="C104" gate="G$1" x="165.1" y="248.92" smashed="yes" rot="MR0">
+<attribute name="NAME" x="163.576" y="249.301" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="163.576" y="244.221" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="P+3" gate="G$1" x="144.78" y="271.78" smashed="yes">
-<attribute name="VALUE" x="142.24" y="266.7" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="G$1" x="165.1" y="271.78" smashed="yes">
+<attribute name="VALUE" x="162.56" y="266.7" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="IC100" gate="G$1" x="81.28" y="256.54" smashed="yes">
 <attribute name="NAME" x="73.66" y="245.11" size="1.778" layer="95"/>
@@ -21555,62 +21513,50 @@ nominal inductance, magnetically screened</description>
 <attribute name="VALUE" x="125.857" y="259.588" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C100" gate="G$1" x="40.64" y="243.84" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="40.64" y="243.84" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="39.116" y="243.459" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="39.116" y="248.539" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C103" gate="G$1" x="134.62" y="248.92" smashed="yes" rot="MR0">
-<attribute name="REICHELT" x="134.62" y="248.92" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="133.096" y="249.301" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="133.096" y="244.221" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C102" gate="G$1" x="99.06" y="256.54" smashed="yes" rot="R270">
-<attribute name="REICHELT" x="99.06" y="256.54" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="99.441" y="255.016" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="94.361" y="255.016" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R101" gate="G$1" x="60.96" y="243.84" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="60.96" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="59.4614" y="240.03" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="64.262" y="240.03" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R102" gate="G$1" x="76.2" y="236.22" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="76.2" y="236.22" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="80.01" y="234.7214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="80.01" y="239.522" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C101" gate="G$1" x="53.34" y="243.84" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="53.34" y="243.84" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="51.816" y="243.459" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="51.816" y="248.539" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D100" gate="1" x="106.68" y="246.38" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="106.68" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="104.0384" y="244.0686" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="111.1758" y="243.8146" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R9" gate="G$1" x="162.56" y="132.08" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="162.56" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="156.21" y="131.0386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.21" y="128.778" size="1.778" layer="96"/>
 </instance>
 <instance part="R8" gate="G$1" x="162.56" y="152.4" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="162.56" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="161.0614" y="148.59" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="165.862" y="148.59" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C2" gate="G$1" x="152.4" y="139.7" smashed="yes" rot="R270">
-<attribute name="REICHELT" x="152.4" y="139.7" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="153.416" y="144.399" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="153.416" y="146.939" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C4" gate="G$1" x="152.4" y="35.56" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="152.4" y="35.56" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="151.384" y="41.021" size="1.778" layer="95"/>
 <attribute name="VALUE" x="151.384" y="38.481" size="1.778" layer="96"/>
 </instance>
 <instance part="R6" gate="G$1" x="142.24" y="35.56" smashed="yes">
-<attribute name="REICHELT" x="142.24" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="138.43" y="37.0586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.43" y="32.258" size="1.778" layer="96"/>
 </instance>
@@ -21624,37 +21570,30 @@ nominal inductance, magnetically screened</description>
 <attribute name="VALUE" x="160.02" y="116.84" size="1.778" layer="96"/>
 </instance>
 <instance part="R5" gate="G$1" x="130.81" y="28.194" smashed="yes" rot="R270">
-<attribute name="REICHELT" x="130.81" y="28.194" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="132.3086" y="32.004" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="127.508" y="32.004" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C1" gate="G$1" x="71.12" y="170.18" smashed="yes">
-<attribute name="REICHELT" x="71.12" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="74.803" y="170.6626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="74.803" y="168.1226" size="1.778" layer="96"/>
 </instance>
 <instance part="R4" gate="G$1" x="119.38" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="117.8814" y="54.61" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="122.682" y="54.61" size="1.778" layer="96" rot="R90"/>
-<attribute name="REICHELT" x="119.38" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="L1" gate="G$1" x="58.42" y="177.8" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="58.42" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="62.23" y="176.022" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="62.23" y="181.356" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R3" gate="G$1" x="106.68" y="50.8" smashed="yes" rot="R270">
-<attribute name="REICHELT" x="106.68" y="50.8" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="108.1786" y="54.61" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="103.378" y="54.61" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R10" gate="G$1" x="124.46" y="139.7" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="124.46" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="125.73" y="143.2814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="125.73" y="145.542" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="T3" gate="G$1" x="121.92" y="35.56" smashed="yes" rot="MR0">
-<attribute name="REICHELT" x="121.92" y="35.56" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="121.92" y="43.18" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="121.92" y="40.64" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -21667,20 +21606,16 @@ nominal inductance, magnetically screened</description>
 <instance part="C3" gate="G$1" x="86.36" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="93.218" y="50.165" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="92.456" y="52.959" size="1.778" layer="96" rot="R180"/>
-<attribute name="REICHELT" x="86.36" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="88.9" y="58.42" smashed="yes">
-<attribute name="REICHELT" x="88.9" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="85.09" y="59.9186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="85.09" y="55.118" size="1.778" layer="96"/>
 </instance>
 <instance part="R2" gate="G$1" x="83.82" y="15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="85.852" y="15.7226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="85.852" y="13.462" size="1.778" layer="96"/>
-<attribute name="REICHELT" x="83.82" y="15.24" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="111.76" y="127" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="111.76" y="127" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="113.03" y="128.4986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.03" y="126.238" size="1.778" layer="96"/>
 </instance>
@@ -21688,12 +21623,10 @@ nominal inductance, magnetically screened</description>
 <attribute name="VALUE" x="109.22" y="116.84" size="1.778" layer="96"/>
 </instance>
 <instance part="R7" gate="G$1" x="175.26" y="152.4" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="175.26" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="173.7614" y="148.59" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="178.562" y="148.59" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D6" gate="G$1" x="119.38" y="93.98" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="119.38" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="116.84" y="96.0374" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="116.84" y="93.7514" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -21701,12 +21634,10 @@ nominal inductance, magnetically screened</description>
 <attribute name="VALUE" x="147.32" y="50.8" size="1.778" layer="96"/>
 </instance>
 <instance part="R12" gate="G$1" x="149.86" y="78.74" smashed="yes" rot="R270">
-<attribute name="REICHELT" x="149.86" y="78.74" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="151.3586" y="82.55" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="146.558" y="82.55" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C5" gate="G$1" x="195.58" y="129.54" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="195.58" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="199.644" y="132.461" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.644" y="129.921" size="1.778" layer="96"/>
 </instance>
@@ -21714,27 +21645,22 @@ nominal inductance, magnetically screened</description>
 <attribute name="VALUE" x="193.04" y="116.84" size="1.778" layer="96"/>
 </instance>
 <instance part="D2" gate="G$1" x="58.42" y="139.7" smashed="yes">
-<attribute name="REICHELT" x="58.42" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="58.42" y="145.2626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="58.42" y="142.4686" size="1.778" layer="96"/>
 </instance>
 <instance part="R13" gate="G$1" x="149.86" y="63.5" smashed="yes" rot="R270">
-<attribute name="REICHELT" x="149.86" y="63.5" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="151.3586" y="67.31" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="146.558" y="67.31" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="D5" gate="G$1" x="119.38" y="76.2" smashed="yes" rot="R270">
-<attribute name="REICHELT" x="119.38" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="116.84" y="75.7174" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="116.84" y="78.5114" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="T2" gate="G$1" x="86.36" y="43.18" smashed="yes" rot="MR0">
 <attribute name="NAME" x="81.28" y="43.18" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="81.28" y="40.64" size="1.778" layer="96" rot="MR0"/>
-<attribute name="REICHELT" x="86.36" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="T1" gate="G$1" x="172.72" y="132.08" smashed="yes">
-<attribute name="REICHELT" x="172.72" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="177.8" y="134.62" size="1.778" layer="95"/>
 <attribute name="VALUE" x="177.8" y="132.08" size="1.778" layer="96"/>
 </instance>
@@ -21742,19 +21668,16 @@ nominal inductance, magnetically screened</description>
 <attribute name="VALUE" x="182.88" y="165.1" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C6" gate="G$1" x="185.42" y="152.4" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="185.42" y="152.4" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="189.484" y="155.321" size="1.778" layer="95"/>
 <attribute name="VALUE" x="189.484" y="152.781" size="1.778" layer="96"/>
 </instance>
 <instance part="D7" gate="G$1" x="157.48" y="63.5" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="157.48" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="156.9974" y="66.04" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="159.7914" y="66.04" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C10" gate="G$1" x="165.1" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="166.624" y="66.421" size="1.778" layer="95"/>
 <attribute name="VALUE" x="166.624" y="61.341" size="1.778" layer="96"/>
-<attribute name="REICHELT" x="165.1" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="33.02" y="127" smashed="yes">
 <attribute name="VALUE" x="30.48" y="124.46" size="1.778" layer="96"/>
@@ -21764,7 +21687,6 @@ nominal inductance, magnetically screened</description>
 <attribute name="VALUE" x="36.576" y="133.731" size="1.778" layer="96"/>
 </instance>
 <instance part="D3" gate="G$1" x="38.1" y="177.8" smashed="yes">
-<attribute name="REICHELT" x="38.1" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="40.64" y="178.2826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="40.64" y="175.4886" size="1.778" layer="96"/>
 </instance>
@@ -21775,7 +21697,6 @@ nominal inductance, magnetically screened</description>
 <instance part="R25" gate="G$1" x="83.82" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.534" y="29.9974" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="81.534" y="32.258" size="1.778" layer="96" rot="R180"/>
-<attribute name="REICHELT" x="83.82" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="JP2" gate="A" x="259.08" y="58.42" smashed="yes">
 <attribute name="NAME" x="252.73" y="64.135" size="1.778" layer="95"/>
@@ -21796,12 +21717,15 @@ nominal inductance, magnetically screened</description>
 <attribute name="VALUE" x="243.84" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D4" gate="G$1" x="137.16" y="154.94" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="137.16" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="131.5974" y="154.94" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="134.3914" y="154.94" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND5" gate="1" x="71.12" y="160.02" smashed="yes">
 <attribute name="VALUE" x="68.58" y="157.48" size="1.778" layer="96"/>
+</instance>
+<instance part="C7" gate="G$1" x="147.32" y="248.92" smashed="yes" rot="MR0">
+<attribute name="NAME" x="145.796" y="249.301" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="145.796" y="244.221" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -21825,15 +21749,19 @@ nominal inductance, magnetically screened</description>
 <wire x1="106.68" y1="241.3" x2="106.68" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="C104" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="238.76" x2="121.92" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="243.84" x2="144.78" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="243.84" x2="165.1" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="C103" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="238.76" x2="134.62" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="238.76" x2="147.32" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="238.76" x2="134.62" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="238.76" x2="134.62" y2="243.84" width="0.1524" layer="91"/>
 <junction x="134.62" y="238.76"/>
 <wire x1="134.62" y1="238.76" x2="121.92" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="238.76" x2="106.68" y2="238.76" width="0.1524" layer="91"/>
 <junction x="121.92" y="238.76"/>
 <wire x1="83.82" y1="228.6" x2="121.92" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="243.84" x2="147.32" y2="238.76" width="0.1524" layer="91"/>
+<junction x="147.32" y="238.76"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
@@ -22142,7 +22070,7 @@ nominal inductance, magnetically screened</description>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<wire x1="144.78" y1="269.24" x2="144.78" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="269.24" x2="165.1" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="G$1" pin="+3V3"/>
 <pinref part="C101" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="248.92" x2="53.34" y2="251.46" width="0.1524" layer="91"/>
@@ -22152,16 +22080,20 @@ nominal inductance, magnetically screened</description>
 <wire x1="53.34" y1="251.46" x2="53.34" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="274.32" x2="134.62" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="274.32" x2="134.62" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="261.62" x2="144.78" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="261.62" x2="147.32" y2="261.62" width="0.1524" layer="91"/>
 <junction x="53.34" y="251.46"/>
 <junction x="134.62" y="261.62"/>
 <pinref part="C104" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="261.62" x2="144.78" y2="251.46" width="0.1524" layer="91"/>
-<junction x="144.78" y="261.62"/>
+<wire x1="147.32" y1="261.62" x2="165.1" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="261.62" x2="165.1" y2="251.46" width="0.1524" layer="91"/>
+<junction x="165.1" y="261.62"/>
 <pinref part="C103" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="261.62" x2="134.62" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="L100" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="261.62" x2="124.46" y2="261.62" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="251.46" x2="147.32" y2="261.62" width="0.1524" layer="91"/>
+<junction x="147.32" y="261.62"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
