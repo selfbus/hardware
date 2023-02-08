@@ -17187,66 +17187,6 @@ Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/tvs
 </deviceset>
 </devicesets>
 </library>
-<library name="bt_diode">
-<description>Diodes, rectifiers, regulators</description>
-<packages>
-<package name="SOD123FL">
-<description>SOD-123. Should fit SOD-123, SOD-123FL, and others.</description>
-<wire x1="-1.05" y1="0.8" x2="1.05" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="1.05" y1="0.8" x2="1.05" y2="-0.8" width="0.2032" layer="51"/>
-<wire x1="1.05" y1="-0.8" x2="-1.05" y2="-0.8" width="0.2032" layer="51"/>
-<wire x1="-1.05" y1="-0.8" x2="-1.05" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="-0.65" y1="0.8" x2="0.65" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="0.65" y1="-0.8" x2="-0.65" y2="-0.8" width="0.2032" layer="21"/>
-<smd name="A" x="1.7" y="0" dx="1.8" dy="1.25" layer="1"/>
-<smd name="C" x="-1.7" y="0" dx="1.8" dy="1.25" layer="1" rot="R180"/>
-<text x="0" y="1.016" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.016" size="0.8128" layer="27" font="vector" align="top-center">&gt;VALUE</text>
-<rectangle x1="-1.5" y1="-0.55" x2="-1.125" y2="0.55" layer="51"/>
-<rectangle x1="1.125" y1="-0.55" x2="1.5" y2="0.55" layer="51" rot="R180"/>
-<rectangle x1="-0.75" y1="-0.775" x2="-0.25" y2="0.8" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SCHOTTKY">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SCHOTTKY-DIODE" prefix="D">
-<description>&lt;B&gt;Schottky Diode&lt;/B&gt;</description>
-<gates>
-<gate name="1" symbol="SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-MBR130LSFT1" package="SOD123FL">
-<connects>
-<connect gate="1" pin="A" pad="A"/>
-<connect gate="1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rcl_changed">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -21218,16 +21158,15 @@ nominal inductance, magnetically screened</description>
 </part>
 <part name="P+3" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC100" library="Stefan_selfbus" deviceset="BD9G101G" device="BD9G101G-SOT23-6" value="BD9G101"/>
-<part name="L100" library="rcl_changed" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="6.8µH">
+<part name="L100" library="rcl_changed" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="6.8uH">
 <spice>
 <pinmapping spiceprefix="L">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="L-1616FPS 6,8µ"/>
 </part>
-<part name="C100" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7µF/50V">
+<part name="C100" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF 50V">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21235,7 +21174,7 @@ nominal inductance, magnetically screened</description>
 </pinmapping>
 </spice>
 </part>
-<part name="C103" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47u 10V">
+<part name="C103" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF 10V">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21251,7 +21190,7 @@ nominal inductance, magnetically screened</description>
 </pinmapping>
 </spice>
 </part>
-<part name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k4">
+<part name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k6">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21259,7 +21198,7 @@ nominal inductance, magnetically screened</description>
 </pinmapping>
 </spice>
 </part>
-<part name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="680R">
+<part name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21267,7 +21206,7 @@ nominal inductance, magnetically screened</description>
 </pinmapping>
 </spice>
 </part>
-<part name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="270n">
+<part name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="270nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21275,7 +21214,7 @@ nominal inductance, magnetically screened</description>
 </pinmapping>
 </spice>
 </part>
-<part name="D100" library="bt_diode" deviceset="SCHOTTKY-DIODE" device="-MBR130LSFT1" value="MBRS1100"/>
+<part name="D100" library="microbuilder" deviceset="DIODE" device="SOD-123" value="MBRS1100"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47k">
 <spice>
 <pinmapping spiceprefix="R">
@@ -21292,7 +21231,7 @@ nominal inductance, magnetically screened</description>
 </pinmapping>
 </spice>
 </part>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21300,7 +21239,7 @@ nominal inductance, magnetically screened</description>
 </pinmapping>
 </spice>
 </part>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10n">
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21327,7 +21266,7 @@ nominal inductance, magnetically screened</description>
 </pinmapping>
 </spice>
 </part>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SANYO_SMD_C6" package3d_urn="urn:adsk.eagle:package:23465/1" value="100µ/35V">
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SANYO_SMD_C6" package3d_urn="urn:adsk.eagle:package:23465/1" value="100uF 35V">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="+" pinorder="1"/>
@@ -21365,7 +21304,7 @@ nominal inductance, magnetically screened</description>
 <part name="T3" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="BC847" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="BC847"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10n">
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21416,7 +21355,7 @@ nominal inductance, magnetically screened</description>
 </pinmapping>
 </spice>
 </part>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100p">
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100pF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21438,7 +21377,7 @@ nominal inductance, magnetically screened</description>
 <part name="T2" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="FZT753SMD" device="" package3d_urn="urn:adsk.eagle:package:29214/2" value="BCP52"/>
 <part name="T1" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BC856*" device="SMD" package3d_urn="urn:adsk.eagle:package:28748/2" technology="B" value="BC856"/>
 <part name="P+7" library="supply1" deviceset="+3V3" device=""/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21447,7 +21386,7 @@ nominal inductance, magnetically screened</description>
 </spice>
 </part>
 <part name="D7" library="microbuilder" deviceset="DIODE" device="SOD-123" value="DDZ9685 -option"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21474,7 +21413,7 @@ nominal inductance, magnetically screened</description>
 <part name="P+1" library="supply1" deviceset="+3V3" device=""/>
 <part name="D4" library="microbuilder" deviceset="DIODE" device="SOD-123" value="1N4148"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47u 10V">
+<part name="C105" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF 10V">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21493,52 +21432,51 @@ nominal inductance, magnetically screened</description>
 <text x="106.68" y="281.94" size="1.778" layer="91">Rechnerischer Wert C101: ca. 300nF</text>
 </plain>
 <instances>
-<instance part="GND4" gate="1" x="83.82" y="223.52" smashed="yes">
-<attribute name="VALUE" x="81.28" y="220.98" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="83.82" y="218.44" smashed="yes">
+<attribute name="VALUE" x="81.28" y="215.9" size="1.778" layer="96"/>
 </instance>
-<instance part="C104" gate="G$1" x="165.1" y="248.92" smashed="yes" rot="MR0">
-<attribute name="NAME" x="163.576" y="249.301" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="163.576" y="244.221" size="1.778" layer="96" rot="MR0"/>
+<instance part="C104" gate="G$1" x="167.64" y="251.46" smashed="yes" rot="MR0">
+<attribute name="NAME" x="171.196" y="251.841" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<attribute name="VALUE" x="171.196" y="249.047" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
 </instance>
-<instance part="P+3" gate="G$1" x="165.1" y="271.78" smashed="yes">
-<attribute name="VALUE" x="162.56" y="266.7" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="G$1" x="167.64" y="271.78" smashed="yes">
+<attribute name="VALUE" x="165.1" y="266.7" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="IC100" gate="G$1" x="81.28" y="256.54" smashed="yes">
-<attribute name="NAME" x="73.66" y="245.11" size="1.778" layer="95"/>
-<attribute name="VALUE" x="76.2" y="266.7" size="1.778" layer="96"/>
+<attribute name="NAME" x="76.2" y="267.716" size="1.778" layer="95"/>
+<attribute name="VALUE" x="76.2" y="265.176" size="1.778" layer="96"/>
 </instance>
 <instance part="L100" gate="G$1" x="119.38" y="261.62" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="119.38" y="261.62" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="118.11" y="263.906" size="1.778" layer="95"/>
-<attribute name="VALUE" x="125.857" y="259.588" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="115.57" y="266.446" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.697" y="263.906" size="1.778" layer="96"/>
 </instance>
-<instance part="C100" gate="G$1" x="40.64" y="243.84" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.116" y="243.459" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="39.116" y="248.539" size="1.778" layer="96" rot="R180"/>
+<instance part="C100" gate="G$1" x="40.64" y="246.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.116" y="245.999" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="39.116" y="251.079" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C103" gate="G$1" x="134.62" y="248.92" smashed="yes" rot="MR0">
-<attribute name="NAME" x="133.096" y="249.301" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="133.096" y="244.221" size="1.778" layer="96" rot="MR0"/>
+<instance part="C103" gate="G$1" x="134.62" y="251.46" smashed="yes" rot="MR0">
+<attribute name="NAME" x="136.144" y="256.159" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="136.144" y="253.619" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C102" gate="G$1" x="99.06" y="256.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="99.441" y="255.016" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="94.361" y="255.016" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="95.504" y="251.841" size="1.778" layer="95"/>
+<attribute name="VALUE" x="95.504" y="249.301" size="1.778" layer="96"/>
 </instance>
-<instance part="R101" gate="G$1" x="60.96" y="243.84" smashed="yes" rot="R90">
-<attribute name="NAME" x="59.4614" y="240.03" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="64.262" y="240.03" size="1.778" layer="96" rot="R90"/>
+<instance part="R101" gate="G$1" x="60.96" y="246.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="62.738" y="247.1166" size="1.778" layer="95"/>
+<attribute name="VALUE" x="62.738" y="244.856" size="1.778" layer="96"/>
 </instance>
-<instance part="R102" gate="G$1" x="76.2" y="236.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="80.01" y="234.7214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="80.01" y="239.522" size="1.778" layer="96" rot="R180"/>
+<instance part="R102" gate="G$1" x="60.96" y="231.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="63.246" y="232.1306" size="1.778" layer="95"/>
+<attribute name="VALUE" x="63.5" y="229.616" size="1.778" layer="96"/>
 </instance>
-<instance part="C101" gate="G$1" x="53.34" y="243.84" smashed="yes" rot="R180">
-<attribute name="NAME" x="51.816" y="243.459" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="51.816" y="248.539" size="1.778" layer="96" rot="R180"/>
+<instance part="C101" gate="G$1" x="53.34" y="246.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="51.816" y="245.999" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="51.816" y="251.079" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D100" gate="1" x="106.68" y="246.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="104.0384" y="244.0686" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="111.1758" y="243.8146" size="1.778" layer="96" rot="R90"/>
+<instance part="D100" gate="G$1" x="106.68" y="246.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="109.7026" y="248.0056" size="1.778" layer="95"/>
+<attribute name="VALUE" x="109.7026" y="245.4402" size="1.778" layer="96"/>
 </instance>
 <instance part="R9" gate="G$1" x="162.56" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="156.21" y="131.0386" size="1.778" layer="95"/>
@@ -21723,9 +21661,9 @@ nominal inductance, magnetically screened</description>
 <instance part="GND5" gate="1" x="71.12" y="160.02" smashed="yes">
 <attribute name="VALUE" x="68.58" y="157.48" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="147.32" y="248.92" smashed="yes" rot="MR0">
-<attribute name="NAME" x="145.796" y="249.301" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="145.796" y="244.221" size="1.778" layer="96" rot="MR0"/>
+<instance part="C105" gate="G$1" x="149.86" y="251.46" smashed="yes" rot="MR0">
+<attribute name="NAME" x="151.13" y="254.889" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<attribute name="VALUE" x="151.13" y="252.349" size="1.778" layer="96" rot="MR0" align="bottom-right"/>
 </instance>
 </instances>
 <busses>
@@ -21735,33 +21673,33 @@ nominal inductance, magnetically screened</description>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="IC100" gate="G$1" pin="GND"/>
-<wire x1="83.82" y1="226.06" x2="83.82" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="228.6" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="236.22" x2="83.82" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="228.6" x2="83.82" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="220.98" x2="83.82" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="223.52" x2="83.82" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="223.52" x2="60.96" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="R102" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="236.22" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
-<junction x="83.82" y="236.22"/>
-<junction x="83.82" y="228.6"/>
+<wire x1="60.96" y1="223.52" x2="83.82" y2="223.52" width="0.1524" layer="91"/>
+<junction x="83.82" y="223.52"/>
 <pinref part="C100" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="241.3" x2="40.64" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="D100" gate="1" pin="A"/>
-<wire x1="106.68" y1="241.3" x2="106.68" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="243.84" x2="40.64" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="D100" gate="G$1" pin="A"/>
+<wire x1="106.68" y1="243.84" x2="106.68" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="C104" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="238.76" x2="121.92" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="243.84" x2="165.1" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="238.76" x2="121.92" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="246.38" x2="167.64" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="C103" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="238.76" x2="147.32" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="238.76" x2="134.62" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="238.76" x2="134.62" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="238.76" x2="149.86" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="238.76" x2="134.62" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="238.76" x2="134.62" y2="246.38" width="0.1524" layer="91"/>
 <junction x="134.62" y="238.76"/>
 <wire x1="134.62" y1="238.76" x2="121.92" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="238.76" x2="106.68" y2="238.76" width="0.1524" layer="91"/>
 <junction x="121.92" y="238.76"/>
-<wire x1="83.82" y1="228.6" x2="121.92" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="243.84" x2="147.32" y2="238.76" width="0.1524" layer="91"/>
-<junction x="147.32" y="238.76"/>
+<wire x1="83.82" y1="223.52" x2="121.92" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="C105" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="246.38" x2="149.86" y2="238.76" width="0.1524" layer="91"/>
+<junction x="149.86" y="238.76"/>
+<wire x1="60.96" y1="226.06" x2="60.96" y2="223.52" width="0.1524" layer="91"/>
+<junction x="60.96" y="223.52"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
@@ -21842,10 +21780,10 @@ nominal inductance, magnetically screened</description>
 <wire x1="101.6" y1="256.54" x2="104.14" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="256.54" x2="104.14" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="L100" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="251.46" x2="106.68" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="248.92" x2="106.68" y2="261.62" width="0.1524" layer="91"/>
 <junction x="104.14" y="261.62"/>
 <junction x="106.68" y="261.62"/>
-<pinref part="D100" gate="1" pin="C"/>
+<pinref part="D100" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="BST" class="0">
@@ -21858,18 +21796,16 @@ nominal inductance, magnetically screened</description>
 <net name="FB" class="0">
 <segment>
 <pinref part="IC100" gate="G$1" pin="ADJ"/>
-<wire x1="71.12" y1="251.46" x2="68.58" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="C101" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="241.3" x2="53.34" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="243.84" x2="53.34" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="R102" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="236.22" x2="60.96" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="238.76" x2="60.96" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="R101" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="236.22" x2="68.58" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="236.22" x2="71.12" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="238.76" x2="60.96" y2="236.22" width="0.1524" layer="91"/>
-<junction x="60.96" y="236.22"/>
-<wire x1="68.58" y1="251.46" x2="68.58" y2="236.22" width="0.1524" layer="91"/>
-<junction x="68.58" y="236.22"/>
+<wire x1="60.96" y1="238.76" x2="71.12" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="241.3" x2="60.96" y2="238.76" width="0.1524" layer="91"/>
+<junction x="60.96" y="238.76"/>
+<wire x1="71.12" y1="251.46" x2="71.12" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="236.22" x2="60.96" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -22055,45 +21991,43 @@ nominal inductance, magnetically screened</description>
 </segment>
 <segment>
 <pinref part="IC100" gate="G$1" pin="IN"/>
-<wire x1="40.64" y1="261.62" x2="68.58" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="261.62" x2="71.12" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="261.62" x2="71.12" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="261.62" x2="40.64" y2="261.62" width="0.1524" layer="91"/>
 <junction x="40.64" y="261.62"/>
 <pinref part="C100" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="248.92" x2="40.64" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="251.46" x2="40.64" y2="261.62" width="0.1524" layer="91"/>
 <label x="25.4" y="261.62" size="1.778" layer="95"/>
 <pinref part="IC100" gate="G$1" pin="EN"/>
-<wire x1="71.12" y1="256.54" x2="68.58" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="256.54" x2="68.58" y2="261.62" width="0.1524" layer="91"/>
-<junction x="68.58" y="261.62"/>
+<wire x1="71.12" y1="256.54" x2="71.12" y2="261.62" width="0.1524" layer="91"/>
+<junction x="71.12" y="261.62"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<wire x1="165.1" y1="269.24" x2="165.1" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="269.24" x2="167.64" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="G$1" pin="+3V3"/>
 <pinref part="C101" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="248.92" x2="53.34" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="251.46" x2="53.34" y2="254" width="0.1524" layer="91"/>
 <pinref part="R101" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="248.92" x2="60.96" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="251.46" x2="53.34" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="251.46" x2="53.34" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="251.46" x2="60.96" y2="254" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="254" x2="53.34" y2="254" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="254" x2="53.34" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="274.32" x2="134.62" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="274.32" x2="134.62" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="261.62" x2="147.32" y2="261.62" width="0.1524" layer="91"/>
-<junction x="53.34" y="251.46"/>
+<wire x1="134.62" y1="261.62" x2="149.86" y2="261.62" width="0.1524" layer="91"/>
+<junction x="53.34" y="254"/>
 <junction x="134.62" y="261.62"/>
 <pinref part="C104" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="261.62" x2="165.1" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="261.62" x2="165.1" y2="251.46" width="0.1524" layer="91"/>
-<junction x="165.1" y="261.62"/>
+<wire x1="149.86" y1="261.62" x2="167.64" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="261.62" x2="167.64" y2="254" width="0.1524" layer="91"/>
+<junction x="167.64" y="261.62"/>
 <pinref part="C103" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="261.62" x2="134.62" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="261.62" x2="134.62" y2="254" width="0.1524" layer="91"/>
 <pinref part="L100" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="261.62" x2="124.46" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="251.46" x2="147.32" y2="261.62" width="0.1524" layer="91"/>
-<junction x="147.32" y="261.62"/>
+<pinref part="C105" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="254" x2="149.86" y2="261.62" width="0.1524" layer="91"/>
+<junction x="149.86" y="261.62"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
