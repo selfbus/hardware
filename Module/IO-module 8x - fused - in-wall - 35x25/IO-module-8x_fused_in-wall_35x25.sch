@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14446,7 +14446,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </classes>
 <parts>
 <part name="IC1" library="microbuilder" deviceset="LPC1113/4/5_QFP48_XLSERIES" device="" value="LPC1115"/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µ">
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -14455,7 +14455,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </spice>
 <attribute name="REICHELT" value="X7R-G0805 10N"/>
 </part>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10n">
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -14485,7 +14485,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <part name="P+2" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+6" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -14495,7 +14495,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="REICHELT" value="X7R-G0805 100N"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µ">
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -14526,15 +14526,15 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <part name="P+4" library="supply1" deviceset="+3V3" device=""/>
 <part name="JP8" library="pinhead_dmx" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="Q2" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="ASF*" device="" package3d_urn="urn:adsk.eagle:package:12096/1" technology="L"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="220p"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="220pF"/>
 <part name="P+11" library="supply1" deviceset="+3V3" device=""/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100p"/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10n"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100pF"/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="TVS3" library="usblc6" deviceset="USBLC6-4" device="SC6" package3d_urn="urn:adsk.eagle:package:25303836/1"/>
 <part name="X3" library="con-amp-micromatch" library_urn="urn:adsk.eagle:library:122" deviceset="MICROMATCH-10" device="" package3d_urn="urn:adsk.eagle:package:5705/1"/>
 <part name="TVS7" library="usblc6" deviceset="USBLC6-4" device="SC6" package3d_urn="urn:adsk.eagle:package:25303836/1"/>
-<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
+<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="F17" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
 <part name="F18" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
 <part name="F19" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
@@ -14550,7 +14550,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <part name="D33" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="DIODE"/>
 <part name="D34" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="PDZ3.3BGWJ"/>
 <part name="TVS8" library="usblc6" deviceset="USBLC6-4" device="SC6" package3d_urn="urn:adsk.eagle:package:25303836/1"/>
-<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
+<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="F21" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
 <part name="F22" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
 <part name="F23" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
@@ -14585,7 +14585,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP3" library="pinhead_dmx" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -14627,7 +14627,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <part name="P+14" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -14668,7 +14668,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <part name="RXD" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP12R" package3d_urn="urn:adsk.eagle:package:27963/1" value="TPTP12R"/>
 <part name="GND" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP11SQ" package3d_urn="urn:adsk.eagle:package:27965/1" value="TPTP11SQ"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -14792,44 +14792,44 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="NAME" x="538.48" y="28.575" size="1.778" layer="95" ratio="10"/>
 <attribute name="VALUE" x="533.4" y="30.48" size="1.778" layer="96" ratio="10"/>
 </instance>
-<instance part="X3" gate="-1" x="43.18" y="83.82" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.8" y="84.582" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="22.098" y="80.137" size="1.778" layer="96"/>
+<instance part="X3" gate="-1" x="30.48" y="83.82" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.1" y="84.582" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="9.398" y="80.137" size="1.778" layer="96"/>
 </instance>
-<instance part="X3" gate="-2" x="43.18" y="86.36" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.8" y="87.122" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-2" x="30.48" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.1" y="87.122" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-3" x="43.18" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.8" y="89.662" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-3" x="30.48" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.1" y="89.662" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-4" x="43.18" y="91.44" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.8" y="92.202" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-4" x="30.48" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.1" y="92.202" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-5" x="43.18" y="93.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.8" y="94.742" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-5" x="30.48" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.1" y="94.742" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-6" x="43.18" y="96.52" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.8" y="97.282" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-6" x="30.48" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.1" y="97.282" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-7" x="43.18" y="99.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.8" y="99.822" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-7" x="30.48" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.1" y="99.822" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-8" x="43.18" y="101.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.8" y="102.362" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-8" x="30.48" y="101.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.1" y="102.362" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-9" x="43.18" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.8" y="104.902" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-9" x="30.48" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.1" y="104.902" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="-10" x="43.18" y="106.68" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.8" y="107.442" size="1.524" layer="95" rot="R180"/>
+<instance part="X3" gate="-10" x="30.48" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.1" y="107.442" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="TVS7" gate="G$1" x="81.28" y="22.86" smashed="yes">
 <attribute name="NAME" x="73.66" y="31.115" size="1.778" layer="95" ratio="10"/>
 <attribute name="VALUE" x="73.66" y="12.7" size="1.778" layer="96" ratio="10"/>
 </instance>
-<instance part="C20" gate="G$1" x="106.68" y="17.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="105.918" y="16.256" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="110.236" y="19.558" size="1.27" layer="96" ratio="12" rot="R270" align="top-left"/>
+<instance part="C20" gate="G$1" x="109.22" y="17.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="112.522" y="19.304" size="1.778" layer="95"/>
+<attribute name="VALUE" x="112.522" y="18.796" size="1.778" layer="96" ratio="12" align="top-left"/>
 </instance>
 <instance part="F17" gate="G$1" x="50.8" y="58.42" smashed="yes" rot="R180">
 <attribute name="VALUE" x="50.8" y="60.706" size="1.778" layer="96"/>
@@ -14850,8 +14850,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <instance part="GND47" gate="1" x="53.34" y="10.16" smashed="yes">
 <attribute name="VALUE" x="50.8" y="7.62" size="1.778" layer="96"/>
 </instance>
-<instance part="GND48" gate="1" x="106.68" y="10.16" smashed="yes">
-<attribute name="VALUE" x="104.14" y="7.62" size="1.778" layer="96"/>
+<instance part="GND48" gate="1" x="109.22" y="10.16" smashed="yes">
+<attribute name="VALUE" x="106.68" y="7.62" size="1.778" layer="96"/>
 </instance>
 <instance part="GND49" gate="1" x="132.08" y="10.16" smashed="yes">
 <attribute name="VALUE" x="129.54" y="7.62" size="1.778" layer="96"/>
@@ -14883,8 +14883,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="VALUE" x="81.28" y="116.84" size="1.778" layer="96" ratio="10"/>
 </instance>
 <instance part="C21" gate="G$1" x="114.3" y="121.92" smashed="yes" rot="R180">
-<attribute name="NAME" x="113.538" y="120.396" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="117.856" y="123.698" size="1.27" layer="96" ratio="12" rot="R270" align="top-left"/>
+<attribute name="NAME" x="117.602" y="123.444" size="1.778" layer="95"/>
+<attribute name="VALUE" x="117.602" y="122.936" size="1.778" layer="96" ratio="12" align="top-left"/>
 </instance>
 <instance part="F21" gate="G$1" x="48.26" y="162.56" smashed="yes" rot="R180">
 <attribute name="VALUE" x="51.562" y="160.528" size="1.778" layer="96"/>
@@ -14950,8 +14950,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="VALUE" x="173.482" y="69.6976" size="1.778" layer="96"/>
 </instance>
 <instance part="R40" gate="G$1" x="119.38" y="58.42" smashed="yes">
-<attribute name="NAME" x="115.57" y="59.9186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="115.57" y="55.118" size="1.778" layer="96"/>
+<attribute name="NAME" x="115.57" y="62.4586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.57" y="60.198" size="1.778" layer="96"/>
 </instance>
 <instance part="R41" gate="G$1" x="119.38" y="50.8" smashed="yes">
 <attribute name="NAME" x="115.57" y="52.2986" size="1.778" layer="95"/>
@@ -14962,8 +14962,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="VALUE" x="115.57" y="39.878" size="1.778" layer="96"/>
 </instance>
 <instance part="R43" gate="G$1" x="119.38" y="35.56" smashed="yes">
-<attribute name="NAME" x="115.57" y="37.0586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="115.57" y="32.258" size="1.778" layer="96"/>
+<attribute name="NAME" x="115.57" y="31.9786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.57" y="29.718" size="1.778" layer="96"/>
 </instance>
 <instance part="R44" gate="G$1" x="119.38" y="162.56" smashed="yes">
 <attribute name="NAME" x="115.57" y="164.0586" size="1.778" layer="95"/>
@@ -15083,8 +15083,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </instance>
 <instance part="C15" gate="G$1" x="358.14" y="50.8" smashed="yes" rot="MR0">
 <attribute name="REICHELT" x="358.14" y="50.8" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="NAME" x="356.616" y="51.181" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="356.616" y="46.101" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="360.934" y="50.927" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="360.934" y="48.387" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="IC2" gate="G$1" x="411.48" y="48.26" smashed="yes">
 <attribute name="NAME" x="412.75" y="33.02" size="1.778" layer="95" align="center-left"/>
@@ -15175,8 +15175,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </instance>
 <instance part="C2" gate="G$1" x="398.78" y="40.64" smashed="yes" rot="MR270">
 <attribute name="REICHELT" x="398.78" y="40.64" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="NAME" x="398.399" y="39.116" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="403.479" y="39.116" size="1.778" layer="96" rot="MR270"/>
+<attribute name="NAME" x="397.764" y="37.719" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="397.764" y="35.179" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="JP5" gate="A" x="317.5" y="5.08" smashed="yes">
 <attribute name="NAME" x="313.69" y="-4.445" size="1.778" layer="95"/>
@@ -15251,7 +15251,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <segment>
 <pinref part="GND48" gate="1" pin="GND"/>
 <pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="12.7" x2="106.68" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="12.7" x2="109.22" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND49" gate="1" pin="GND"/>
@@ -15340,8 +15340,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <junction x="408.94" y="40.64"/>
 </segment>
 <segment>
-<wire x1="38.1" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
-<label x="22.86" y="83.82" size="1.778" layer="95"/>
+<wire x1="25.4" y1="83.82" x2="15.24" y2="83.82" width="0.1524" layer="91"/>
+<label x="10.16" y="83.82" size="1.778" layer="95"/>
 <pinref part="X3" gate="-1" pin="S"/>
 </segment>
 <segment>
@@ -15614,8 +15614,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <wire x1="363.22" y1="53.34" x2="363.22" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="38.1" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
-<label x="22.86" y="86.36" size="1.778" layer="95"/>
+<wire x1="25.4" y1="86.36" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
+<label x="10.16" y="86.36" size="1.778" layer="95"/>
 <pinref part="X3" gate="-2" pin="S"/>
 </segment>
 <segment>
@@ -15755,13 +15755,13 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <segment>
 <pinref part="IC2" gate="G$1" pin="SO"/>
 <wire x1="411.48" y1="45.72" x2="398.78" y2="45.72" width="0.1524" layer="91"/>
-<label x="398.78" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="408.94" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IN1" class="0">
 <segment>
-<wire x1="38.1" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
-<label x="22.86" y="88.9" size="1.778" layer="95"/>
+<wire x1="25.4" y1="88.9" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
+<label x="10.16" y="88.9" size="1.778" layer="95"/>
 <pinref part="X3" gate="-3" pin="S"/>
 </segment>
 <segment>
@@ -15772,8 +15772,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </net>
 <net name="IN2" class="0">
 <segment>
-<wire x1="38.1" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
-<label x="22.86" y="91.44" size="1.778" layer="95"/>
+<wire x1="25.4" y1="91.44" x2="15.24" y2="91.44" width="0.1524" layer="91"/>
+<label x="10.16" y="91.44" size="1.778" layer="95"/>
 <pinref part="X3" gate="-4" pin="S"/>
 </segment>
 <segment>
@@ -15784,8 +15784,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </net>
 <net name="IN3" class="0">
 <segment>
-<wire x1="38.1" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
-<label x="22.86" y="93.98" size="1.778" layer="95"/>
+<wire x1="25.4" y1="93.98" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
+<label x="10.16" y="93.98" size="1.778" layer="95"/>
 <pinref part="X3" gate="-5" pin="S"/>
 </segment>
 <segment>
@@ -15796,8 +15796,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </net>
 <net name="IN4" class="0">
 <segment>
-<wire x1="38.1" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
-<label x="22.86" y="96.52" size="1.778" layer="95"/>
+<wire x1="25.4" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
+<label x="10.16" y="96.52" size="1.778" layer="95"/>
 <pinref part="X3" gate="-6" pin="S"/>
 </segment>
 <segment>
@@ -15808,8 +15808,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </net>
 <net name="IN5" class="0">
 <segment>
-<wire x1="27.94" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
-<label x="22.86" y="99.06" size="1.778" layer="95"/>
+<wire x1="15.24" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
+<label x="10.16" y="99.06" size="1.778" layer="95"/>
 <pinref part="X3" gate="-7" pin="S"/>
 </segment>
 <segment>
@@ -15825,8 +15825,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <label x="25.4" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
-<label x="22.86" y="104.14" size="1.778" layer="95"/>
+<wire x1="15.24" y1="104.14" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
+<label x="10.16" y="104.14" size="1.778" layer="95"/>
 <pinref part="X3" gate="-9" pin="S"/>
 </segment>
 </net>
@@ -15837,15 +15837,15 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <label x="25.4" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
-<label x="22.86" y="101.6" size="1.778" layer="95"/>
+<wire x1="15.24" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
+<label x="10.16" y="101.6" size="1.778" layer="95"/>
 <pinref part="X3" gate="-8" pin="S"/>
 </segment>
 </net>
 <net name="IN8" class="0">
 <segment>
-<wire x1="27.94" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
-<label x="22.86" y="106.68" size="1.778" layer="95"/>
+<wire x1="15.24" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
+<label x="10.16" y="106.68" size="1.778" layer="95"/>
 <pinref part="X3" gate="-10" pin="S"/>
 </segment>
 <segment>
@@ -15992,7 +15992,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <segment>
 <pinref part="C20" gate="G$1" pin="2"/>
 <pinref part="TVS7" gate="G$1" pin="VBUS"/>
-<wire x1="96.52" y1="22.86" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="22.86" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -16080,15 +16080,15 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <net name="N$15" class="0">
 <segment>
 <pinref part="TVS7" gate="G$1" pin="IO3"/>
-<wire x1="96.52" y1="17.78" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="17.78" x2="104.14" y2="17.78" width="0.1524" layer="91"/>
 <label x="96.52" y="17.78" size="1.778" layer="95"/>
 <pinref part="F19" gate="G$1" pin="2"/>
 <pinref part="R42" gate="G$1" pin="1"/>
 <label x="99.06" y="43.18" size="1.778" layer="95"/>
-<wire x1="55.88" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="43.18" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="17.78" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
-<junction x="101.6" y="43.18"/>
+<wire x1="55.88" y1="43.18" x2="104.14" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="43.18" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="17.78" x2="104.14" y2="43.18" width="0.1524" layer="91"/>
+<junction x="104.14" y="43.18"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -16327,8 +16327,8 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="SI/SDA"/>
-<wire x1="441.96" y1="40.64" x2="447.04" y2="40.64" width="0.1524" layer="91"/>
-<label x="447.04" y="40.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="441.96" y1="40.64" x2="457.2" y2="40.64" width="0.1524" layer="91"/>
+<label x="457.2" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SSEL1" class="0">
@@ -16343,7 +16343,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <wire x1="411.48" y1="48.26" x2="411.48" y2="50.8" width="0.1524" layer="91"/>
 <junction x="411.48" y="48.26"/>
 <wire x1="411.48" y1="48.26" x2="398.78" y2="48.26" width="0.1524" layer="91"/>
-<label x="398.78" y="48.26" size="1.778" layer="95" rot="R90" xref="yes"/>
+<label x="398.78" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DBG_TXD" class="0">
