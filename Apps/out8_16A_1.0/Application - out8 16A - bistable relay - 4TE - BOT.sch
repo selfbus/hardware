@@ -14134,7 +14134,7 @@ Grid 5.08 mm&lt;p&gt;
 <part name="X6" library="con-wago-508" deviceset="W237-02P" device=""/>
 <part name="X7" library="con-wago-508" deviceset="W237-02P" device=""/>
 <part name="X8" library="con-wago-508" deviceset="W237-02P" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-2X13" device="_2.54-SMD"/>
+<part name="JP2" library="pinhead" deviceset="PINHD-2X13" device="_2.54-SMD" value="A"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="M1206" value="680"/>
 <part name="VDD3" library="supply1" deviceset="VDD" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="M1206" value="3k3"/>
@@ -14146,7 +14146,7 @@ Grid 5.08 mm&lt;p&gt;
 <part name="VDD4" library="supply1" deviceset="VDD" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="330µF/35V"/>
-<part name="SJ1" library="jumper" deviceset="SJ" device=""/>
+<part name="SJ1" library="jumper" deviceset="SJ" device="" value="A"/>
 <part name="VDD5" library="supply1" deviceset="VDD" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
@@ -14232,7 +14232,9 @@ Don't omit R2!</text>
 <instance part="X7" gate="-2" x="134.62" y="99.06" rot="R180"/>
 <instance part="X8" gate="-1" x="134.62" y="106.68" rot="R180"/>
 <instance part="X8" gate="-2" x="134.62" y="119.38" rot="R180"/>
-<instance part="JP2" gate="A" x="45.72" y="152.4"/>
+<instance part="JP2" gate="A" x="45.72" y="152.4" smashed="yes">
+<attribute name="NAME" x="39.37" y="170.815" size="1.778" layer="95"/>
+</instance>
 <instance part="R1" gate="G$1" x="93.98" y="162.56"/>
 <instance part="VDD3" gate="G$1" x="106.68" y="170.18"/>
 <instance part="R2" gate="G$1" x="17.78" y="154.94" rot="R90"/>
@@ -14247,7 +14249,9 @@ Don't omit R2!</text>
 <attribute name="NAME" x="54.483" y="25.8826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="60.4774" y="18.923" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SJ1" gate="1" x="93.98" y="152.4"/>
+<instance part="SJ1" gate="1" x="93.98" y="152.4" smashed="yes">
+<attribute name="NAME" x="91.948" y="148.59" size="1.778" layer="95"/>
+</instance>
 <instance part="VDD5" gate="G$1" x="38.1" y="86.36"/>
 <instance part="GND6" gate="1" x="38.1" y="68.58"/>
 <instance part="GND7" gate="1" x="76.2" y="154.94"/>
@@ -14280,12 +14284,12 @@ Don't omit R2!</text>
 <wire x1="27.94" y1="147.32" x2="27.94" y2="132.08" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="B$1">
+<bus name="O[9..16],VDD">
 <segment>
 <wire x1="63.5" y1="116.84" x2="63.5" y2="40.64" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="B$2">
+<bus name="O[1..8],VDD">
 <segment>
 <wire x1="175.26" y1="160.02" x2="175.26" y2="81.28" width="0.762" layer="92"/>
 </segment>
@@ -14553,9 +14557,6 @@ Don't omit R2!</text>
 </net>
 <net name="O4" class="0">
 <segment>
-<wire x1="175.26" y1="121.92" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="K2" gate="G$1" pin="R+"/>
 <wire x1="198.12" y1="160.02" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="160.02" x2="198.12" y2="160.02" width="0.1524" layer="91"/>
@@ -14568,9 +14569,6 @@ Don't omit R2!</text>
 </segment>
 </net>
 <net name="O1" class="0">
-<segment>
-<wire x1="175.26" y1="114.3" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <wire x1="187.96" y1="137.16" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="K1" gate="G$1" pin="S+"/>
@@ -14996,6 +14994,20 @@ Don't omit R2!</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,22.86,170.18,+12V,EIB+,,,,"/>
+<approved hash="102,1,33.02,38.1,+12V,EIB+,,,,"/>
+<approved hash="115,1,131.976,90.066,FRAME1,,,,,"/>
+<approved hash="115,1,11.8715,15.24,X9,,,,,"/>
+<approved hash="115,1,245.303,127,X1,,,,,"/>
+<approved hash="115,1,245.303,144.78,X2,,,,,"/>
+<approved hash="115,1,245.303,83.82,X3,,,,,"/>
+<approved hash="115,1,245.303,104.14,X4,,,,,"/>
+<approved hash="115,1,133.543,43.18,X5,,,,,"/>
+<approved hash="115,1,133.543,63.5,X6,,,,,"/>
+<approved hash="115,1,133.543,86.36,X7,,,,,"/>
+<approved hash="115,1,133.543,106.68,X8,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
