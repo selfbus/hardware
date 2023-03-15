@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -415,6 +415,154 @@
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
+<package name="SOD-123">
+<description>&lt;b&gt;SOD-123&lt;/b&gt;
+&lt;p&gt;Source: http://www.diodes.com/datasheets/ds30139.pdf&lt;/p&gt;</description>
+<smd name="C" x="-1.85" y="0" dx="1.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="A" x="1.85" y="0" dx="1.4" dy="1.4" layer="1" rot="R90"/>
+<text x="-1.27" y="1.016" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.27" y="-1.778" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-0.873" y1="0.7" x2="0.873" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="0.873" y1="0.7" x2="0.873" y2="-0.7" width="0.2032" layer="51"/>
+<wire x1="0.873" y1="-0.7" x2="-0.873" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="-0.873" y1="-0.7" x2="-0.873" y2="0.7" width="0.2032" layer="51"/>
+<wire x1="-0.3" y1="0" x2="0.3" y2="0.4" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0.4" x2="0.3" y2="-0.4" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="-0.4" x2="-0.3" y2="0" width="0.2032" layer="21"/>
+<rectangle x1="-1.723" y1="-0.45" x2="-0.973" y2="0.4" layer="51"/>
+<rectangle x1="0.973" y1="-0.45" x2="1.723" y2="0.4" layer="51"/>
+<rectangle x1="-0.5" y1="-0.5" x2="-0.3" y2="0.5" layer="21"/>
+<polygon width="0.2032" layer="21">
+<vertex x="-0.1" y="0"/>
+<vertex x="0.2" y="0.2"/>
+<vertex x="0.2" y="-0.2"/>
+</polygon>
+</package>
+<package name="SMADIODE">
+<description>&lt;b&gt;SMA Surface Mount Diode&lt;/b&gt;</description>
+<wire x1="-2.15" y1="1.3" x2="2.15" y2="1.3" width="0.2032" layer="51"/>
+<wire x1="2.15" y1="1.3" x2="2.15" y2="-1.3" width="0.2032" layer="51"/>
+<wire x1="2.15" y1="-1.3" x2="-2.15" y2="-1.3" width="0.2032" layer="51"/>
+<wire x1="-2.15" y1="-1.3" x2="-2.15" y2="1.3" width="0.2032" layer="51"/>
+<wire x1="-3.789" y1="-1.394" x2="-3.789" y2="-1.146" width="0.127" layer="21"/>
+<wire x1="-3.789" y1="-1.146" x2="-3.789" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="-3.789" y1="1.6" x2="3.816" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="3.816" y1="1.6" x2="3.816" y2="1.394" width="0.2032" layer="21"/>
+<wire x1="3.816" y1="1.394" x2="3.816" y2="1.3365" width="0.127" layer="21"/>
+<wire x1="3.816" y1="1.394" x2="3.816" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="3.816" y1="-1.6" x2="-3.789" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-3.789" y1="-1.6" x2="-3.789" y2="-1.146" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="0.762" x2="0.254" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="-0.762" x2="-0.508" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.508" y1="0" x2="0.254" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="-0.508" y1="0.762" x2="-0.508" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="-0.762" width="0.2032" layer="21"/>
+<smd name="C" x="-2.3495" y="0" dx="2.54" dy="2.54" layer="1"/>
+<smd name="A" x="2.3495" y="0" dx="2.54" dy="2.54" layer="1" rot="R180"/>
+<text x="-2.54" y="1.905" size="0.8128" layer="25" font="vector" ratio="18">&gt;NAME</text>
+<text x="-2.54" y="-2.286" size="0.4064" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.825" y1="-1.1" x2="-2.175" y2="1.1" layer="51"/>
+<rectangle x1="2.175" y1="-1.1" x2="2.825" y2="1.1" layer="51" rot="R180"/>
+<rectangle x1="-1.75" y1="-1.225" x2="-1.075" y2="1.225" layer="51"/>
+</package>
+<package name="DO-1N4148">
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="A" x="-3.81" y="0" drill="0.9"/>
+<pad name="C" x="3.81" y="0" drill="0.9"/>
+<text x="-2.286" y="1.143" size="0.8128" layer="25" ratio="18">&gt;Name</text>
+<text x="-2.286" y="-0.381" size="0.8128" layer="21">&gt;Value</text>
+</package>
+<package name="SOT23-R">
+<description>&lt;b&gt;SOT23&lt;/b&gt; - Reflow soldering</description>
+<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.5724" y1="-0.6604" x2="-1.5724" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5724" y1="-0.6604" x2="-1.5724" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5724" y1="0.6604" x2="1.5724" y2="0.6604" width="0.2032" layer="51"/>
+<wire x1="-1.5724" y1="-0.6524" x2="-1.5724" y2="0.6604" width="0.2032" layer="21"/>
+<wire x1="-1.5724" y1="0.6604" x2="-0.5636" y2="0.6604" width="0.2032" layer="21"/>
+<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.6524" width="0.2032" layer="21"/>
+<wire x1="0.5636" y1="0.6604" x2="1.5724" y2="0.6604" width="0.2032" layer="21"/>
+<wire x1="0.3724" y1="-0.6604" x2="-0.3864" y2="-0.6604" width="0.2032" layer="21"/>
+<smd name="3" x="0" y="1" dx="0.635" dy="1.016" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.635" dy="1.016" layer="1"/>
+<smd name="1" x="-0.95" y="-1" dx="0.635" dy="1.016" layer="1"/>
+<text x="1.778" y="-0.127" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.778" y="-0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+<package name="SOD-523">
+<description>SOD-523 (0.8x1.2mm)
+
+&lt;p&gt;Source: http://www.rohm.com/products/databook/di/pdf/rb751s-40.pdf&lt;/p&gt;</description>
+<smd name="K" x="0" y="0.75" dx="0.8" dy="0.6" layer="1"/>
+<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.6" layer="1"/>
+<text x="0.716" y="0.016" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="0.716" y="-0.724" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="0.4254" y1="0.6" x2="0.4254" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-0.6" x2="-0.4" y2="-0.6" width="0.127" layer="51"/>
+<wire x1="-0.4254" y1="-0.6" x2="-0.4254" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="0.6" x2="0.4" y2="0.6" width="0.127" layer="51"/>
+<wire x1="0" y1="0.05" x2="0.25" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="0.25" y1="-0.2" x2="-0.25" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="-0.2" x2="0" y2="0.05" width="0.127" layer="21"/>
+<rectangle x1="-0.1" y1="0.45" x2="0.1" y2="0.85" layer="51" rot="R270"/>
+<rectangle x1="-0.1" y1="-0.85" x2="0.1" y2="-0.45" layer="51" rot="R270"/>
+<rectangle x1="-0.1" y1="-0.2254" x2="0.1" y2="0.5746" layer="21" rot="R270"/>
+<polygon width="0.0508" layer="21">
+<vertex x="0" y="0.05"/>
+<vertex x="0.25" y="-0.2"/>
+<vertex x="-0.25" y="-0.2"/>
+</polygon>
+</package>
+<package name="SOD-323">
+<description>&lt;b&gt;SOD323&lt;/b&gt; (2.5x1.2mm)</description>
+<smd name="C" x="-1.27" y="0" dx="1.35" dy="0.8" layer="1"/>
+<smd name="A" x="1.27" y="0" dx="1.35" dy="0.8" layer="1"/>
+<text x="-1.1" y="1" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.1" y="-1.792" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.2032" layer="51"/>
+<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.2032" layer="51"/>
+<wire x1="-0.25" y1="0" x2="0.35" y2="0.4" width="0.2032" layer="21"/>
+<wire x1="0.35" y1="0.4" x2="0.35" y2="-0.4" width="0.2032" layer="21"/>
+<wire x1="0.35" y1="-0.4" x2="-0.25" y2="0" width="0.2032" layer="21"/>
+<rectangle x1="-0.45" y1="-0.5" x2="-0.25" y2="0.5" layer="21"/>
+<polygon width="0.2032" layer="21">
+<vertex x="-0.1" y="0"/>
+<vertex x="0.2" y="0.2"/>
+<vertex x="0.2" y="-0.2"/>
+</polygon>
+</package>
+<package name="SOT23-WIDE">
+<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.6604" width="0.2032" layer="51"/>
+<wire x1="1.5724" y1="-0.6604" x2="-1.5724" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5724" y1="-0.6604" x2="-1.5724" y2="0.6604" width="0.2032" layer="51"/>
+<wire x1="-1.5724" y1="0.6604" x2="1.5724" y2="0.6604" width="0.2032" layer="51"/>
+<wire x1="-1.6724" y1="-0.6524" x2="-1.6724" y2="0.6604" width="0.2032" layer="21"/>
+<wire x1="-1.6724" y1="0.6604" x2="-0.7136" y2="0.6604" width="0.2032" layer="21"/>
+<wire x1="1.6724" y1="0.6604" x2="1.6724" y2="-0.6524" width="0.2032" layer="21"/>
+<wire x1="0.7136" y1="0.6604" x2="1.6724" y2="0.6604" width="0.2032" layer="21"/>
+<wire x1="0.2224" y1="-0.6604" x2="-0.2364" y2="-0.6604" width="0.2032" layer="21"/>
+<smd name="3" x="0" y="1" dx="1" dy="1.27" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="1" dy="1.27" layer="1"/>
+<smd name="1" x="-0.95" y="-1" dx="1" dy="1.27" layer="1"/>
+<text x="1.905" y="0" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.905" y="-0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LPC1113/4/5_FBD48/XL">
@@ -507,6 +655,17 @@
 <pin name="WP" x="-12.7" y="5.08" length="short"/>
 <pin name="GND" x="12.7" y="-5.08" length="short" rot="R180"/>
 <pin name="VCC" x="12.7" y="5.08" length="short" rot="R180"/>
+</symbol>
+<symbol name="DIODE">
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -687,6 +846,265 @@ LPC1115FBD48/303:
 <connect gate="G$1" pin="SDA" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="4"/>
 <connect gate="G$1" pin="WP" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE" prefix="D" uservalue="yes">
+<description>&lt;b&gt;Diode&lt;/b&gt;
+&lt;p&gt;
+&lt;h3&gt;SMA&lt;/h3&gt;
+&lt;table cellpadding="5" width="600"&gt;
+&lt;tr bgcolor="#DDDDDD"&gt;
+  &lt;td&gt;&lt;b&gt;Model&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Volts&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Amps&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vf&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vr&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Digikey #&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;SSA34-E3&lt;/td&gt;
+  &lt;td&gt;40V&lt;/td&gt;
+  &lt;td&gt;3A&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;480mV @ 3A&lt;/td&gt;
+  &lt;td&gt;200uA @ 40V&lt;/td&gt;
+  &lt;td&gt;SSA34-E3/61TGITR-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;CDBA120-G&lt;/td&gt;
+  &lt;td&gt;20V&lt;/td&gt;
+  &lt;td&gt;1A&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;500mV @ 1A&lt;/td&gt;
+  &lt;td&gt;500uA @ 20V&lt;/td&gt;
+  &lt;td&gt;641-1014-6-ND&lt;/td&gt;
+  &lt;td&gt;REEL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;MBRA210&lt;/td&gt;
+  &lt;td&gt;10V&lt;/td&gt;
+  &lt;td&gt;2A&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;350mV @ 2A&lt;/td&gt;
+  &lt;td&gt;700uA @ 10V&lt;/td&gt;
+  &lt;td&gt;MBRA210LT3&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;SOD-123&lt;/h3&gt;
+&lt;table cellpadding="5" width="600"&gt;
+&lt;tr bgcolor="#DDDDDD"&gt;
+  &lt;td&gt;&lt;b&gt;Model&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Volts&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Amps&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vf&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vr&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Order #&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;BAT54T1G&lt;/td&gt;
+  &lt;td&gt;30V&lt;/td&gt;
+  &lt;td&gt;200mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;800mV @ 200mA&lt;/td&gt;
+  &lt;td&gt;2uA @ 25V&lt;/td&gt;
+  &lt;td&gt;BAT54T1GOSTR-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;B0530W&lt;/td&gt;
+  &lt;td&gt;30V&lt;/td&gt;
+  &lt;td&gt;500mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;430mV @ 500mA&lt;/td&gt;
+  &lt;td&gt;130uA @ 30V&lt;/td&gt;
+  &lt;td&gt;B0530W-FDICT-ND&lt;/td&gt;
+  &lt;td&gt;REEL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;MBR120&lt;/td&gt;
+  &lt;td&gt;1A&lt;/td&gt;
+  &lt;td&gt;20V&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;340mV @ 1A&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;MBR120VLSFT1GOSCT-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;SOD-323&lt;/h3&gt;
+&lt;table cellpadding="5" width="600"&gt;
+&lt;tr bgcolor="#DDDDDD"&gt;
+  &lt;td&gt;&lt;b&gt;Model&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Volts&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Amps&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vf&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vr&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Order #&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;PMEG2005EJ&lt;/td&gt;
+  &lt;td&gt;20V&lt;/td&gt;
+  &lt;td&gt;500mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;355mV @ 500mA&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;568-4110-1-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;ZLLS410&lt;/td&gt;
+  &lt;td&gt;10V&lt;/td&gt;
+  &lt;td&gt;570mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;380mV @ 570mA&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;ZLLS410CT-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;1N4148WS&lt;/td&gt;
+  &lt;td&gt;75V&lt;/td&gt;
+  &lt;td&gt;150mA&lt;/td&gt;
+  &lt;td&gt;Silicon/Simple&lt;/td&gt;
+  &lt;td&gt;1V&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;1N4148WSFSCT-ND&lt;/td&gt;
+  &lt;td&gt;REEL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;SOD-523&lt;/h3&gt;
+&lt;table cellpadding="5" width="600"&gt;
+&lt;tr bgcolor="#DDDDDD"&gt;
+  &lt;td&gt;&lt;b&gt;Model&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Volts&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Amps&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vf&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vr&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Order #&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;BAT54XV2&lt;/td&gt;
+  &lt;td&gt;30V&lt;/td&gt;
+  &lt;td&gt;200mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;0.8V @ 100mA&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;BAT54XV2CT-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;TB751S&lt;/td&gt;
+  &lt;td&gt;30V&lt;/td&gt;
+  &lt;td&gt;30mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;RB751S-40TE61CT-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h3&gt;SOT23-R/W&lt;/h3&gt;(R = Solder Paste/Reflow Ovens, W = Hand-Soldering)
+&lt;br/&gt;
+&lt;table cellpadding="5" width="600"&gt;
+&lt;tr bgcolor="#DDDDDD"&gt;
+  &lt;td&gt;&lt;b&gt;Model&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Volts&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Amps&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vf&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Vr&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Order #&lt;/b&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;BAT54FILM&lt;/td&gt;
+  &lt;td&gt;40V&lt;/td&gt;
+  &lt;td&gt;300mA&lt;/td&gt;
+  &lt;td&gt;Schottky&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;497-7162-1-ND&lt;/td&gt;
+  &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMA" package="SMADIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DO-1N4148" package="DO-1N4148">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOT23_REFLOW" package="SOT23-R">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-523" package="SOD-523">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-323" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-123" package="SOD-123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOT23_WIDE" package="SOT23-WIDE">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12137,983 +12555,6 @@ Source: &lt;a href="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocna
 </deviceset>
 </devicesets>
 </library>
-<library name="Diode">
-<description>&lt;B&gt;PN Junction, BridgeRectifier, Zener, Schottky, Switching</description>
-<packages>
-<package name="SODFL3718X115" urn="urn:adsk.eagle:footprint:9427170/1" locally_modified="yes">
-<description>SODFL, 3.70 mm span, 2.80 X 1.80 X 1.15 mm body
-&lt;p&gt;SODFL package with 3.70 mm span with body size 2.80 X 1.80 X 1.15 mm&lt;/p&gt;</description>
-<wire x1="1.45" y1="0.9946" x2="-2.4717" y2="0.9946" width="0.12" layer="21"/>
-<wire x1="-2.4717" y1="0.9946" x2="-2.4717" y2="-0.9946" width="0.12" layer="21"/>
-<wire x1="-2.4717" y1="-0.9946" x2="1.45" y2="-0.9946" width="0.12" layer="21"/>
-<wire x1="1.45" y1="-0.95" x2="-1.45" y2="-0.95" width="0.0762" layer="51"/>
-<wire x1="-1.45" y1="-0.95" x2="-1.45" y2="0.95" width="0.0762" layer="51"/>
-<wire x1="-1.45" y1="0.95" x2="1.45" y2="0.95" width="0.0762" layer="51"/>
-<wire x1="1.45" y1="0.95" x2="1.45" y2="-0.95" width="0.0762" layer="51"/>
-<smd name="1" x="-1.6004" y="0" dx="1.1146" dy="1.3612" layer="1"/>
-<smd name="2" x="1.6004" y="0" dx="1.1146" dy="1.3612" layer="1"/>
-<text x="0" y="1.6296" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.6296" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="-0.6" y1="1" x2="-0.6" y2="-1" width="0.1016" layer="51"/>
-</package>
-<package name="DIOMELF3516" urn="urn:adsk.eagle:footprint:16378178/1">
-<description>MELF, 3.50 mm length, 1.65 mm diameter
-&lt;p&gt;MELF Diode package with 3.50 mm length and 1.65 mm diameter&lt;/p&gt;</description>
-<wire x1="0.983" y1="1.239" x2="-2.5717" y2="1.239" width="0.12" layer="21"/>
-<wire x1="-2.5717" y1="1.239" x2="-2.5717" y2="-1.239" width="0.12" layer="21"/>
-<wire x1="-2.5717" y1="-1.239" x2="0.983" y2="-1.239" width="0.12" layer="21"/>
-<wire x1="1.85" y1="-0.85" x2="-1.85" y2="-0.85" width="0.12" layer="51"/>
-<wire x1="-1.85" y1="-0.85" x2="-1.85" y2="0.85" width="0.12" layer="51"/>
-<wire x1="-1.85" y1="0.85" x2="1.85" y2="0.85" width="0.12" layer="51"/>
-<wire x1="1.85" y1="0.85" x2="1.85" y2="-0.85" width="0.12" layer="51"/>
-<smd name="1" x="-1.6203" y="0" dx="1.2747" dy="1.85" layer="1"/>
-<smd name="2" x="1.6203" y="0" dx="1.2747" dy="1.85" layer="1"/>
-<text x="0" y="1.874" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.874" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="DIOMELF5024" urn="urn:adsk.eagle:footprint:16378176/1">
-<description>MELF, 5.00 mm length, 2.49 mm diameter
-&lt;p&gt;MELF Diode package with 5.00 mm length and 2.49 mm diameter&lt;/p&gt;</description>
-<wire x1="1.8515" y1="1.659" x2="-3.3217" y2="1.659" width="0.12" layer="21"/>
-<wire x1="-3.3217" y1="1.659" x2="-3.3217" y2="-1.659" width="0.12" layer="21"/>
-<wire x1="-3.3217" y1="-1.659" x2="1.8515" y2="-1.659" width="0.12" layer="21"/>
-<wire x1="2.6" y1="-1.27" x2="-2.6" y2="-1.27" width="0.12" layer="51"/>
-<wire x1="-2.6" y1="-1.27" x2="-2.6" y2="1.27" width="0.12" layer="51"/>
-<wire x1="-2.6" y1="1.27" x2="2.6" y2="1.27" width="0.12" layer="51"/>
-<wire x1="2.6" y1="1.27" x2="2.6" y2="-1.27" width="0.12" layer="51"/>
-<smd name="1" x="-2.4296" y="0" dx="1.1561" dy="2.69" layer="1"/>
-<smd name="2" x="2.4296" y="0" dx="1.1561" dy="2.69" layer="1"/>
-<text x="0" y="2.294" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.294" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOD3715X135" urn="urn:adsk.eagle:footprint:9427064/1">
-<description>SOD, 3.70 mm span, 2.70 X 1.55 X 1.35 mm body
-&lt;p&gt;SOD package with 3.70 mm span with body size 2.70 X 1.55 X 1.35 mm&lt;/p&gt;</description>
-<wire x1="1.425" y1="0.85" x2="-2.5991" y2="0.85" width="0.12" layer="21"/>
-<wire x1="-2.5991" y1="0.85" x2="-2.5991" y2="-0.85" width="0.12" layer="21"/>
-<wire x1="-2.5991" y1="-0.85" x2="1.425" y2="-0.85" width="0.12" layer="21"/>
-<wire x1="1.425" y1="-0.85" x2="-1.425" y2="-0.85" width="0.12" layer="51"/>
-<wire x1="-1.425" y1="-0.85" x2="-1.425" y2="0.85" width="0.12" layer="51"/>
-<wire x1="-1.425" y1="0.85" x2="1.425" y2="0.85" width="0.12" layer="51"/>
-<wire x1="1.425" y1="0.85" x2="1.425" y2="-0.85" width="0.12" layer="51"/>
-<smd name="1" x="-1.7215" y="0" dx="1.1272" dy="0.7839" layer="1"/>
-<smd name="2" x="1.7215" y="0" dx="1.1272" dy="0.7839" layer="1"/>
-<text x="0" y="1.485" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.485" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOD6126X290" urn="urn:adsk.eagle:footprint:9427065/1">
-<description>SOD, 6.10 mm span, 4.33 X 2.60 X 2.90 mm body
-&lt;p&gt;SOD package with 6.10 mm span with body size 4.33 X 2.60 X 2.90 mm&lt;/p&gt;</description>
-<wire x1="2.3" y1="1.475" x2="-3.9179" y2="1.475" width="0.12" layer="21"/>
-<wire x1="-3.9179" y1="1.475" x2="-3.9179" y2="-1.475" width="0.12" layer="21"/>
-<wire x1="-3.9179" y1="-1.475" x2="2.3" y2="-1.475" width="0.12" layer="21"/>
-<wire x1="2.3" y1="-1.475" x2="-2.3" y2="-1.475" width="0.12" layer="51"/>
-<wire x1="-2.3" y1="-1.475" x2="-2.3" y2="1.475" width="0.12" layer="51"/>
-<wire x1="-2.3" y1="1.475" x2="2.3" y2="1.475" width="0.12" layer="51"/>
-<wire x1="2.3" y1="1.475" x2="2.3" y2="-1.475" width="0.12" layer="51"/>
-<smd name="1" x="-2.7048" y="0" dx="1.7981" dy="1.7253" layer="1"/>
-<smd name="2" x="2.7048" y="0" dx="1.7981" dy="1.7253" layer="1"/>
-<text x="0" y="2.11" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.11" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOD6126X350" urn="urn:adsk.eagle:footprint:9933385/1">
-<description>SOD, 6.10 mm span, 4.20 X 2.65 X 3.50 mm body
-&lt;p&gt;SOD package with 6.10 mm span with body size 4.20 X 2.65 X 3.50 mm&lt;/p&gt;</description>
-<wire x1="2.225" y1="1.65" x2="-3.9179" y2="1.65" width="0.12" layer="21"/>
-<wire x1="-3.9179" y1="1.65" x2="-3.9179" y2="-1.65" width="0.12" layer="21"/>
-<wire x1="-3.9179" y1="-1.65" x2="2.225" y2="-1.65" width="0.12" layer="21"/>
-<wire x1="2.225" y1="-1.65" x2="-2.225" y2="-1.65" width="0.12" layer="51"/>
-<wire x1="-2.225" y1="-1.65" x2="-2.225" y2="1.65" width="0.12" layer="51"/>
-<wire x1="-2.225" y1="1.65" x2="2.225" y2="1.65" width="0.12" layer="51"/>
-<wire x1="2.225" y1="1.65" x2="2.225" y2="-1.65" width="0.12" layer="51"/>
-<smd name="1" x="-2.7048" y="0" dx="1.7981" dy="1.7689" layer="1"/>
-<smd name="2" x="2.7048" y="0" dx="1.7981" dy="1.7689" layer="1"/>
-<text x="0" y="2.285" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.285" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOD6236X265" urn="urn:adsk.eagle:footprint:9427053/1">
-<description>SOD, 6.22 mm span, 4.33 X 3.63 X 2.65 mm body
-&lt;p&gt;SOD package with 6.22 mm span with body size 4.33 X 3.63 X 2.65 mm&lt;/p&gt;</description>
-<wire x1="2.3" y1="1.975" x2="-3.9196" y2="1.975" width="0.12" layer="21"/>
-<wire x1="-3.9196" y1="1.975" x2="-3.9196" y2="-1.975" width="0.12" layer="21"/>
-<wire x1="-3.9196" y1="-1.975" x2="2.3" y2="-1.975" width="0.12" layer="21"/>
-<wire x1="2.3" y1="-1.975" x2="-2.3" y2="-1.975" width="0.12" layer="51"/>
-<wire x1="-2.3" y1="-1.975" x2="-2.3" y2="1.975" width="0.12" layer="51"/>
-<wire x1="-2.3" y1="1.975" x2="2.3" y2="1.975" width="0.12" layer="51"/>
-<wire x1="2.3" y1="1.975" x2="2.3" y2="-1.975" width="0.12" layer="51"/>
-<smd name="1" x="-2.7561" y="0" dx="1.699" dy="2.2839" layer="1"/>
-<smd name="2" x="2.7561" y="0" dx="1.699" dy="2.2839" layer="1"/>
-<text x="0" y="2.61" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.61" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOD9959X265" urn="urn:adsk.eagle:footprint:9427066/1">
-<description>SOD, 9.93 mm span, 6.88 X 5.90 X 2.65 mm body
-&lt;p&gt;SOD package with 9.93 mm span with body size 6.88 X 5.90 X 2.65 mm&lt;/p&gt;</description>
-<wire x1="3.575" y1="3.125" x2="-5.7696" y2="3.125" width="0.12" layer="21"/>
-<wire x1="-5.7696" y1="3.125" x2="-5.7696" y2="-3.125" width="0.12" layer="21"/>
-<wire x1="-5.7696" y1="-3.125" x2="3.575" y2="-3.125" width="0.12" layer="21"/>
-<wire x1="3.575" y1="-3.125" x2="-3.575" y2="-3.125" width="0.12" layer="51"/>
-<wire x1="-3.575" y1="-3.125" x2="-3.575" y2="3.125" width="0.12" layer="51"/>
-<wire x1="-3.575" y1="3.125" x2="3.575" y2="3.125" width="0.12" layer="51"/>
-<wire x1="3.575" y1="3.125" x2="3.575" y2="-3.125" width="0.12" layer="51"/>
-<smd name="1" x="-4.5203" y="0" dx="1.8706" dy="3.2802" layer="1"/>
-<smd name="2" x="4.5203" y="0" dx="1.8706" dy="3.2802" layer="1"/>
-<text x="0" y="3.76" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.76" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SODFL2513X70" urn="urn:adsk.eagle:footprint:9427167/1">
-<description>SODFL, 2.50 mm span, 1.90 X 1.30 X 0.70 mm body
-&lt;p&gt;SODFL package with 2.50 mm span with body size 1.90 X 1.30 X 0.70 mm&lt;/p&gt;</description>
-<wire x1="1" y1="0.7009" x2="-1.8717" y2="0.7009" width="0.12" layer="21"/>
-<wire x1="-1.8717" y1="0.7009" x2="-1.8717" y2="-0.7009" width="0.12" layer="21"/>
-<wire x1="-1.8717" y1="-0.7009" x2="1" y2="-0.7009" width="0.12" layer="21"/>
-<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.12" layer="51"/>
-<wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.12" layer="51"/>
-<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.12" layer="51"/>
-<wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.12" layer="51"/>
-<smd name="1" x="-1.065" y="0" dx="0.9854" dy="0.7739" layer="1"/>
-<smd name="2" x="1.065" y="0" dx="0.9854" dy="0.7739" layer="1"/>
-<text x="0" y="1.3359" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.3359" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SODFL2513X75" urn="urn:adsk.eagle:footprint:9427168/1">
-<description>SODFL, 2.50 mm span, 2.20 X 1.30 X 0.75 mm body
-&lt;p&gt;SODFL package with 2.50 mm span with body size 2.20 X 1.30 X 0.75 mm&lt;/p&gt;</description>
-<wire x1="1.15" y1="0.7009" x2="-1.8717" y2="0.7009" width="0.12" layer="21"/>
-<wire x1="-1.8717" y1="0.7009" x2="-1.8717" y2="-0.7009" width="0.12" layer="21"/>
-<wire x1="-1.8717" y1="-0.7009" x2="1.15" y2="-0.7009" width="0.12" layer="21"/>
-<wire x1="1.15" y1="-0.7" x2="-1.15" y2="-0.7" width="0.12" layer="51"/>
-<wire x1="-1.15" y1="-0.7" x2="-1.15" y2="0.7" width="0.12" layer="51"/>
-<wire x1="-1.15" y1="0.7" x2="1.15" y2="0.7" width="0.12" layer="51"/>
-<wire x1="1.15" y1="0.7" x2="1.15" y2="-0.7" width="0.12" layer="51"/>
-<smd name="1" x="-0.7394" y="0" dx="1.6364" dy="1.003" layer="1"/>
-<smd name="2" x="0.7394" y="0" dx="1.0027" dy="0.7739" layer="1"/>
-<text x="0" y="1.3359" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.3359" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SODFL3718X140" urn="urn:adsk.eagle:footprint:9427171/1">
-<description>SODFL, 3.70 mm span, 2.80 X 1.80 X 1.40 mm body
-&lt;p&gt;SODFL package with 3.70 mm span with body size 2.80 X 1.80 X 1.40 mm&lt;/p&gt;</description>
-<wire x1="1.45" y1="0.9946" x2="-2.4717" y2="0.9946" width="0.12" layer="21"/>
-<wire x1="-2.4717" y1="0.9946" x2="-2.4717" y2="-0.9946" width="0.12" layer="21"/>
-<wire x1="-2.4717" y1="-0.9946" x2="1.45" y2="-0.9946" width="0.12" layer="21"/>
-<wire x1="1.45" y1="-0.95" x2="-1.45" y2="-0.95" width="0.12" layer="51"/>
-<wire x1="-1.45" y1="-0.95" x2="-1.45" y2="0.95" width="0.12" layer="51"/>
-<wire x1="-1.45" y1="0.95" x2="1.45" y2="0.95" width="0.12" layer="51"/>
-<wire x1="1.45" y1="0.95" x2="1.45" y2="-0.95" width="0.12" layer="51"/>
-<smd name="1" x="-1.5233" y="0" dx="1.2688" dy="1.3612" layer="1"/>
-<smd name="2" x="1.5233" y="0" dx="1.2688" dy="1.3612" layer="1"/>
-<text x="0" y="1.6296" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.6296" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SODFL5336X110" urn="urn:adsk.eagle:footprint:9427173/1">
-<description>SODFL, 5.35 mm span, 4.33 X 3.63 X 1.10 mm body
-&lt;p&gt;SODFL package with 5.35 mm span with body size 4.33 X 3.63 X 1.10 mm&lt;/p&gt;</description>
-<wire x1="2.3" y1="1.975" x2="-3.3202" y2="1.975" width="0.12" layer="21"/>
-<wire x1="-3.3202" y1="1.975" x2="-3.3202" y2="-1.975" width="0.12" layer="21"/>
-<wire x1="-3.3202" y1="-1.975" x2="2.3" y2="-1.975" width="0.12" layer="21"/>
-<wire x1="2.3" y1="-1.975" x2="-2.3" y2="-1.975" width="0.12" layer="51"/>
-<wire x1="-2.3" y1="-1.975" x2="-2.3" y2="1.975" width="0.12" layer="51"/>
-<wire x1="-2.3" y1="1.975" x2="2.3" y2="1.975" width="0.12" layer="51"/>
-<wire x1="2.3" y1="1.975" x2="2.3" y2="-1.975" width="0.12" layer="51"/>
-<smd name="1" x="-2.1302" y="0" dx="1.752" dy="2.2239" layer="1"/>
-<smd name="2" x="2.1302" y="0" dx="1.752" dy="2.2239" layer="1"/>
-<text x="0" y="2.61" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.61" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SODFL7959X110" urn="urn:adsk.eagle:footprint:9427174/1">
-<description>SODFL, 7.95 mm span, 6.88 X 5.90 X 1.10 mm body
-&lt;p&gt;SODFL package with 7.95 mm span with body size 6.88 X 5.90 X 1.10 mm&lt;/p&gt;</description>
-<wire x1="3.575" y1="3.125" x2="-4.5967" y2="3.125" width="0.12" layer="21"/>
-<wire x1="-4.5967" y1="3.125" x2="-4.5967" y2="-3.125" width="0.12" layer="21"/>
-<wire x1="-4.5967" y1="-3.125" x2="3.575" y2="-3.125" width="0.12" layer="21"/>
-<wire x1="3.575" y1="-3.125" x2="-3.575" y2="-3.125" width="0.12" layer="51"/>
-<wire x1="-3.575" y1="-3.125" x2="-3.575" y2="3.125" width="0.12" layer="51"/>
-<wire x1="-3.575" y1="3.125" x2="3.575" y2="3.125" width="0.12" layer="51"/>
-<wire x1="3.575" y1="3.125" x2="3.575" y2="-3.125" width="0.12" layer="51"/>
-<smd name="1" x="-3.4233" y="0" dx="1.7188" dy="3.2202" layer="1"/>
-<smd name="2" x="3.4233" y="0" dx="1.7188" dy="3.2202" layer="1"/>
-<text x="0" y="3.76" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.76" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SODFL5226X110" urn="urn:adsk.eagle:footprint:9427175/1">
-<description>SODFL, 5.20 mm span, 4.28 X 2.60 X 1.10 mm body
-&lt;p&gt;SODFL package with 5.20 mm span with body size 4.28 X 2.60 X 1.10 mm&lt;/p&gt;</description>
-<wire x1="2.3" y1="1.475" x2="-3.3179" y2="1.475" width="0.12" layer="21"/>
-<wire x1="-3.3179" y1="1.475" x2="-3.3179" y2="-1.475" width="0.12" layer="21"/>
-<wire x1="-3.3179" y1="-1.475" x2="2.3" y2="-1.475" width="0.12" layer="21"/>
-<wire x1="2.3" y1="-1.475" x2="-2.3" y2="-1.475" width="0.12" layer="51"/>
-<wire x1="-2.3" y1="-1.475" x2="-2.3" y2="1.475" width="0.12" layer="51"/>
-<wire x1="-2.3" y1="1.475" x2="2.3" y2="1.475" width="0.12" layer="51"/>
-<wire x1="2.3" y1="1.475" x2="2.3" y2="-1.475" width="0.12" layer="51"/>
-<smd name="1" x="-2.0722" y="0" dx="1.8634" dy="1.6653" layer="1"/>
-<smd name="2" x="2.0722" y="0" dx="1.8634" dy="1.6653" layer="1"/>
-<text x="0" y="2.11" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.11" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SODFL4725X110" urn="urn:adsk.eagle:footprint:9427177/1">
-<description>SODFL, 4.70 mm span, 3.80 X 2.50 X 1.10 mm body
-&lt;p&gt;SODFL package with 4.70 mm span with body size 3.80 X 2.50 X 1.10 mm&lt;/p&gt;</description>
-<wire x1="2" y1="1.35" x2="-3.0192" y2="1.35" width="0.12" layer="21"/>
-<wire x1="-3.0192" y1="1.35" x2="-3.0192" y2="-1.35" width="0.12" layer="21"/>
-<wire x1="-3.0192" y1="-1.35" x2="2" y2="-1.35" width="0.12" layer="21"/>
-<wire x1="2" y1="-1.35" x2="-2" y2="-1.35" width="0.12" layer="51"/>
-<wire x1="-2" y1="-1.35" x2="-2" y2="1.35" width="0.12" layer="51"/>
-<wire x1="-2" y1="1.35" x2="2" y2="1.35" width="0.12" layer="51"/>
-<wire x1="2" y1="1.35" x2="2" y2="-1.35" width="0.12" layer="51"/>
-<smd name="1" x="-2.11" y="0" dx="1.1904" dy="2.0153" layer="1"/>
-<smd name="2" x="2.11" y="0" dx="1.1904" dy="2.0153" layer="1"/>
-<text x="0" y="1.985" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.985" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SODFL1608X70" urn="urn:adsk.eagle:footprint:16378177/1">
-<description>SODFL, 1.60 mm span, 1.20 X 0.80 X 0.70 mm body
-&lt;p&gt;SODFL package with 1.60 mm span with body size 1.20 X 0.80 X 0.70 mm&lt;/p&gt;</description>
-<wire x1="0.65" y1="0.514" x2="-1.3786" y2="0.514" width="0.12" layer="21"/>
-<wire x1="-1.3786" y1="0.514" x2="-1.3786" y2="-0.514" width="0.12" layer="21"/>
-<wire x1="-1.3786" y1="-0.514" x2="0.65" y2="-0.514" width="0.12" layer="21"/>
-<wire x1="0.65" y1="-0.45" x2="-0.65" y2="-0.45" width="0.12" layer="51"/>
-<wire x1="-0.65" y1="-0.45" x2="-0.65" y2="0.45" width="0.12" layer="51"/>
-<wire x1="-0.65" y1="0.45" x2="0.65" y2="0.45" width="0.12" layer="51"/>
-<wire x1="0.65" y1="0.45" x2="0.65" y2="-0.45" width="0.12" layer="51"/>
-<smd name="1" x="-0.7956" y="0" dx="0.538" dy="0.4" layer="1"/>
-<smd name="2" x="0.7956" y="0" dx="0.538" dy="0.4" layer="1"/>
-<text x="0" y="1.149" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.149" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="DIOM5226X290N" urn="urn:adsk.eagle:footprint:16378179/1">
-<description>Molded Body, 5.20 X 2.60 X 2.90 mm body
-&lt;p&gt;Molded Body package with body size 5.20 X 2.60 X 2.90 mm&lt;/p&gt;</description>
-<wire x1="2.8" y1="1.475" x2="-3.6179" y2="1.475" width="0.12" layer="21"/>
-<wire x1="-3.6179" y1="1.475" x2="-3.6179" y2="-1.475" width="0.12" layer="21"/>
-<wire x1="-3.6179" y1="-1.475" x2="2.8" y2="-1.475" width="0.12" layer="21"/>
-<wire x1="2.8" y1="-1.475" x2="-2.8" y2="-1.475" width="0.12" layer="51"/>
-<wire x1="-2.8" y1="-1.475" x2="-2.8" y2="1.475" width="0.12" layer="51"/>
-<wire x1="-2.8" y1="1.475" x2="2.8" y2="1.475" width="0.12" layer="51"/>
-<wire x1="2.8" y1="1.475" x2="2.8" y2="-1.475" width="0.12" layer="51"/>
-<smd name="1" x="-2.1079" y="0" dx="2.392" dy="1.5653" layer="1"/>
-<smd name="2" x="2.1079" y="0" dx="2.392" dy="1.5653" layer="1"/>
-<text x="0" y="2.11" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.11" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="DIOM5336X265N" urn="urn:adsk.eagle:footprint:16378175/1">
-<description>Molded Body, 5.35 X 3.63 X 2.65 mm body
-&lt;p&gt;Molded Body package with body size 5.35 X 3.63 X 2.65 mm&lt;/p&gt;</description>
-<wire x1="2.8" y1="1.975" x2="-3.6202" y2="1.975" width="0.12" layer="21"/>
-<wire x1="-3.6202" y1="1.975" x2="-3.6202" y2="-1.975" width="0.12" layer="21"/>
-<wire x1="-3.6202" y1="-1.975" x2="2.8" y2="-1.975" width="0.12" layer="21"/>
-<wire x1="2.8" y1="-1.975" x2="-2.8" y2="-1.975" width="0.12" layer="51"/>
-<wire x1="-2.8" y1="-1.975" x2="-2.8" y2="1.975" width="0.12" layer="51"/>
-<wire x1="-2.8" y1="1.975" x2="2.8" y2="1.975" width="0.12" layer="51"/>
-<wire x1="2.8" y1="1.975" x2="2.8" y2="-1.975" width="0.12" layer="51"/>
-<smd name="1" x="-2.1641" y="0" dx="2.2841" dy="2.1239" layer="1"/>
-<smd name="2" x="2.1641" y="0" dx="2.2841" dy="2.1239" layer="1"/>
-<text x="0" y="2.61" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.61" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="DIOM7959X625N" urn="urn:adsk.eagle:footprint:16378174/1">
-<description>Molded Body, 7.95 X 5.90 X 6.25 mm body
-&lt;p&gt;Molded Body package with body size 7.95 X 5.90 X 6.25 mm&lt;/p&gt;</description>
-<wire x1="4.075" y1="3.125" x2="-4.8967" y2="3.125" width="0.12" layer="21"/>
-<wire x1="-4.8967" y1="3.125" x2="-4.8967" y2="-3.125" width="0.12" layer="21"/>
-<wire x1="-4.8967" y1="-3.125" x2="4.075" y2="-3.125" width="0.12" layer="21"/>
-<wire x1="4.075" y1="-3.125" x2="-4.075" y2="-3.125" width="0.12" layer="51"/>
-<wire x1="-4.075" y1="-3.125" x2="-4.075" y2="3.125" width="0.12" layer="51"/>
-<wire x1="-4.075" y1="3.125" x2="4.075" y2="3.125" width="0.12" layer="51"/>
-<wire x1="4.075" y1="3.125" x2="4.075" y2="-3.125" width="0.12" layer="51"/>
-<smd name="1" x="-3.4567" y="0" dx="2.2518" dy="3.1202" layer="1"/>
-<smd name="2" x="3.4567" y="0" dx="2.2518" dy="3.1202" layer="1"/>
-<text x="0" y="3.76" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.76" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="SODFL3718X115" urn="urn:adsk.eagle:package:9427153/2" type="model">
-<description>SODFL, 3.70 mm span, 2.80 X 1.80 X 1.15 mm body
-&lt;p&gt;SODFL package with 3.70 mm span with body size 2.80 X 1.80 X 1.15 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SODFL3718X115"/>
-</packageinstances>
-</package3d>
-<package3d name="DIOMELF3516L" urn="urn:adsk.eagle:package:16378190/2" type="model">
-<description>MELF, 3.50 mm length, 1.65 mm diameter
-&lt;p&gt;MELF Diode package with 3.50 mm length and 1.65 mm diameter&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="DIOMELF3516"/>
-</packageinstances>
-</package3d>
-<package3d name="DIOMELF5024" urn="urn:adsk.eagle:package:16378191/1" type="model">
-<description>MELF, 5.00 mm length, 2.49 mm diameter
-&lt;p&gt;MELF Diode package with 5.00 mm length and 2.49 mm diameter&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="DIOMELF5024"/>
-</packageinstances>
-</package3d>
-<package3d name="SOD3715X135" urn="urn:adsk.eagle:package:9427058/2" type="model">
-<description>SOD, 3.70 mm span, 2.70 X 1.55 X 1.35 mm body
-&lt;p&gt;SOD package with 3.70 mm span with body size 2.70 X 1.55 X 1.35 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOD3715X135"/>
-</packageinstances>
-</package3d>
-<package3d name="SOD6126X290" urn="urn:adsk.eagle:package:9427057/2" type="model">
-<description>SOD, 6.10 mm span, 4.33 X 2.60 X 2.90 mm body
-&lt;p&gt;SOD package with 6.10 mm span with body size 4.33 X 2.60 X 2.90 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOD6126X290"/>
-</packageinstances>
-</package3d>
-<package3d name="SOD6126X350" urn="urn:adsk.eagle:package:9932483/2" type="model">
-<description>SOD, 6.10 mm span, 4.20 X 2.65 X 3.50 mm body
-&lt;p&gt;SOD package with 6.10 mm span with body size 4.20 X 2.65 X 3.50 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOD6126X350"/>
-</packageinstances>
-</package3d>
-<package3d name="SOD6236X265" urn="urn:adsk.eagle:package:9427046/2" type="model">
-<description>SOD, 6.22 mm span, 4.33 X 3.63 X 2.65 mm body
-&lt;p&gt;SOD package with 6.22 mm span with body size 4.33 X 3.63 X 2.65 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOD6236X265"/>
-</packageinstances>
-</package3d>
-<package3d name="SOD9959X265" urn="urn:adsk.eagle:package:9427056/2" type="model">
-<description>SOD, 9.93 mm span, 6.88 X 5.90 X 2.65 mm body
-&lt;p&gt;SOD package with 9.93 mm span with body size 6.88 X 5.90 X 2.65 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOD9959X265"/>
-</packageinstances>
-</package3d>
-<package3d name="SODFL2513X70" urn="urn:adsk.eagle:package:9427155/2" type="model">
-<description>SODFL, 2.50 mm span, 1.90 X 1.30 X 0.70 mm body
-&lt;p&gt;SODFL package with 2.50 mm span with body size 1.90 X 1.30 X 0.70 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SODFL2513X70"/>
-</packageinstances>
-</package3d>
-<package3d name="SODFL2513X75" urn="urn:adsk.eagle:package:9427154/2" type="model">
-<description>SODFL, 2.50 mm span, 2.20 X 1.30 X 0.75 mm body
-&lt;p&gt;SODFL package with 2.50 mm span with body size 2.20 X 1.30 X 0.75 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SODFL2513X75"/>
-</packageinstances>
-</package3d>
-<package3d name="SODFL3718X140" urn="urn:adsk.eagle:package:9427152/2" type="model">
-<description>SODFL, 3.70 mm span, 2.80 X 1.80 X 1.40 mm body
-&lt;p&gt;SODFL package with 3.70 mm span with body size 2.80 X 1.80 X 1.40 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SODFL3718X140"/>
-</packageinstances>
-</package3d>
-<package3d name="SODFL5336X110" urn="urn:adsk.eagle:package:9427151/2" type="model">
-<description>SODFL, 5.35 mm span, 4.33 X 3.63 X 1.10 mm body
-&lt;p&gt;SODFL package with 5.35 mm span with body size 4.33 X 3.63 X 1.10 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SODFL5336X110"/>
-</packageinstances>
-</package3d>
-<package3d name="SODFL7959X110" urn="urn:adsk.eagle:package:9427150/2" type="model">
-<description>SODFL, 7.95 mm span, 6.88 X 5.90 X 1.10 mm body
-&lt;p&gt;SODFL package with 7.95 mm span with body size 6.88 X 5.90 X 1.10 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SODFL7959X110"/>
-</packageinstances>
-</package3d>
-<package3d name="SODFL5226X110" urn="urn:adsk.eagle:package:9427148/2" type="model">
-<description>SODFL, 5.20 mm span, 4.28 X 2.60 X 1.10 mm body
-&lt;p&gt;SODFL package with 5.20 mm span with body size 4.28 X 2.60 X 1.10 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SODFL5226X110"/>
-</packageinstances>
-</package3d>
-<package3d name="SODFL4725X110" urn="urn:adsk.eagle:package:9427149/2" type="model">
-<description>SODFL, 4.70 mm span, 3.80 X 2.50 X 1.10 mm body
-&lt;p&gt;SODFL package with 4.70 mm span with body size 3.80 X 2.50 X 1.10 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SODFL4725X110"/>
-</packageinstances>
-</package3d>
-<package3d name="SODFL1608X70" urn="urn:adsk.eagle:package:16378187/1" type="model">
-<description>SODFL, 1.60 mm span, 1.20 X 0.80 X 0.70 mm body
-&lt;p&gt;SODFL package with 1.60 mm span with body size 1.20 X 0.80 X 0.70 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SODFL1608X70"/>
-</packageinstances>
-</package3d>
-<package3d name="DIOM5226X290N" urn="urn:adsk.eagle:package:16378188/1" type="model">
-<description>Molded Body, 5.20 X 2.60 X 2.90 mm body
-&lt;p&gt;Molded Body package with body size 5.20 X 2.60 X 2.90 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="DIOM5226X290N"/>
-</packageinstances>
-</package3d>
-<package3d name="DIOM5336X265N" urn="urn:adsk.eagle:package:16378189/1" type="model">
-<description>Molded Body, 5.35 X 3.63 X 2.65 mm body
-&lt;p&gt;Molded Body package with body size 5.35 X 3.63 X 2.65 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="DIOM5336X265N"/>
-</packageinstances>
-</package3d>
-<package3d name="DIOM7959X625N" urn="urn:adsk.eagle:package:16378186/1" type="model">
-<description>Molded Body, 7.95 X 5.90 X 6.25 mm body
-&lt;p&gt;Molded Body package with body size 7.95 X 5.90 X 6.25 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="DIOM7959X625N"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="DIODE">
-<description>Diode</description>
-<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="C" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<text x="0" y="5.08" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="0" y="-5.08" size="1.778" layer="96" align="center">&gt;VALUE</text>
-<text x="0" y="-7.62" size="1.778" layer="95" align="center">&gt;SPICEMODEL</text>
-<text x="0" y="-10.16" size="1.778" layer="95" align="center">&gt;SPICEEXTRA</text>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DIODE" prefix="D">
-<description>&lt;B&gt;Diode Rectifier - Generic</description>
-<gates>
-<gate name="G$1" symbol="DIODE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="DO-213AA(SOD-80)" package="DIOMELF3516">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-213AB(5025-METRIC)" package="DIOMELF5024">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378191/1"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-215-AD" package="SOD3715X135">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9427058/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-215-AC" package="SOD6126X290">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9427057/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-215-BA" package="SOD6126X350">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9932483/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-215-AA" package="SOD6236X265">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9427046/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-215-AB" package="SOD9959X265">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9427056/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-219-AC(SOD323F)" package="SODFL2513X70">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9427155/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-219-AD" package="SODFL2513X75">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9427154/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-219-AB(SOD123F)" package="SODFL3718X115">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9427153/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-219-AA" package="SODFL3718X140">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9427152/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-221-AA" package="SODFL5336X110">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9427151/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-221-AB" package="SODFL7959X110">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9427150/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-221-AC" package="SODFL5226X110">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9427148/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-221-AD" package="SODFL4725X110">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9427149/2"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SODFL(1608-METRIC)" package="SODFL1608X70">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378187/1"/>
-</package3dinstances>
-<technologies>
-<technology name="_">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-214AC(SMA)" package="DIOM5226X290N">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378188/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-214AA(SMB)" package="DIOM5336X265N">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378189/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DO-214AB(SMC)" package="DIOM7959X625N">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16378186/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CATEGORY" value="Diode" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="FORWARD_CURRENT" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="REVERSE_VOLTAGE" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Rectifier" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="" constant="no"/>
-<attribute name="VALUE" value="DIODE" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-<spice>
-<pinmapping spiceprefix="D">
-<pinmap gate="G$1" pin="A" pinorder="1"/>
-<pinmap gate="G$1" pin="C" pinorder="2"/>
-</pinmapping>
-<model name="DMOD">
-**********************
-* Autodesk EAGLE - Spice Model File
-* Date: 9/17/17
-* basic diode intrinsic model
-**********************
-.MODEL DMOD D</model>
-</spice>
-</deviceset>
-</devicesets>
-</library>
 <library name="testpad" urn="urn:adsk.eagle:library:385">
 <description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
 Cream on SMD OFF.&lt;br&gt;
@@ -14453,7 +13894,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 10N"/>
 </part>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF">
 <spice>
@@ -14462,7 +13902,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 10N"/>
 </part>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k">
 <spice>
@@ -14471,7 +13910,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 100K"/>
 </part>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k">
 <spice>
@@ -14480,7 +13918,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 100K"/>
 </part>
 <part name="P+2" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+6" library="supply1" deviceset="+3V3" device=""/>
@@ -14492,7 +13929,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 100N"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF">
@@ -14502,7 +13938,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 100N"/>
 </part>
 <part name="P+5" library="supply1" deviceset="+3V3" device=""/>
 <part name="JP7" library="pinhead-2" deviceset="PINHD-2X05" device="_2.00" value="J">
@@ -14511,9 +13946,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2" value="red SMD">
-<attribute name="REICHELT" value="SMD-LED 0805 RT"/>
-</part>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="red SMD"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k">
 <spice>
 <pinmapping spiceprefix="R">
@@ -14521,7 +13954,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 1,00K"/>
 </part>
 <part name="P+4" library="supply1" deviceset="+3V3" device=""/>
 <part name="JP8" library="pinhead_dmx" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
@@ -14535,36 +13967,36 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <part name="X3" library="con-amp-micromatch" library_urn="urn:adsk.eagle:library:122" deviceset="MICROMATCH-10" device="" package3d_urn="urn:adsk.eagle:package:5705/1"/>
 <part name="TVS7" library="usblc6" deviceset="USBLC6-4" device="SC6" package3d_urn="urn:adsk.eagle:package:25303836/1"/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
-<part name="F17" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
-<part name="F18" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
-<part name="F19" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
-<part name="F20" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
+<part name="F17" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="BSMD0805-005-33V"/>
+<part name="F18" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="BSMD0805-005-33V"/>
+<part name="F19" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="BSMD0805-005-33V"/>
+<part name="F20" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="BSMD0805-005-33V"/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D31" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="DDZ9684"/>
-<part name="D32" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="DIODE"/>
-<part name="D33" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="DIODE"/>
-<part name="D34" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="PDZ3.3BGWJ"/>
+<part name="D31" library="microbuilder" deviceset="DIODE" device="SOD-123" value="DDZ9684"/>
+<part name="D32" library="microbuilder" deviceset="DIODE" device="SOD-123" value="DDZ9684"/>
+<part name="D33" library="microbuilder" deviceset="DIODE" device="SOD-123" value="DDZ9684"/>
+<part name="D34" library="microbuilder" deviceset="DIODE" device="SOD-123" value="DDZ9684"/>
 <part name="TVS8" library="usblc6" deviceset="USBLC6-4" device="SC6" package3d_urn="urn:adsk.eagle:package:25303836/1"/>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
-<part name="F21" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
-<part name="F22" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
-<part name="F23" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="0805L035"/>
-<part name="F24" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="050" value="0805L050"/>
+<part name="F21" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="BSMD0805-005-33V"/>
+<part name="F22" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="BSMD0805-005-33V"/>
+<part name="F23" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="BSMD0805-005-33V"/>
+<part name="F24" library="polyfuse-smd_10" deviceset="?" device="0805L" technology="035" value="BSMD0805-005-33V"/>
 <part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND54" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND55" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND58" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D35" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="DIODE"/>
-<part name="D36" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="DIODE"/>
-<part name="D37" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="DIODE"/>
-<part name="D38" library="Diode" deviceset="DIODE" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="_" value="DIODE"/>
+<part name="D35" library="microbuilder" deviceset="DIODE" device="SOD-123" value="DDZ9684"/>
+<part name="D36" library="microbuilder" deviceset="DIODE" device="SOD-123" value="DDZ9684"/>
+<part name="D37" library="microbuilder" deviceset="DIODE" device="SOD-123" value="DDZ9684"/>
+<part name="D38" library="microbuilder" deviceset="DIODE" device="SOD-123" value="DDZ9684"/>
 <part name="D39" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="D40" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="D41" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
@@ -14592,7 +14024,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 10N"/>
 </part>
 <part name="FB3" library="microbuilder" deviceset="FERRITE" device="0805" value="1.5kΩ@100MHz"/>
 <part name="FB4" library="microbuilder" deviceset="FERRITE" device="0805" value="1.5kΩ@100MHz"/>
@@ -14611,7 +14042,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 3,30K"/>
 </part>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3,3k">
 <spice>
@@ -14620,7 +14050,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 3,30K"/>
 </part>
 <part name="P+10" library="supply1" deviceset="+3V3" device=""/>
 <part name="U1" library="microbuilder" deviceset="EEPROM_I2C_MCP24AA32" device="" value="EEPROM"/>
@@ -14634,7 +14063,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 100N"/>
 </part>
 <part name="IC2" library="SamacSys_Parts" deviceset="ATAES132A-SHEQ-T" device="" override_package3d_urn="urn:adsk.eagle:package:33937640/2" override_package_urn="urn:adsk.eagle:footprint:33937641/1"/>
 <part name="P+7" library="supply1" deviceset="+3V3" device=""/>
@@ -14646,7 +14074,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="SMD-0805 3,30K"/>
 </part>
 <part name="P+8" library="supply1" deviceset="+3V3" device=""/>
 <part name="JP1" library="Eagle_WR-WTB (rev22a)" deviceset="62000411622" device="" package3d_urn="urn:adsk.eagle:package:15819075/2" value=" 62000411622 "/>
@@ -14675,7 +14102,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="REICHELT" value="X7R-G0805 100N"/>
 </part>
 <part name="JP5" library="pinhead_dmx" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 </parts>
@@ -14691,22 +14117,18 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="VALUE" x="360.68" y="88.9" size="1.27" layer="95"/>
 </instance>
 <instance part="C11" gate="G$1" x="416.56" y="109.22" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="416.56" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="416.052" y="108.331" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="416.052" y="113.411" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C9" gate="G$1" x="289.56" y="165.1" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="289.56" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="288.036" y="164.719" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="288.036" y="169.799" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R14" gate="G$1" x="289.56" y="182.88" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="289.56" y="182.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="288.0614" y="179.07" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="292.862" y="179.07" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R15" gate="G$1" x="312.42" y="182.88" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="312.42" y="182.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="310.9214" y="179.07" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="315.722" y="179.07" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -14720,7 +14142,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="VALUE" x="287.02" y="154.94" size="1.778" layer="96"/>
 </instance>
 <instance part="C12" gate="G$1" x="426.72" y="109.22" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="426.72" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="426.466" y="108.331" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="426.466" y="113.411" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -14728,7 +14149,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="VALUE" x="264.16" y="78.74" size="1.778" layer="96"/>
 </instance>
 <instance part="C13" gate="G$1" x="447.04" y="109.22" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="447.04" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="446.532" y="107.823" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="446.532" y="112.903" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -14750,12 +14170,10 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="VALUE" x="452.12" y="93.98" size="1.778" layer="96"/>
 </instance>
 <instance part="LED1" gate="G$1" x="508" y="154.94" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="508" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="512.572" y="158.496" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="512.572" y="160.655" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R16" gate="G$1" x="497.84" y="154.94" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="497.84" y="154.94" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="501.65" y="153.4414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="501.65" y="158.242" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -14876,7 +14294,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </instance>
 <instance part="D34" gate="G$1" x="182.88" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="181.483" y="28.702" size="1.778" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="189.103" y="26.67" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
 <instance part="TVS8" gate="G$1" x="88.9" y="127" smashed="yes">
 <attribute name="NAME" x="81.28" y="135.255" size="1.778" layer="95" ratio="10"/>
@@ -14931,7 +14348,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </instance>
 <instance part="D38" gate="G$1" x="182.88" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="181.483" y="130.302" size="1.778" layer="95" rot="R90" align="center"/>
-<attribute name="VALUE" x="186.563" y="125.73" size="1.778" layer="96" rot="R90" align="center"/>
 </instance>
 <instance part="D39" gate="G$1" x="144.78" y="177.8" smashed="yes">
 <attribute name="NAME" x="145.542" y="179.8066" size="1.778" layer="95"/>
@@ -15011,7 +14427,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="VALUE" x="567.69" y="152.4" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="436.88" y="109.22" smashed="yes" rot="R180">
-<attribute name="REICHELT" x="436.88" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="436.372" y="108.331" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="436.372" y="113.157" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -15056,12 +14471,10 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="VALUE" x="567.69" y="119.38" size="1.778" layer="96"/>
 </instance>
 <instance part="R18" gate="G$1" x="309.88" y="55.88" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="309.88" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="308.3814" y="52.07" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="313.182" y="52.07" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R20" gate="G$1" x="289.56" y="55.88" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="289.56" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="288.0614" y="52.07" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="292.862" y="52.07" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -15082,7 +14495,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="VALUE" x="320.04" y="48.26" size="1.778" layer="96"/>
 </instance>
 <instance part="C15" gate="G$1" x="358.14" y="50.8" smashed="yes" rot="MR0">
-<attribute name="REICHELT" x="358.14" y="50.8" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="360.934" y="50.927" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="360.934" y="48.387" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -15097,21 +14509,20 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="VALUE" x="406.4" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="411.48" y="55.88" smashed="yes" rot="R90">
-<attribute name="REICHELT" x="411.48" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="409.9814" y="54.61" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="414.782" y="54.61" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+8" gate="G$1" x="563.88" y="152.4" smashed="yes">
 <attribute name="VALUE" x="561.34" y="147.32" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP1" gate="G$1" x="302.26" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="306.07" y="18.415" size="1.778" layer="95"/>
+<instance part="JP1" gate="G$1" x="299.72" y="-2.54" smashed="yes">
+<attribute name="NAME" x="295.91" y="-5.715" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="GND3" gate="1" x="289.56" y="12.7" smashed="yes">
-<attribute name="VALUE" x="287.02" y="10.16" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="297.18" y="-12.7" smashed="yes">
+<attribute name="VALUE" x="294.64" y="-15.24" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="G$1" x="299.72" y="25.4" smashed="yes">
-<attribute name="VALUE" x="295.91" y="26.416" size="1.778" layer="96"/>
+<instance part="P+3" gate="G$1" x="299.72" y="27.94" smashed="yes">
+<attribute name="VALUE" x="295.91" y="28.956" size="1.778" layer="96"/>
 </instance>
 <instance part="R2" gate="G$1" x="210.82" y="50.8" smashed="yes">
 <attribute name="NAME" x="207.01" y="52.2986" size="1.778" layer="91"/>
@@ -15174,7 +14585,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <attribute name="VALUE" x="469.9" y="116.84" size="1.778" layer="96"/>
 </instance>
 <instance part="C2" gate="G$1" x="398.78" y="40.64" smashed="yes" rot="MR270">
-<attribute name="REICHELT" x="398.78" y="40.64" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="397.764" y="37.719" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="397.764" y="35.179" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -15255,22 +14665,22 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </segment>
 <segment>
 <pinref part="GND49" gate="1" pin="GND"/>
-<wire x1="132.08" y1="12.7" x2="132.08" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="12.7" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="D31" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="GND50" gate="1" pin="GND"/>
-<wire x1="147.32" y1="20.32" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="22.86" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="D32" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="GND51" gate="1" pin="GND"/>
-<wire x1="167.64" y1="20.32" x2="167.64" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="22.86" x2="167.64" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="D33" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="GND52" gate="1" pin="GND"/>
-<wire x1="182.88" y1="12.7" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="12.7" x2="182.88" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="D34" gate="G$1" pin="A"/>
 </segment>
 <segment>
@@ -15286,22 +14696,22 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </segment>
 <segment>
 <pinref part="GND55" gate="1" pin="GND"/>
-<wire x1="134.62" y1="119.38" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="119.38" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="D35" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="GND56" gate="1" pin="GND"/>
-<wire x1="149.86" y1="121.92" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="124.46" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="D36" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="GND57" gate="1" pin="GND"/>
-<wire x1="167.64" y1="121.92" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="124.46" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="D37" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="GND58" gate="1" pin="GND"/>
-<wire x1="182.88" y1="119.38" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="119.38" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="D38" gate="G$1" pin="A"/>
 </segment>
 <segment>
@@ -15346,13 +14756,12 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="289.56" y1="15.24" x2="289.56" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="20.32" x2="297.18" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="20.32" x2="297.18" y2="7.62" width="0.1524" layer="91"/>
-<junction x="297.18" y="20.32"/>
 <pinref part="JP5" gate="A" pin="2"/>
 <wire x1="297.18" y1="7.62" x2="314.96" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="4"/>
+<wire x1="297.18" y1="7.62" x2="297.18" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="-7.62" x2="297.18" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="297.18" y="-7.62"/>
 </segment>
 <segment>
 <pinref part="PRGBTN" gate="G$1" pin="1"/>
@@ -15619,15 +15028,6 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinref part="X3" gate="-2" pin="S"/>
 </segment>
 <segment>
-<pinref part="P+3" gate="G$1" pin="+3V3"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="299.72" y1="22.86" x2="299.72" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="A" pin="1"/>
-<wire x1="314.96" y1="10.16" x2="299.72" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="10.16" x2="299.72" y2="20.32" width="0.1524" layer="91"/>
-<junction x="299.72" y="20.32"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="NC_1"/>
 <wire x1="411.48" y1="43.18" x2="386.08" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -15650,6 +15050,15 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <wire x1="386.08" y1="63.5" x2="411.48" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="43.18" x2="386.08" y2="63.5" width="0.1524" layer="91"/>
 <junction x="386.08" y="43.18"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="1"/>
+<wire x1="314.96" y1="10.16" x2="299.72" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="P+3" gate="G$1" pin="+3V3"/>
+<wire x1="299.72" y1="25.4" x2="299.72" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
+<wire x1="299.72" y1="10.16" x2="299.72" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="299.72" y="10.16"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -15674,12 +15083,12 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <junction x="309.88" y="48.26"/>
 <label x="314.96" y="35.56" size="1.778" layer="95"/>
 <wire x1="309.88" y1="35.56" x2="304.8" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="4"/>
-<wire x1="304.8" y1="35.56" x2="304.8" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="20.32" x2="304.8" y2="5.08" width="0.1524" layer="91"/>
-<junction x="304.8" y="20.32"/>
 <pinref part="JP5" gate="A" pin="3"/>
 <wire x1="304.8" y1="5.08" x2="314.96" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="35.56" x2="304.8" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="304.8" y1="-7.62" x2="304.8" y2="5.08" width="0.1524" layer="91"/>
+<junction x="304.8" y="5.08"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -15695,14 +15104,14 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <wire x1="289.56" y1="43.18" x2="327.66" y2="43.18" width="0.1524" layer="91"/>
 <junction x="289.56" y="43.18"/>
 <label x="289.56" y="33.02" size="1.778" layer="95"/>
-<pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="302.26" y1="35.56" x2="302.26" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="43.18" x2="289.56" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="35.56" x2="302.26" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="20.32" x2="302.26" y2="2.54" width="0.1524" layer="91"/>
-<junction x="302.26" y="20.32"/>
 <pinref part="JP5" gate="A" pin="4"/>
 <wire x1="302.26" y1="2.54" x2="314.96" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="2.54" x2="302.26" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="302.26" y1="2.54" x2="302.26" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="302.26" y="2.54"/>
 </segment>
 </net>
 <net name="XTALIN" class="0">
@@ -15754,7 +15163,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="SO"/>
-<wire x1="411.48" y1="45.72" x2="398.78" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="45.72" x2="408.94" y2="45.72" width="0.1524" layer="91"/>
 <label x="408.94" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -16185,7 +15594,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </net>
 <net name="IO5R" class="0">
 <segment>
-<wire x1="132.08" y1="58.42" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="58.42" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
 <junction x="132.08" y="58.42"/>
 <label x="193.04" y="58.674" size="1.778" layer="95"/>
 <pinref part="D31" gate="G$1" pin="C"/>
@@ -16213,7 +15622,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <wire x1="149.86" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="30.48" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="27.94" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
 <junction x="147.32" y="50.8"/>
 </segment>
 </net>
@@ -16230,7 +15639,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <wire x1="185.42" y1="43.18" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="43.18" x2="185.42" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="30.48" x2="182.88" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="27.94" x2="182.88" y2="43.18" width="0.1524" layer="91"/>
 <junction x="182.88" y="43.18"/>
 </segment>
 </net>
@@ -16242,7 +15651,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <pinref part="R43" gate="G$1" pin="2"/>
 <pinref part="D33" gate="G$1" pin="C"/>
 <wire x1="170.18" y1="35.56" x2="167.64" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="30.48" x2="167.64" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="27.94" x2="167.64" y2="35.56" width="0.1524" layer="91"/>
 <junction x="167.64" y="35.56"/>
 <pinref part="D42" gate="G$1" pin="A1"/>
 <wire x1="170.18" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
@@ -16253,7 +15662,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </net>
 <net name="IO1R" class="0">
 <segment>
-<wire x1="167.64" y1="162.56" x2="167.64" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="162.56" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
 <junction x="167.64" y="162.56"/>
 <pinref part="D37" gate="G$1" pin="C"/>
 <wire x1="167.64" y1="162.56" x2="165.1" y2="162.56" width="0.1524" layer="91"/>
@@ -16270,7 +15679,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </net>
 <net name="IO2R" class="0">
 <segment>
-<wire x1="182.88" y1="154.94" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="154.94" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
 <junction x="182.88" y="154.94"/>
 <pinref part="D38" gate="G$1" pin="C"/>
 <wire x1="205.74" y1="154.94" x2="182.88" y2="154.94" width="0.1524" layer="91"/>
@@ -16287,7 +15696,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 </net>
 <net name="IO3R" class="0">
 <segment>
-<wire x1="134.62" y1="147.32" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="147.32" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
 <junction x="134.62" y="147.32"/>
 <pinref part="D35" gate="G$1" pin="C"/>
 <pinref part="D39" gate="G$1" pin="A1"/>
@@ -16315,7 +15724,7 @@ Details see: &lt;a href="www.we-online.com/catalog/WTB_2_00_MALE_VERTICAL_SHROUD
 <wire x1="205.74" y1="139.7" x2="152.4" y2="139.7" width="0.1524" layer="91"/>
 <label x="187.96" y="139.7" size="1.778" layer="95"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="132.08" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="129.54" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 <junction x="149.86" y="139.7"/>
 </segment>
 </net>
