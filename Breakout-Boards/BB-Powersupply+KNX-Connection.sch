@@ -21148,7 +21148,7 @@ nominal inductance, magnetically screened</description>
 </classes>
 <parts>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C104" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
+<part name="C104" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21158,7 +21158,7 @@ nominal inductance, magnetically screened</description>
 </part>
 <part name="P+3" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC100" library="Stefan_selfbus" deviceset="BD9G101G" device="BD9G101G-SOT23-6" value="BD9G101"/>
-<part name="L100" library="rcl_changed" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="6.8uH">
+<part name="L100" library="rcl_changed" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="4.7uH">
 <spice>
 <pinmapping spiceprefix="L">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21192,7 +21192,7 @@ nominal inductance, magnetically screened</description>
 </spice>
 <attribute name="REICHELT" value="X7R-G0805 15N"/>
 </part>
-<part name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k4">
+<part name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k6">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21200,7 +21200,7 @@ nominal inductance, magnetically screened</description>
 </pinmapping>
 </spice>
 </part>
-<part name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="680R">
+<part name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21208,7 +21208,7 @@ nominal inductance, magnetically screened</description>
 </pinmapping>
 </spice>
 </part>
-<part name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="270n">
+<part name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="470nF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21269,7 +21269,7 @@ nominal inductance, magnetically screened</description>
 </pinmapping>
 </spice>
 </part>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SANYO_SMD_C6" package3d_urn="urn:adsk.eagle:package:23465/1" value="100µ/35V">
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SANYO_SMD_C6" package3d_urn="urn:adsk.eagle:package:23465/1" value="100uF 35V">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="+" pinorder="1"/>
@@ -21401,11 +21401,9 @@ nominal inductance, magnetically screened</description>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="smaj_10" deviceset="SMAJ*CA" device="" technology="40"/>
-<part name="D3" library="microbuilder" deviceset="DIODE" device="SOD-123" value="1N4148">
-<attribute name="REICHELT" value="1N 4148 SMD"/>
-</part>
+<part name="D3" library="microbuilder" deviceset="DIODE" device="SOD-123" value="1N4148"/>
 <part name="KNX" library="Connector_for_Selfbus-Projects" deviceset="WAGO-243-211" device=""/>
-<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="24R  2512/1.0W">
+<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="24R  2512 1.0W">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -21432,11 +21430,13 @@ nominal inductance, magnetically screened</description>
 <sheets>
 <sheet>
 <plain>
-<text x="73.66" y="259.08" size="1.778" layer="91">R101=((Vo*R102)/0,75)-R102</text>
-<text x="73.66" y="256.54" size="1.778" layer="91">R101+R102&lt;=Vo*1000</text>
-<text x="73.66" y="254" size="1.778" layer="91">Rechnerischer Wert R101: 2312R</text>
-<text x="116.84" y="259.08" size="1.778" layer="91">C101=4,7k/R101*0,15µF</text>
-<text x="116.84" y="256.54" size="1.778" layer="91">Rechnerischer Wert C101: ca. 300nF</text>
+<text x="73.66" y="264.16" size="1.778" layer="91">R101=((Vo*R102)/0,75)-R102</text>
+<text x="73.66" y="261.62" size="1.778" layer="91">R101+R102&lt;=Vo*1000</text>
+<text x="73.66" y="251.46" size="1.778" layer="91">Rechnerische Werte 
+R101: 1598R
+R102: 470R</text>
+<text x="109.22" y="259.08" size="1.778" layer="91">C101=4,7k/R101*0,15µF</text>
+<text x="109.22" y="256.54" size="1.778" layer="91">Rechnerischer Wert C101: ca. 440nF</text>
 <text x="261.62" y="35.56" size="1.778" layer="91">stabilization and 
 heat dissipation headers</text>
 </plain>
@@ -21638,7 +21638,6 @@ heat dissipation headers</text>
 <attribute name="VALUE" x="36.576" y="133.731" size="1.778" layer="96"/>
 </instance>
 <instance part="D3" gate="G$1" x="38.1" y="177.8" smashed="yes">
-<attribute name="REICHELT" x="38.1" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="40.64" y="178.2826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="40.64" y="175.4886" size="1.778" layer="96"/>
 </instance>
